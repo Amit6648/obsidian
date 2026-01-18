@@ -2,3 +2,5 @@
 
 - nature
 - peoples
+- knowledge 
+- 
