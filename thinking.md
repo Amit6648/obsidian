@@ -1,1 +1,4 @@
-can divide into 
+**Can divide into**
+
+- nature
+- peoples
