@@ -3,4 +3,4 @@
 - nature
 - peoples
 - knowledge 
-- 
+        - 
