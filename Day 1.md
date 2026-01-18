@@ -1,1 +1,3 @@
 **2026-01-18**
+
+So this is my first day of starting a journal. I am thinking of keeping this habit for 
