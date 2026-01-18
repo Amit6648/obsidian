@@ -12,4 +12,4 @@ So this was my usual day but now about today so after watching reddit i thought 
 
 So i spend like next 3 to 4 hours configuring obsidian with git cause there was lot of things i discovered along and i was also trying to get my phones clipboard with my pc but it did not worked at the end  but obsidian did synced. so after this i watched some videos around obsidian.  Then i had dinner and now i am writing this. I might have wasted most of my day but still i think what i did at the end made the day worth.
 
-So now for what i am plaining tomorrow  
+So now for what i am plaining tomorrow rest of day will be same but i am thinking of walking up at 6 am and going for a walk.  
