@@ -1,3 +1,5 @@
 **2026-01-18**
 
-So this is my first day of starting a journal. I am thinking of keeping this habit for rest of life, well i am not making promises but i still have great desire for this. This is for my future self just try to remember the day you started and think about how much have learned so far from the day you started, try to think how much have you gotten closer to your goal.  if time is hard we both know the answer of what to do. okey now i have to start writing we are the same person 
+So this is my first day of starting a journal. I am thinking of keeping this habit for rest of life, well i am not making promises but i still have great desire for this. This is for my future self just try to remember the day you started and think about how much have learned so far from the day you started, try to think how much have you gotten closer to your goal.  if time is hard we both know the answer of what to do. okey now i have to start writing we are the same person so just remember and you will find me.
+
+Today was Sunday and said a day before that
