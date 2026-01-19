@@ -1,2 +1,2 @@
 
-The hash maps are used 
+The hash maps are data structures that store data
