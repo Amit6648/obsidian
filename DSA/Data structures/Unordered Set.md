@@ -1,1 +1,1 @@
-A unordered set is similar to a [[Unordered Set]] 
+A unordered set is similar to a [[Unordered Hash maps]]  
