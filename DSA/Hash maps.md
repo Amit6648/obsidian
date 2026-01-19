@@ -6,5 +6,8 @@ The hash maps are ==***data structures***== that store data in ==Key pair value=
  ### Creation 
 
 ```
-unordered_map<type
+unordered_map<type,type> map_name;
 ```
+
+### Insertion
+
