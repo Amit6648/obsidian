@@ -24,3 +24,8 @@ map_name[key] =  another_value;
 
 ### Deletion
 
+```
+map_name.erase(key);
+```
+
+
