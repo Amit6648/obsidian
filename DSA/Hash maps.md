@@ -11,3 +11,6 @@ unordered_map<type,type> map_name;
 
 ### Insertion
 
+```
+map_name[key] = value;
+```
