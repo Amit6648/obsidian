@@ -1,2 +1,2 @@
 
-The hash maps are ==***data structures***== that store data in Key pair value
+The hash maps are ==***data structures***== that store data in ==Key pair value== structure
