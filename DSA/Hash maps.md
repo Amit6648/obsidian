@@ -18,5 +18,6 @@ map_name[key] = value;
 ### Update
 
 ```
-
+map_name[key]++;
+map_name[key] =  another_value
 ```
