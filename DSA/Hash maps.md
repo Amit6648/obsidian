@@ -22,3 +22,5 @@ map_name[key]++;
 map_name[key] =  another_value;
 ```
 
+### Deletion
+
