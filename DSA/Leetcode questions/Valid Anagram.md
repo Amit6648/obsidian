@@ -16,7 +16,7 @@ link: [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 
 - So the problem is about checking if string a is anagram of string b. 
 - The brute force method will to sort both strings and checking if they are equal but this approach will take $O(nLogn) + O(nLogn)$ to sort both strings.
-- If we look closely a anagram of a string  is basically means both strings have same number of and same exact same characters. 
+- If we look closely a anagram of a string  is basically means both strings have same number of and exact same characters. 
 ---
 ### 🧠 Insights
 
