@@ -14,7 +14,8 @@ link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-ele
 
 ## 💡 Intuition
 
-- So the question is about find smallest number from a array but the catch is rather t
+- So the question is about find smallest number from a array but the catch is rather than finding a single number we have to find **K** of them.
+- So the question basically t
 
 ---
 ### 🧠 Insights
