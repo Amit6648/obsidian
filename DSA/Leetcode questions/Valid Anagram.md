@@ -25,7 +25,7 @@ link: [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(N)$
-- **Space Complexity:** $O()$
+- **Space Complexity:** $O(2N)$
 ---
 
 ## 💻 Implementation (C++)
