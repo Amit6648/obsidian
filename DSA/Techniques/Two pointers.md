@@ -1,1 +1,1 @@
-Two pointer is technique used  primarily for comparison between two values. This t  
+Two pointer is technique used  primarily for comparison between two values. This technique can be used mainly when dataset is sorted , result is obtained from t  
