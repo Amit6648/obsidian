@@ -12,16 +12,16 @@ link:
 
 # Problem: {{title}}
 
-## 💡 The "Aha!" Moment
+## 💡 Intuition
 
-
+---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
 - **Space Complexity:** $O()$
-
+---
 ## 🛡️ Attempt History
 ### Attempt 1: {{date}}
 - **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
 - **What blocked me:** - **Improvement:** ---
-
+---
 ## 💻 Implementation (C++)
