@@ -14,7 +14,8 @@ link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/
 
 ## 💡 Intuition
 
-- So the question is about Sorting all the anagrams 
+- So the question is about Sorting all the anagrams in separate containers or arrays 
+- This question is kind of similar to [[Group Anagrams]] 
 
 ---
 ### 🧠 Insights
