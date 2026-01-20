@@ -21,6 +21,7 @@ link: [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 ---
 ### 🧠 Insights
 
+ - [[Fast memory]]
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
