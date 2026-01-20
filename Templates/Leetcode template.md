@@ -1,12 +1,13 @@
 
 ---
-status: 🔴 Not Solved  # Options: 🔴 Not Solved, 🟡 Solved with Help, 🟢 Mastered
-difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
-last_attempt: {{date}}
-next_review: {{date}}
-attempts: 1
+Status: 🔴 Not Solved  # Options: 🔴 Not Solved, 🟡 Solved with Help, 🟢 Mastered
+Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
+Pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Last_attempt: {{date}}
+Next_review: {{date}}
+Attempts: 1
 link:               
+
 ---
 
 # Problem: {{title}}
