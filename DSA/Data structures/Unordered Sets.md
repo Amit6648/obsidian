@@ -10,6 +10,9 @@ The main difference is that rather than having a key pair,  we only have values 
 unordered_set<type> set_name;
 ```
 
+---
+
+
 ### Insertion
 
 ```
@@ -21,6 +24,5 @@ set_name.insert(value);
 ```
 set_name.insert(value).second
 
-Returns true if exist or 
+Returns true if exist or false if doesn't
 ```
-   
