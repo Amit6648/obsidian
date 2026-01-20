@@ -16,7 +16,7 @@ link: [Two sum](https://leetcode.com/problems/two-sum/description/)
 
 - The problem is about finding a target element that is sum of two distinct elements from array.
 - Brute force method will be to compare each element with every other element in the array and see if they add up to target this will give us $O(n^2)$ time complexity.
-- 
+- If we think about if we can store all this elements are access them all in $$
 
 ---
 ### 🧠 Insights
