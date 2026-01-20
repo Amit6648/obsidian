@@ -8,4 +8,4 @@ But then something unexpected happened my father got a call from a customer and 
 
 Then all of sudden i started to feel more sleepy so made some chocolate milk and tried to relax in bed while listening to novel audio book. Time went by i slept for sometime time was like 3pm i ate lunch and vehicle was at home so i have to go to shop and my father went to home for lunch. While i was at shop i realized that dealing with people even though i know what i need to do in situation but still i say some unnecessary stuff. So i think i need to learn to [[how to behave in different situations]] and also apply it practically cause it is helpful by a lot to achieve my goal. I maybe think that i don't care about others but i do think i got a [[inferiority and superiority complex]] i was even comparing myself to a child. I know it's  due to my nature i don't want to be ordinary if possible i want to be above everyone but i think i waste a lot of time and energy on these things.
 
-So now back to my day my 
+So now back to my day, my father came back and he sent me and my friend to get the replacement for the replacements. While going there i reali
