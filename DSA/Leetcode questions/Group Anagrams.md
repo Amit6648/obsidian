@@ -1,8 +1,8 @@
 
 ---
 Status: 🟢 Mastered
-Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-Pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Difficulty: #Medium 
+Pattern: 
 Last_attempt: 2026-01-20
 Next_review: 2026-01-20
 Attempts: 1
