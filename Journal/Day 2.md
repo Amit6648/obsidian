@@ -4,4 +4,4 @@ So i am writing yesterday's journal today well the main reason was that i was ki
 
 So today is Monday 2026-01-19 i promised in [[Day 1]] that i will go for a walk next day and i was even feeling sleeping but at night i was not able to sleep reasons were that i got acidity.  So due to lack of sleep i still managed to walkup at 8am. After walking up i had some tea and i started thinking about what should i do and some other useless stuff have a bad habit of [[Thinking too much]]. I daily waste like at least 1 hour before i used to think that i am thinking about important stuff but now i feels like i just like staying in the blanket from tomorrow ([[Day 3]]) i am thinking of eliminating this habit. So after wasting time like this i walked up my mind was kind of in shambles i wasn't able to think properly so i decided to create my obsidian system.
 
-But then somthing 
+But then something unexpected happened my father got a call from a customer and i have to drop him at the shop and return home to take my  
