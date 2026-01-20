@@ -15,7 +15,7 @@ link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/
 ## 💡 Intuition
 
 - So the question is about Sorting all the anagrams in separate containers or arrays 
-- This question is kind of similar to [[Group Anagrams]] 
+- This question is kind of similar to [[Group Anagrams]] cause same as before we have to check if this string is anagram of another string just that we have to compare multiple of them 
 
 ---
 ### 🧠 Insights
