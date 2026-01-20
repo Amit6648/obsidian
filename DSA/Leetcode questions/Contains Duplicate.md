@@ -1,14 +1,14 @@
 
 ---
-status: 🟢 Mastered
+Status: 🟢 Mastered
 difficulty: #Easy
 pattern:  
 last_attempt: 2026-01-4
 next_review: 2026-01-4
 attempts: 1
 link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
----
 
+---
 # Problem: Contains Duplicate
 
 ## 💡Intuition : 
@@ -18,9 +18,10 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
    - Rather than checking for each element we can use a [[Unordered Sets]] to search elements fast in array
    - When inserting a element we can check if this element have already exist if it does then we will return true.
 
-
+---
 ## ⏱️ Complexity
+
 - **Time Complexity:** $O(N)$
 - **Space Complexity:** $O(N)$
-
+---
 ## 💻 Implementation (C++)
