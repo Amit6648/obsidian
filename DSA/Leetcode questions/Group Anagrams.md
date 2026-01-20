@@ -14,7 +14,7 @@ link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/
 
 ## 💡 Intuition
 
-- So the question is about 
+- So the question is about Sorting all the anagrams 
 
 ---
 ### 🧠 Insights
