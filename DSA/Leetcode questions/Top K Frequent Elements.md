@@ -25,7 +25,7 @@ link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-ele
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(NLogK)$
 - **Space Complexity:** $O()$
 ---
 ## 🛡️ Attempt History
