@@ -14,6 +14,9 @@ link: [Two sum](https://leetcode.com/problems/two-sum/description/)
 
 ## 💡 Intuition
 
+- The problem is about finding a target element that is sum of two distinct elements from array.
+- 
+
 ---
 ### 🧠 Insights
 
