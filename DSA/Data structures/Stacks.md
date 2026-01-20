@@ -1,1 +1,1 @@
-Stacks follows LIFO (Last in First out) order
+Stacks follows LIFO (Last in First out) order. Stacks are used to maintain a order throughout  operations like maintaining a 
