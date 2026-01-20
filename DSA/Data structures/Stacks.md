@@ -1,1 +1,3 @@
-Stacks follows LIFO (Last in First out) order. Stacks are used to maintain a order throughout  operations like maintaining a [[Monotonic Stack]] 
+Stacks follows LIFO (Last in First out) order. Stacks are used to maintain a order throughout  operations like maintaining a [[Monotonic Stack]].
+
+In stacks we can use operations like :
