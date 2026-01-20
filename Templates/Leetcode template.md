@@ -14,8 +14,8 @@ link:
 
 ## 💡 Intuition
 
-
-### 🧠Insights
+---
+### 🧠 Insights
 
 ---
 ## ⏱️ Complexity
