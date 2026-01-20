@@ -10,4 +10,4 @@ Then all of sudden i started to feel more sleepy so made some chocolate milk and
 
 So now back to my day, my father came back and he sent me and my friend to get the replacement for the replacements. While going there i realized i lacking i am on the knowledge of the current world well i tend to only learn about things that are useful or i genuinely like but i think so form conversations with other i need to know about [[current affairs]] going around in the world. Because knowledge is biggest weapon in this world. So during the replacement i made a mistake the switch that i was suppose to give separately i have given it earlier so it  got mixed up with others so we just didn't bother getting the replacement for that. I kind of regret it may i should try to become more impulsive , sometimes it is better to [[act without thinking]]. So after this we returned to shop. i went to home and in the grabbed some snacks to eat.
 
-After returning to home 
+After returning to home i went to my bed and watched a video on a novel that i been following. 
