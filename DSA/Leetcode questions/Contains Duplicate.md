@@ -1,11 +1,11 @@
 
 ---
 Status: 🟢 Mastered
-difficulty: #Easy
-pattern:  
-last_attempt: 2026-01-4
-next_review: 2026-01-4
-attempts: 1
+Sifficulty: #Easy
+Pattern:  
+Last_attempt: 2026-01-4
+Next_review: 2026-01-4
+Attempts: 1
 link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 ---
@@ -25,3 +25,26 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - **Space Complexity:** $O(N)$
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+bool containsDuplicate(vector<int>& nums) {
+
+        unordered_set<int> set;
+
+        set.reserve(nums.size());
+        
+       for(const  int &ele : nums)
+       {
+        if(!set.insert(ele).second)
+        {
+            return true;
+        }
+
+       }
+
+
+       return false;
+
+    
+    }
+```
