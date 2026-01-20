@@ -26,4 +26,8 @@ Returns true if exist or false if doesn't
 ```
 
 ---
+### Deletion
 
+```
+set_name.erase(value);
+```
