@@ -5,4 +5,4 @@ For example if i wanted to find sum of certain range in a array like from 2th in
 ### Things to know
 
 - we store result of previous elements at each position
-- each ith position represent 
+- each ith position represent the cumulative sum of all the previous elements
