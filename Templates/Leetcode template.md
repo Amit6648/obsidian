@@ -14,6 +14,9 @@ link:
 
 ## 💡 Intuition
 
+
+### Insights
+
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
