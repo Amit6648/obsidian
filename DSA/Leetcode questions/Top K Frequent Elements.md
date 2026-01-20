@@ -14,7 +14,7 @@ link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-ele
 
 ## 💡 Intuition
 
-- So the question is about find smallest 
+- So the question is about find smallest number from a array but the catch is rather t
 
 ---
 ### 🧠 Insights
