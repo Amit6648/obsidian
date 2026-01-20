@@ -3,4 +3,5 @@ Sliding window is derived from [[Two pointers]]. unlike two pointers we create a
 # Main points
 
 - The window needs to be maintain according to the condition like finding a result between a range.
+- using previous result to find future results
 - 
