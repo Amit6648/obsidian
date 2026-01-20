@@ -19,7 +19,9 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
    - When inserting a element we can check if this element have already exist if it does then we will return true.
 
 ---
-🧠Insights : 
+### 🧠 Insights :
+
+- 
 
 ---
 
