@@ -30,4 +30,3 @@ map_name.erase(key);
 
 
 
-[https://drive.google.com/open?id=1XQwO8QqxP8gtRUXXz8bqs0mEyWONTseU&usp=drive_fs]()
