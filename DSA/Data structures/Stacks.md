@@ -1,0 +1,1 @@
+Stacks are LIFO (Last i)
