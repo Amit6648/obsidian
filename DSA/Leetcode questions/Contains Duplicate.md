@@ -11,7 +11,8 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 # Problem: Contains Duplicate
 
-## 💡 The "Aha!" Moment
+## 💡Intuition :
+  
 
 
 ## ⏱️ Complexity
