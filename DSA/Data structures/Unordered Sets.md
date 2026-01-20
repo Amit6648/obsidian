@@ -18,5 +18,6 @@ set_name.insert(value);
 
 - To check if a value exist while insertion 
    ```
-   
+  set_name.insert(value).second
    ```
+   
