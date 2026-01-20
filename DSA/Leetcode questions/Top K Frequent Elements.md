@@ -22,7 +22,7 @@ link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-ele
 
 ---
 ### 🧠 Insights
-[[f]]
+[[Fast memory]]
 
 ---
 ## ⏱️ Complexity
