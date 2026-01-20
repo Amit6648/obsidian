@@ -1,1 +1,1 @@
-Sliding window 
+Sliding window is derived from [[Two pointers]]. unlike two pointers we create a window between our pointer 
