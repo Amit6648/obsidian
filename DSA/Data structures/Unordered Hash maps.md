@@ -5,26 +5,26 @@ The hash maps are ==***data structures***== that store data in ==Key pair value=
 
  ### Creation 
 
-```
+```cpp
 unordered_map<type,type> map_name;
 ```
 
 ### Insertion
 
-```
+```cpp
 map_name[key] = value;
 ```
 
 ### Update
 
-```
+```cpp
 map_name[key]++;
 map_name[key] =  another_value;
 ```
 
 ### Deletion
 
-```
+```cpp
 map_name.erase(key);
 ```
 

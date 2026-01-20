@@ -9,24 +9,24 @@ In stacks we can use operations like :
 
 Creation
 
-  ```
+  ```cpp
 stack<type> stack_name;
   ```
 ---
 Insertion
 
-```
+```cpp
 stack.push(value);
 ```
 ---
 Access 
 
-```
+```cpp
 stack.top();
 ```
 ---
 Deletion
 
-```
+```cpp
 stack.pop();
 ```
