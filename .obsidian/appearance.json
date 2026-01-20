@@ -1,5 +1,8 @@
 {
   "cssTheme": "Minimal",
   "theme": "system",
-  "accentColor": "#98e2c9"
+  "accentColor": "#98e2c9",
+  "enabledCssSnippets": [
+    "This targets the title at the top"
+  ]
 }
