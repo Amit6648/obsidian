@@ -27,12 +27,8 @@ link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N.KlogK)$
+- **Space Complexity:** $O(N.K)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-20
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
+
 ## 💻 Implementation (C++)
