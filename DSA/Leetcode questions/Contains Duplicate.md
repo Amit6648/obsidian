@@ -14,7 +14,7 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 ## 💡Intuition : 
 
    -  So the problem is about finding duplicates in a array if there is a duplicate then we will return true else false.
-   - The brute force method will be using comparing each element with every element in the array that w
+   - The brute force method will be using comparing each element with every element in the array that will give us  
 
 
 ## ⏱️ Complexity
