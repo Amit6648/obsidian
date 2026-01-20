@@ -22,15 +22,45 @@ link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-ele
 
 ---
 ### 🧠 Insights
+[[f]]
 
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(NLogK)$
-- **Space Complexity:** $O()$
----
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-20
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+- **Space Complexity:** $O(N)$
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+vector<int> topKFrequent(vector<int>& nums, int k) {
+        priority_queue<pair<int, int>, vector<pair<int, int>>,greater<pair<int, int>>> max;
+
+        unordered_map<int, int> map;
+
+        map.reserve(nums.size());
+
+        vector<int> ans;
+
+        ans.reserve(k);
+
+        for (const int& ele : nums) {
+            map[ele]++;
+        }
+
+        for (const auto& ele : map) {
+            max.push({ele.second, ele.first});
+
+            if (max.size() > k) {
+                max.pop();
+            }
+        }
+
+        while (!max.empty()) {
+            ans.push_back(max.top().second);
+
+            max.pop();
+        }
+
+        return ans;
+    }
+```
