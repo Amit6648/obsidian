@@ -29,9 +29,24 @@ link: [Two sum](https://leetcode.com/problems/two-sum/description/)
 - **Time Complexity:** $O(N)$
 - **Space Complexity:** $O(N)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-20
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
+
 ## 💻 Implementation (C++)
+
+```cpp
+vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> pic;
+        pic.reserve(nums.size());
+
+        for (int i = 0; i < nums.size(); i++) {
+            int find = target - nums[i];
+
+            if (pic.count(find)) {
+                return {pic[find], i};
+            }
+
+            pic.emplace(nums[i], i);
+        }
+
+        return {};
+    }
+```
