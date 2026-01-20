@@ -12,7 +12,6 @@ Creation
   ```
 stack<type> stack_name;
   ```
-
 ---
 Insertion
 
@@ -20,3 +19,8 @@ Insertion
 stack.push(value);
 ```
 ---
+Access 
+
+```
+Stack.po
+```
