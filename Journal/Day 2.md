@@ -6,4 +6,4 @@ So today is Monday 2026-01-19 i promised in [[Day 1]] that i will go for a walk 
 
 But then something unexpected happened my father got a call from a customer and i have to drop him at the shop and return home to take my mother to bus stop so she can go to her job. Well after this  i was thinking  of creating the system for like 40 minutes and then solve DSA questions like daily but after seeing the condition of my brain i just tried to create the system. Well the system is like this i will create sperate folder for everything like DSA folder and it can be divided into further folders like data structures, Algorithms and other things. I thought that i will first create the basic block and as i do questions i can link intuitions and other stuff with each other so i don't have to write again and again.
 
-Then all of sudden i started to feel more sleepy so made some chocolate milk and tried to relax in bed while listening to novel audio book 
+Then all of sudden i started to feel more sleepy so made some chocolate milk and tried to relax in bed while listening to novel audio book. Time went by i slept for sometime time was like 3pm 
