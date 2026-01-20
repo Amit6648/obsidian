@@ -1,1 +1,1 @@
-I got this insight from [[Contains Duplicate]] question first. So basically when ever we need to remember a large set of data always use data structures that can help you retrieve or upda 
+I got this insight from [[Contains Duplicate]] question first. So basically when ever we need to remember a large set of data always use data structures that can help you retrieve or update data easily like [[Unordered Hash maps]] or [[Unordered Sets]]. 
