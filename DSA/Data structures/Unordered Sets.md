@@ -1,2 +1,2 @@
-A unordered sets is similar to a [[Unordered Hash maps]] . The purpose is same, fast retrieval.
+A unordered sets is similar to a [[Unordered Hash maps]] . The purpose is same, fast retrieval (o(1)).
 The main difference is that rather than having a key pair,  we only have values like arrays or vectors. 
