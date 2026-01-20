@@ -1,1 +1,1 @@
-Sliding window is derived from [[Two pointers]]. unlike two pointers we create a window between our pointers and also storing the result of window in a such way that we can manipulate the window
+Sliding window is derived from [[Two pointers]]. unlike two pointers we create a window between our pointers and also storing the result of window in a such way that we can manipulate the window while using the result of the previo
