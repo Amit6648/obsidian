@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "",
+      "query": "path:DSA  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 13404160
       }
     }
   ],
@@ -33,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.7688762143746091,
-  "close": false
+  "close": true
 }
