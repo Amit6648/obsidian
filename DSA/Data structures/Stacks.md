@@ -5,5 +5,7 @@ In stacks we can use operations like :
 - **Pop** - used to delete element in stack.
 - **Top** - used to view the top element at top.
 ---
+# Syntax 
 
-#
+- Creation
+- 
