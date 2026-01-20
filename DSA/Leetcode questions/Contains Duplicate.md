@@ -20,8 +20,8 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 
 ## ⏱️ Complexity
-- **Time Complexity:** $O(n^2)$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(N)$
 
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-20
