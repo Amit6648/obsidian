@@ -7,3 +7,15 @@
 .title-green .view-header-title {
     color: #2e7d32;
 }
+
+/* Make Graph View arrows larger and more visible */
+.graph-view.node-arrows {
+  --graph-arrow-size: 10px; /* Default is around 4px - increase this to your liking */
+  --graph-arrow-opacity: 0.8; /* Makes them less transparent */
+}
+
+/* Optional: Make the lines (edges) thicker to match the arrows */
+.graph-view.line {
+  stroke-width: 2px; /* Default is usually 1px */
+  opacity: 0.5;
+}
