@@ -17,7 +17,8 @@ link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-ele
 - So the question is about find greatest times a number have appeared in a array but the catch is rather than finding a single number we have to find **K** of them.
 - So the question basically tell use to find frequencies of all the elements in the arrays and then return k Greatest frequencies.
 - Well for frequencies we can basically use [[Unordered Hash maps]]. But the problem is that how can we pick only top k elements.
-- We can use a minimum [[priority queue]]. Where we can maintain push all the elements in our hash map and when the size of queue is more than k we can pop element that is at the top   
+- We can use a minimum [[priority queue]]. Where we can maintain push all the elements in our hash map and when the size of queue is more than k we can pop element that is at the top.
+- After all this we can just return the left over elements.
 
 ---
 ### 🧠 Insights
