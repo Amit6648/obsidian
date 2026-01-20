@@ -15,7 +15,7 @@ link: [Two sum](https://leetcode.com/problems/two-sum/description/)
 ## 💡 Intuition
 
 - The problem is about finding a target element that is sum of two distinct elements from array.
-- 
+- Brute force method will be to compare each element with every other element in the array and see if they
 
 ---
 ### 🧠 Insights
