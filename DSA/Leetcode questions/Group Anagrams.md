@@ -3,16 +3,18 @@
 Status: 🟢 Mastered
 Difficulty: #Medium 
 Pattern: 
-Last_attempt: 2026-01-20
-Next_review: 2026-01-20
+Last_attempt: 2026-01-4
+Next_review: 2026-01-4
 Attempts: 1
-link:               
+link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 
 ---
 
 # Problem: Group Anagrams
 
 ## 💡 Intuition
+
+- So the question is about 
 
 ---
 ### 🧠 Insights
