@@ -21,7 +21,7 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 ---
 ### 🧠 Insights :
 
-- 
+- [[Fast memory]]
 
 ---
 
