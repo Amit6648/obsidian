@@ -3,8 +3,8 @@
 status: 🟢 Mastered
 difficulty: #Easy
 pattern:  
-last_attempt: 2026-01-20
-next_review: 2026-01-20
+last_attempt: 2026-01-4
+next_review: 2026-01-4
 attempts: 1
 link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 ---
@@ -22,10 +22,5 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 ## ⏱️ Complexity
 - **Time Complexity:** $O(N)$
 - **Space Complexity:** $O(N)$
-
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-20
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
 
 ## 💻 Implementation (C++)
