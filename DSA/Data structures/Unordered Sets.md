@@ -13,5 +13,6 @@ unordered_set<type> set_name;
 ### Insertion
 
 ```
-
+set_name.insert(value);
 ```
+
