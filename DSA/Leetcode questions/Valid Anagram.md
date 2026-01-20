@@ -24,8 +24,45 @@ link: [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
  - [[Fast memory]]
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(N)$
 - **Space Complexity:** $O()$
 ---
 
 ## 💻 Implementation (C++)
+
+```cpp
+ bool isAnagram(string s, string t) {
+
+        if(s.length() != t.length())
+        {
+            return false;
+        }
+
+        unordered_map<char,int> smap;
+        smap.reserve(s.length());
+
+        unordered_map<char,int> tmap;
+        tmap.reserve(t.length());
+
+    int i = 0;
+        while(i<s.length())
+        {
+            smap[s[i]]++;
+
+            tmap[t[i]]++;
+
+            i++;
+        }
+
+        if(smap == tmap)
+        {
+            return true;
+        }
+
+        else
+        {
+           return false;
+        }
+        
+    }
+```
