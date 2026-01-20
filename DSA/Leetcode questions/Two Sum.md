@@ -2,11 +2,11 @@
 ---
 Status: 🟢 Mastered
 Difficulty: #Easy 
-Pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
-Last_attempt: 2026-01-20
-Next_review: 2026-01-20
+Pattern: 
+Last_attempt: 2026-01-4
+Next_review: 2026-01-4
 Attempts: 1
-link:               
+link: [Two sum](https://leetcode.com/problems/two-sum/description/)     
 
 ---
 
