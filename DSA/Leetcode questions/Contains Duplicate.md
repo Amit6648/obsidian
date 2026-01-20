@@ -15,7 +15,7 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
    -  So the problem is about finding duplicates in a array if there is a duplicate then we will return true else false.
    - The brute force method will be using comparing each element with every element in the array that will give us  $O(N^2)$  time complexity.
-   - Rather than checking for each element 
+   - Rather than checking for each element we can use a [[Unordered Sets]] that can 
 
 
 ## ⏱️ Complexity
