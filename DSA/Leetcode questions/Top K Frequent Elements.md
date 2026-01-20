@@ -6,7 +6,7 @@ Pattern:
 Last_attempt: 2026-01-4
 Next_review: 2026-01-4
 Attempts: 1
-link: ()
+link: [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
 ---
 
