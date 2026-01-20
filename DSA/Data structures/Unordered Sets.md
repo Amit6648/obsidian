@@ -1,0 +1,1 @@
+A unordered sets is similar to a [[Unordered Hash maps]] . The purpose is same fast retrival 
