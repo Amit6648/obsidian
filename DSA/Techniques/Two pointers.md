@@ -1,0 +1,1 @@
+Two pointer is technique used for primarly
