@@ -12,7 +12,8 @@ link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 # Problem: Contains Duplicate
 
 ## 💡Intuition : 
-      So the problem is about finding duplicates if there is a duplicate
+
+   -  So the problem is about finding duplicates in a array if there is a duplicate then 
 
 
 ## ⏱️ Complexity
