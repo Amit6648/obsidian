@@ -1,7 +1,7 @@
 
 ---
 status: 🟢 Mastered
-difficulty: #Easy     # Options: #Easy, #Medium, #Hard
+difficulty: #Easy
 pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
 last_attempt: 2026-01-20
 next_review: 2026-01-20
