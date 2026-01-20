@@ -14,7 +14,8 @@ link: [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 
 ## 💡 Intuition
 
-- So the problem is about 
+- So the problem is about checking if string a is anagram of string b. 
+- The brute force method will to 
 ---
 ### 🧠 Insights
 
