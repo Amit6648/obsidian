@@ -6,7 +6,7 @@ Pattern:
 Last_attempt: 2026-01-4
 Next_review: 2026-01-4
 Attempts: 1
-link: https://leetcode.com/problems/valid-anagram
+link: [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 
 ---
 
