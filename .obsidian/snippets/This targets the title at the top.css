@@ -1,0 +1,9 @@
+/* This targets the title at the top of the note */
+.title-green .inline-title {
+    color: #2e7d32; /* A nice forest green */
+}
+
+/* Optional: This also colors the title in the tab bar */
+.title-green .view-header-title {
+    color: #2e7d32;
+}
