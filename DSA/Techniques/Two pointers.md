@@ -2,3 +2,4 @@ Two pointer is technique used  primarily for comparison between two values. This
 
 In this technique we use two pointers or variable to traverse across the data according to certain condition.
 
+[]()
