@@ -22,5 +22,11 @@ stack.push(value);
 Access 
 
 ```
-Stack.po
+stack.top();
+```
+---
+Deletion
+
+```
+
 ```
