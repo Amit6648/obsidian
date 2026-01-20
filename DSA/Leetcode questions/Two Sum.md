@@ -26,8 +26,8 @@ link: [Two sum](https://leetcode.com/problems/two-sum/description/)
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(N)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-20
