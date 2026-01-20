@@ -32,3 +32,28 @@ link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/
 ---
 
 ## 💻 Implementation (C++)
+
+```cpp
+ vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<string> mapana;
+
+        unordered_map<string, vector<string>> map;
+
+        map.reserve(strs.size());
+
+        vector<vector<string>> ans;
+
+        for (const string& ele : strs) {
+            string copy = ele;
+            sort(copy.begin(), copy.end());
+            map[copy].push_back(ele);
+        }
+
+        for (const auto& arr : map) {
+
+            ans.push_back(arr.second);
+        }
+
+        return ans;
+    }
+```
