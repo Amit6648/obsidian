@@ -1,3 +1,3 @@
 
 thinking of building a leetcode question template 
-thinking 
+thinking of writing journal of yesterday 
