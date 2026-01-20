@@ -28,5 +28,5 @@ stack.top();
 Deletion
 
 ```
-
+stack.pop();
 ```
