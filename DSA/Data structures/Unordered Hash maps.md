@@ -29,5 +29,5 @@ map_name.erase(key);
 ```
 
 
-![[unordered hashmap.webp]]
+
 
