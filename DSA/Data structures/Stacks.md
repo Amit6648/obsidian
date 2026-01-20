@@ -1,1 +1,1 @@
-Stacks are LIFO (Last i)
+Stacks follows LIFO (Last in First out) order 
