@@ -1,1 +1,1 @@
-Two pointer is technique used  primarily for comparison  
+Two pointer is technique used  primarily for comparis  
