@@ -12,3 +12,11 @@ Creation
   ```
 stack<type> stack_name;
   ```
+
+---
+Insertion
+
+```
+stack.push(value);
+```
+---
