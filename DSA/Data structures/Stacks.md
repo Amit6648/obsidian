@@ -7,5 +7,8 @@ In stacks we can use operations like :
 ---
 # Syntax 
 
-- Creation
-- 
+Creation
+
+  ```
+stack<type> stack_name;
+  ```
