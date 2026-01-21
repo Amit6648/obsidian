@@ -1,1 +1,1 @@
-So priority queue is of two types Maximum and minu
+So priority queue is of two types Maximum and minimum
