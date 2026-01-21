@@ -25,6 +25,9 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 ---
 ### 🧠 Insights
 
+- [[Fast memory]]
+- 
+
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(N)$
