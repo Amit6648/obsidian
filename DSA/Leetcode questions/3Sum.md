@@ -19,12 +19,12 @@ link: [3Sum](https://leetcode.com/problems/3sum/)
 ---
 ### 🧠 Insights
 
-- 
+- [[Converting the complex problem into easy problem]]
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n^2)$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-21
