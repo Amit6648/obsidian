@@ -15,7 +15,7 @@ link: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 ## 💡 Intuition
 
 - SO the problem is about checking if a string is a palindrome.
-- We can use [[]]
+- We can use [[Two pointers]] approach. One pointer left and other Right will check until they are equal if not then we will return f
 ---
 ### 🧠 Insights
 
