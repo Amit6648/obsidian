@@ -1,1 +1,1 @@
-So if first got this insight from [[Sliding Window]] problems but now i have looked back at the previous questions i have done i realized even at the starting this was present. So in this first originated form [[]]
+So if first got this insight from [[Sliding Window]] problems but now i have looked back at the previous questions i have done i realized even at the starting this was present. So in this first originated form [[Longest Consecutive Sequence]]. In this insight i learned that for problems asking for maximum or minimum we should 
