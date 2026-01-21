@@ -23,12 +23,39 @@ link: [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
----
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-21
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(1)$
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+vector<int> twoSum(vector<int>& numbers, int target) {
+       
+      int left  = 0;
+
+      int right  = numbers.size() -1;
+
+      while(left<right)
+      {
+        int sum =  numbers[left] + numbers[right];
+
+        if(target == sum)
+        {
+            return {left+1, right+1};
+        }
+
+        else if(target<sum)
+        {
+            right--;
+        }
+
+        else if(target>sum)
+        {
+            left++;
+        }
+      }
+
+
+      return {};
+    }
+```
