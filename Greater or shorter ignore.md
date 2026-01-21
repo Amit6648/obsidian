@@ -1,0 +1,1 @@
+So if first got this insight from [[Sliding Window]] problems but now i have looked back at the previous questions i have done i 
