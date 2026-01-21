@@ -15,9 +15,11 @@ link: [3Sum](https://leetcode.com/problems/3sum/)
 ## 💡 Intuition
 
 - So the problem is similar to [[Two Sum]] but the thing is we have to find sum of three elements and but the problem is that we can use a set here to check if the elements are match cause we have to do 3 comparisons which i going to be complex and less optimized.
-- But we can convert this problem into [[Two Sum II - Input Array Is Sorted]]. Meaning if we can short the whole array and then lock one element and then rest is [[Two Sum II - Input Array Is Sorted]] cause we only have to com
+- But we can convert this problem into [[Two Sum II - Input Array Is Sorted]]. Meaning if we can short the whole array and then lock one element and then rest is [[Two Sum II - Input Array Is Sorted]] cause we only have to compare two element and we can take the advantage of sorted array.
 ---
 ### 🧠 Insights
+
+- 
 
 ---
 ## ⏱️ Complexity
