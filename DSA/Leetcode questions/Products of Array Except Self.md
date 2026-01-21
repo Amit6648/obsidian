@@ -14,7 +14,7 @@ link: [Products of Array Except Self](https://leetcode.com/problems/product-of-a
 
 ## 💡 Intuition
 
-- So the question is about 
+- So the question is about find the product of all the elements except it self and we have to do this for eac
 
 ---
 ### 🧠 Insights
