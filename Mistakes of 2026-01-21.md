@@ -1,4 +1,3 @@
 - not walking up when i have already woken
 - taking to much time to start tasks
 - not taking break after two sessions
-- 
