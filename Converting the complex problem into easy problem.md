@@ -1,0 +1,1 @@
+So i first got this insight from problem [[Group Anagrams]]. So the insight is about how we can 
