@@ -15,18 +15,14 @@ link: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 ## 💡 Intuition
 
 - SO the problem is about checking if a string is a palindrome.
-- We can use [[Two pointers]] approach. One pointer left and other Right will check until they are equal if not then we will return f
+- We can use [[Two pointers]] approach. One pointer left and other Right will check until they are equal if not then we will return false.
 ---
 ### 🧠 Insights
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(1)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-21
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
+
 ## 💻 Implementation (C++)
