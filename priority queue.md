@@ -1,0 +1,1 @@
+So priority queue is of two types Maximum and minu
