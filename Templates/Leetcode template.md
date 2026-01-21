@@ -2,11 +2,11 @@
 ---
 Status: 🔴 Not Solved  # Options: 🔴 Not Solved, 🟡 Solved with Help, 🟢 Mastered
 Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-Pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
 Last_attempt: {{date}}
 Next_review: {{date}}
 Attempts: 1
-link:               
+link: 
 
 ---
 
