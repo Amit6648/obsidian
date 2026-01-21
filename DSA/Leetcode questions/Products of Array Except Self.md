@@ -14,7 +14,8 @@ link: [Products of Array Except Self](https://leetcode.com/problems/product-of-a
 
 ## 💡 Intuition
 
-- So the question is about find the product of all the elements except it self and we have to do this for eac
+- So the question is about find the product of all the elements except it self and we have to do this for each element.
+- So the brute force method will be to just multiply all elements in the except itself and then store t
 
 ---
 ### 🧠 Insights
