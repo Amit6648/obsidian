@@ -14,6 +14,7 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 
 ## 💡 Intuition
 
+- 
 ---
 ### 🧠 Insights
 
