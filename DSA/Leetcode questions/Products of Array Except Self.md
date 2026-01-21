@@ -16,7 +16,7 @@ link: [Products of Array Except Self](https://leetcode.com/problems/product-of-a
 
 - So the question is about find the product of all the elements except it self and we have to do this for each element.
 - So the brute force method will be to just multiply all elements in the except itself and then store the result in another array. This will give us $O(N^2)$ time complexity.
-- 
+- If we look at the question closely we can see it is similar to finding [[Prefix Sum]]
 
 ---
 ### 🧠 Insights
