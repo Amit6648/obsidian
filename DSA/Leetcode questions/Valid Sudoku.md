@@ -20,7 +20,7 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 - For the first two directions which are  similar to [[Contains Duplicate]] we can just use [[Unordered Sets]] for each row and column and use the speed to sets to check if a element exists.
 - but he problem here is that we have multiples of rows and columns. So we can just use [[Unordered Hash maps]] and use the each row number as key for each row in hash map and we can do same for columns.
 - Now the main problem left is 3X3 box. So if we can somehow divide the whole sudoku into 9 parts or  9 of 3X3 boxes and if we can identify in which box does this element exists we can check for the element.
-- so the sudoku is of 9 x 9 if we want to know where does a element  of this 9 x 9 box will be we can do simple maths like if i want  to where will 8 be in the space of 
+- so the sudoku is of 9 x 9 if we want to know where does a element  of this 9 x 9 box will be we can do simple maths like if i want  to where will 8 no house will be in a street of 9 house and each three 
 ---
 ### 🧠 Insights
 
