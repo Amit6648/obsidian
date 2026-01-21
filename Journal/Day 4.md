@@ -2,3 +2,4 @@
 
 So today i walk up at like 9am first my alarm was off and i am kind of lazy. but today i realized how it is better to plan the day before rather than thinking at morning i mean for a long time i have been slacking off but now i understood why. The main thing is starting off late like i after walking up before starting work i spend 1 hour like doing nothing just thinking about random stuff and feeling like i am doing something that is useful but in reality of was just repeat same stuff in my mind or thinking about random things. I have to incorporate [[act without thinking]] in my like. Well the thing is a switch when i have that i need to do rather than considering random stuff or trying to uncover the whole day i should just start working.
 
+So after walking up i had some tea and washed my face with face wash .  I been was
