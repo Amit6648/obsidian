@@ -14,7 +14,8 @@ link: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 ## 💡 Intuition
 
-- 
+- SO the problem is about checking if a string is a palindrome.
+- We can use [[]]
 ---
 ### 🧠 Insights
 
