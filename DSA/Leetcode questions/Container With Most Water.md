@@ -14,6 +14,8 @@ link: [Container With Most Water](https://leetcode.com/problems/container-with-m
 
 ## 💡 Intuition
 
+- So the 
+
 ---
 ### 🧠 Insights
 
