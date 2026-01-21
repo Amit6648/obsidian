@@ -15,7 +15,8 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 ## 💡 Intuition
 
 - So the question is about checking whether a sudoku board i vailed or not.
-- In a sudoku board we have to check if  a cell has a vailed number then there will not be same number in the same row, 
+- In a sudoku board we have to check if  a cell has a vailed number then there will not be same number in the same row, same column and also same 3X3 box that it is in.
+- 
 ---
 ### 🧠 Insights
 
