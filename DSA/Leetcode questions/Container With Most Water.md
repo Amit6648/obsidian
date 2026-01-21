@@ -15,7 +15,8 @@ link: [Container With Most Water](https://leetcode.com/problems/container-with-m
 ## 💡 Intuition
 
 - So the Question is asking about Finding maximum water we can hold in between walls 
-- The maximum water holded
+- The maximum water capacity can determined by two factor minimum between two walls or elements and the difference between the indices of elements 
+- 
 
 ---
 ### 🧠 Insights
