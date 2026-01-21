@@ -26,7 +26,7 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 ### 🧠 Insights
 
 - [[Fast memory]]
-- 
+- [[Converting the complex problem into easy problem]]
 
 ---
 ## ⏱️ Complexity
