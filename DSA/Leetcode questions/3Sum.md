@@ -26,9 +26,49 @@ link: [3Sum](https://leetcode.com/problems/3sum/)
 - **Time Complexity:** $O(n^2)$
 - **Space Complexity:** $O(1)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-21
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
 ## 💻 Implementation (C++)
+
+```cpp
+vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> ans;
+
+        sort(nums.begin(), nums.end());
+
+        for (int i = 0; i < nums.size(); i++) {
+
+            if (i > 0 && (nums[i] > 0 || nums[i] == nums[i - 1]))
+                continue;
+            int left = i + 1;
+            int right = nums.size() - 1;
+
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+
+                if (sum == 0) {
+                    ans.push_back({nums[i], nums[left], nums[right]});
+
+                    while (left < right && nums[left] == nums[left + 1])
+                        left++;
+
+                    while (left < right && nums[right] == nums[right - 1])
+                        right--;
+
+                    right--;
+                    left++;
+
+                }
+
+                else if (sum < 0) {
+                    left++;
+                }
+
+                else if (sum > 0) {
+                    right--;
+                }
+            }
+        }
+
+        return ans;
+    }
+};
+```
