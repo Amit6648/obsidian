@@ -3,10 +3,10 @@
 Status:🟢 Mastered
 Difficulty: #Medium 
 Pattern: #Two_Pointers
-Last_attempt: 2026-01-21
-Next_review: 2026-01-21
+Last_attempt: 2026-01-9
+Next_review: 2026-01-9
 Attempts: 1
-link: 
+link: [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ---
 
@@ -14,6 +14,7 @@ link:
 
 ## 💡 Intuition
 
+- So the question is same as [[Two Sum]] just tha
 ---
 ### 🧠 Insights
 
