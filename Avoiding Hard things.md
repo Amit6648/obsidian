@@ -1,0 +1,1 @@
+So i realized how i have been avoid hard or un
