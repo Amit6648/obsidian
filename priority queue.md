@@ -9,4 +9,6 @@ So priority queue is of two types Maximum and minimum and it follows FIFO(first 
 # Syntax
 
 - Creation
-  
+  ```cpp
+  priority_queue<
+  ```
