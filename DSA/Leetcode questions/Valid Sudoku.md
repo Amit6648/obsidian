@@ -28,11 +28,42 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(N)$
-- **Space Complexity:** $O()$
----
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-21
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+- **Space Complexity:** $O(N)$
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+bool isValidSudoku(vector<vector<char>>& board) {
+
+        unordered_map<int, unordered_set<int>> rows;
+
+        unordered_map<int, unordered_set<int>> cols;
+
+        map<pair<int, int>, unordered_set<int>> box;
+
+        for(int row =0; row<board.size(); row++)
+        {
+            for(int col = 0; col<board.size(); col++)
+            {
+
+                if(board[row][col] == '.') continue;
+                if(!rows[row].insert(board[row][col]).second)
+                {
+                    return false;
+                }
+
+                 if(!cols[col].insert(board[row][col]).second)
+                {
+                    return false;
+                }
+
+                 if(!box[{row/3,col/3}].insert(board[row][col]).second)
+                {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+```
