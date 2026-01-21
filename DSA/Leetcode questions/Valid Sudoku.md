@@ -14,7 +14,7 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 
 ## 💡 Intuition
 
-- 
+- So the question is about checking whether a sudoku board i vailed or not
 ---
 ### 🧠 Insights
 
