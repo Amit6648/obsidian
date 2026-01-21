@@ -14,7 +14,8 @@ link: [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum
 
 ## 💡 Intuition
 
-- So the question is same as [[Two Sum]] just tha
+- So the question is same as [[Two Sum]] just that this time the array is sorted.
+- Rather than taking a extra space using Sets 
 ---
 ### 🧠 Insights
 
