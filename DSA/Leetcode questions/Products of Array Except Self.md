@@ -23,15 +23,12 @@ link: [Products of Array Except Self](https://leetcode.com/problems/product-of-a
 ---
 ### 🧠 Insights
 
-- [[Breaking down problem in subproblems]]
+- [[Breaking down problem into subproblems]]
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(N)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-21
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+
 ---
 ## 💻 Implementation (C++)
