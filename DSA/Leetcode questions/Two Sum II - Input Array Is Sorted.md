@@ -17,7 +17,7 @@ link: [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum
 - So the question is same as [[Two Sum]] just that this time the array is sorted.
 - Rather than taking a extra space using Sets we can use [[Two pointers]] approach here.
 - So we know that array is sorted that means left side of array will have smaller elements and right side will have larger elements.
-- we can use two pointers left and right and then check if sum of them is equal to the target if not then we can compare if sum was bigger or smaller and move left and right pointer accordingly
+- we can use two pointers left and right and then check if sum of them is equal to the target if not then we can compare if sum was bigger or smaller and move left and right pointer accordingly.
 ---
 ### 🧠 Insights
 
