@@ -1,12 +1,12 @@
 
 ---
 Status: 🟢 Mastered
-Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
-Last_attempt: 2026-01-21
-Next_review: 2026-01-21
+Difficulty: #Medium 
+Pattern: #Two_Pointers 
+Last_attempt: 2026-01-9
+Next_review: 2026-01-9
 Attempts: 1
-link: 
+link: [3Sum](https://leetcode.com/problems/3sum/)
 
 ---
 
@@ -14,6 +14,7 @@ link:
 
 ## 💡 Intuition
 
+- So the problem is similar 
 ---
 ### 🧠 Insights
 
