@@ -16,7 +16,8 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 
 - So the question is about checking whether a sudoku board i vailed or not.
 - In a sudoku board we have to check if  a cell has a vailed number then there will not be same number in the same row, same column and also same 3X3 box that it is in.
-- If we think about it we are trying to find duplicate of a element like problem [[Contains Duplicate]] just that the difference is that rather than find in 1D space we need to 
+- If we think about it we are trying to find duplicate of a element like problem [[Contains Duplicate]] just that the difference is that rather than find in 1D space we need to find it in 3 directions.
+- For for first two directions similar to 
 ---
 ### 🧠 Insights
 
