@@ -30,5 +30,52 @@ link: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-conse
 - **Space Complexity:** $O(N)$
 ---
 
----
 ## 💻 Implementation (C++)
+
+```cpp
+int longestConsecutive(vector<int>& nums) {
+
+        unordered_set<int> check(nums.begin(), nums.end());
+
+        int maxi = 0;
+
+        for(const int &ele : check)
+
+        {
+
+            int curr = ele;
+
+  
+
+            if(check.contains(curr-1)) continue;
+
+            else
+
+            {
+
+            int temp = 0;
+
+               while(check.contains(curr))
+
+               {
+
+                temp++;
+
+                curr++;
+
+               }
+
+  
+
+              maxi =  max(temp,maxi);
+
+            }
+
+        }
+
+  
+
+        return maxi;
+
+    }
+```
