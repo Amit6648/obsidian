@@ -14,7 +14,7 @@ link: [3Sum](https://leetcode.com/problems/3sum/)
 
 ## 💡 Intuition
 
-- So the problem is similar to [[Two Sum]] but the thing is we have to find sum of 
+- So the problem is similar to [[Two Sum]] but the thing is we have to find sum of three elements and 
 ---
 ### 🧠 Insights
 
