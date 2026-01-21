@@ -15,5 +15,5 @@ So priority queue is of two types Maximum and minimum and it follows FIFO(first 
   ```
 
 ```
-priority_queue<type> queue_name;
+priority_queue<type, vector<type>, greater> queue_name;
 ```
