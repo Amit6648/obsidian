@@ -21,7 +21,7 @@ link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)
 - but he problem here is that we have multiples of rows and columns. So we can just use [[Unordered Hash maps]] and use the each row number as key for each row in hash map and we can do same for columns.
 - Now the main problem left is 3X3 box. So if we can somehow divide the whole sudoku into 9 parts or  9 of 3X3 boxes and if we can identify in which box does this element exists we can check for the element.
 - so the sudoku is of 9 x 9 if we want to know where does a element  of this 9 x 9 box will be we can do simple maths like if i want  to where will 8 no house will be in a street of 9 house and each three houses out of 9 represent a block meaning we a have three block so if we want to know in which block will this house be we can just divide it by three and add 1 which will give us 3 meaning third block.
-- here rather than having on only 3 we have a block of 3x3 meaning we have to check 
+- here rather than having on only 3 we have a block of 3x3 meaning we have to check two directions so we can use row and column as key and divide them by 3 to find out in which 
 ---
 ### 🧠 Insights
 
