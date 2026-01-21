@@ -3,16 +3,18 @@
 Status: 🟢 Mastered
 Difficulty: #Medium     
 Pattern: 
-Last_attempt: 2026-01-21
-Next_review: 2026-01-21
+Last_attempt: 2026-01-4
+Next_review: 2026-01-4
 Attempts: 1
-link:               
+link: [Products of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/)               
 
 ---
 
 # Problem: Products of Array Except Self
 
 ## 💡 Intuition
+
+- 
 
 ---
 ### 🧠 Insights
