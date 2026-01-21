@@ -15,7 +15,7 @@ link: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-conse
 ## 💡 Intuition
 
 - So the problem is about finding the longest sequence in the array.
-- Well if we look at problem it is simply telling us to find elem
+- Well if we look at problem it is simply telling us to find elements in array so when we need to find something we always use something that can allow us to se
 
 ---
 ### 🧠 Insights
