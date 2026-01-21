@@ -24,6 +24,7 @@ link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/
 ### 🧠 Insights
 
 - [[Fast memory]]
+- [[Converting the complex problem into easy ]]
 
 ---
 ## ⏱️ Complexity
