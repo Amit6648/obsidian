@@ -23,7 +23,7 @@ link: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-conse
 ### 🧠 Insights
 
 - [[Fast memory]]
-- [[Greater ]]
+- [[Greater or shorter ignore]] 
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
