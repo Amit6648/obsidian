@@ -1,12 +1,12 @@
 
 ---
-Status: 🔴 Not Solved  # Options: 🔴 Not Solved, 🟡 Solved with Help, 🟢 Mastered
-Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
-Last_attempt: 2026-01-21
-Next_review: 2026-01-21
+Status:🟢 Mastered
+Difficulty: #Medium 
+Pattern: #Two_Pointers
+Last_attempt: 2026-01-9
+Next_review: 2026-01-9
 Attempts: 1
-link: 
+link: [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 ---
 
