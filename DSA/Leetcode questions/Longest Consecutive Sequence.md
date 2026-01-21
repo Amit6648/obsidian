@@ -14,6 +14,9 @@ link: [Longest Consecutive Sequence](https://leetcode.com/problems/longest-conse
 
 ## 💡 Intuition
 
+- So the problem is about finding the longest sequence in the array.
+- Well if 
+
 ---
 ### 🧠 Insights
 
