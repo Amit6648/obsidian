@@ -2,7 +2,7 @@
 ---
 Status: 🟢 Mastered
 Difficulty: #Medium     
-Pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Pattern: 
 Last_attempt: 2026-01-21
 Next_review: 2026-01-21
 Attempts: 1
