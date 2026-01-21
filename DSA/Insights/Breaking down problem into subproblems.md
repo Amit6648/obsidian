@@ -1,1 +1,1 @@
-So this insight is about how rather than looking at the problem as whole we can break the problem into subparts and then solve those parts individually.
+So this insight is about how rather than looking at the problem as whole we can break the problem into subparts and then solve those parts individually. I got this insight first from [[Products of Array Except Self]]
