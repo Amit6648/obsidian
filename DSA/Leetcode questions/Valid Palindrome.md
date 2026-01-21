@@ -1,10 +1,10 @@
 
 ---
-Status: 🔴 Not Solved  # Options: 🔴 Not Solved, 🟡 Solved with Help, 🟢 Mastered
-Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
-Last_attempt: 2026-01-21
-Next_review: 2026-01-21
+Status: 🟢 Mastered
+Difficulty: #Easy 
+Pattern:  Two Pointers
+Last_attempt: 2026-01-8
+Next_review: 2026-01-8
 Attempts: 1
 link: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
@@ -14,6 +14,7 @@ link: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 ## 💡 Intuition
 
+- 
 ---
 ### 🧠 Insights
 
