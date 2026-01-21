@@ -3,4 +3,9 @@ So priority queue is of two types Maximum and minimum and it follows FIFO(first 
 - Maximum Priority Queue -
   This is default structure of priority queue. In maximum priority queue it will always maintain maximum number at the top. Underneath it uses Max heap tree to maintain it's order.
 - Minimum priority Queue - 
-  In minimum the top element will always be smallest 
+  In minimum the top element will always be smallest. Underneath it maintains a min heap tree.
+
+
+# Syntax
+
+- 
