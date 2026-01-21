@@ -1,12 +1,12 @@
 
 ---
 Status: 🟢 Mastered
-Difficulty: #Easy     # Options: #Easy, #Medium, #Hard
-Pattern:             # e.g., Sliding Window, Two Pointers, Monotonic Stack
-Last_attempt: 2026-01-21
-Next_review: 2026-01-21
+Difficulty: #Medium 
+Pattern: 
+Last_attempt: 2026-01-4
+Next_review: 2026-01-4
 Attempts: 1
-link:               
+link: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)           
 
 ---
 
