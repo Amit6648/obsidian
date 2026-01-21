@@ -5,7 +5,7 @@ So priority queue is of two types Maximum and minimum and it follows FIFO(first 
 - Minimum priority Queue - 
   In minimum the top element will always be smallest. Underneath it maintains a min heap tree.
 
-
+---
 # Syntax
 
 - Creation
@@ -18,3 +18,5 @@ So priority queue is of two types Maximum and minimum and it follows FIFO(first 
 priority_queue<type, vector<type>, greater<int>> queue_name; // minimum
 ```
 
+---
+# Rest of the functions are same as [[Stacks]]
