@@ -34,11 +34,6 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - **Time Complexity:** $O(N)$
 - **Space Complexity:** $O(N)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-22
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
 ## 💻 Implementation (C++)
 
 
