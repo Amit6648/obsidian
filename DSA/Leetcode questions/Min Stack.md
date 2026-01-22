@@ -16,7 +16,7 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 
 - So the questions asks about creating a stack and also giving a extra feature to get minimum element in the stack.
 - So we only need to solve for minimum feature rest is just a stack.
-- So the main problem for minimum function are storing when a number appeared
+- So the main problem for minimum function are storing when a number appeared we need to remember when a number was maximum so when popping we can also know this number was minimum at that time so we can decide wheat
 ---
 ### 🧠 Insights
 
