@@ -14,9 +14,11 @@ link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-
 
 ## 💡 Intuition
 
+- 
+
 
 ---
-### 🧠 Insights
+### 🧠 Insights And Structures
 
 ---
 ## ⏱️ Complexity
