@@ -21,7 +21,7 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - So according to this intuition we don't need to know absolute value of greater wall we just need to know that it exists.
 - We can use the same approach as [[Container With Most Water]] just that we need to remember for each side what our maximum is and then we can compare those maximums and decide which side we should solve for.
 - For example if left side have a maximum greater than right side that means we only need to worry about right side and calculate according to that.
-- When we find a greater wall on either side we can just update the maximum and compare that maximum with the maximum of other side to check now which side is worth cal
+- When we find a greater wall on either side we can just update the maximum and compare that maximum with the maximum of other side to check now which side is worth calculating.
 ---
 ### 🧠 Insights
 
