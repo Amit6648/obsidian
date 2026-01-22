@@ -31,8 +31,8 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(N)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-22
@@ -40,3 +40,43 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+
+```cpp
+bool isValid(string s) {
+        if(s.length()%2 == 1) return false;
+        
+        stack<char> st;
+
+        unordered_map<char, char> cto = {
+            {')', '('},
+            {'}', '{'},
+            {']', '['}
+        };
+
+
+        for(const char ele: s)
+        {
+            if(cto.count(ele))
+            {
+                if(!st.empty()&&(st.top() == cto[ele]))
+                {
+                    st.pop();
+                }
+
+                else {
+                    return false;
+                }
+            }
+
+            else {
+                st.push(ele);
+            }
+        }
+
+        return st.empty();
+
+        
+
+    }
+```
