@@ -21,7 +21,7 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 - So when we pop a element from main stack we will pop top element in minimum stack and we will have duplicate entries of same element if a new minimum doesn't appeared the duplicate will be popped. we are essentially maintaining a [[Monotonic Stack]].
 
 - We can also save this space of using a extra stack by storing the differences of minimums in original stack.
-- Well the main problem will be to store a nu
+- Well the main problem will be to how to know when minimum changed. we know that when a minimum number appeared and we decrease it from 
 ---
 ### 🧠 Insights
 
