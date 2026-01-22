@@ -30,12 +30,44 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(1)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-22
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
+
 ## 💻 Implementation (C++)
+
+```cpp
+int trap(vector<int>& height) {
+     int water = 0;
+
+     int left = 0;
+     int right = height.size()-1;
+
+     int lmax = 0;
+     int rmax = 0;
+
+     while(left<right)
+     {
+        if(height[left] >=height[right])
+        {
+           if(rmax < height[right]) rmax = height[right];
+
+           water += rmax - height[right];
+
+           right--;
+        }
+
+        if(height[left] < height[right])
+        {
+            if(lmax < height[left]) lmax = height[left];
+
+             water += lmax - height[left];
+
+             left++;
+        }
+     }
+
+     return water;
+      
+    }
+```
