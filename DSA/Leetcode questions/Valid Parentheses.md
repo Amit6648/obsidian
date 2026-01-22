@@ -24,7 +24,8 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - Well that means we have to keep track of most recent open and when it's close appears we will check for previous open and see if it's close appear next.
 - we also need to consider if a new open appear we need to close that.
 - Well can simply use [[Stacks]] in the form of a [[Monotonic Stack]] where we will only maintain opens and when a corresponding open appear we will pop that open.
-- If we are 
+- If we are the structure is right we will be left with a empty stack or the structure was wrong.
+- And to keep 
 ---
 ### 🧠 Insights
 
