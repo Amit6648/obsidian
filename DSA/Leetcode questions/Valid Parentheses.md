@@ -15,7 +15,8 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 ## 💡 Intuition
 
 - So the problem is about checking if a string consisting of Parentheses is valid or not. 
-- So we know that  Parentheses  are used to contain something meaning if 
+- So we know that  Parentheses  are used to contain something meaning if a Parentheses starts it has to have a end.
+- So we have to basically check if a Parentheses have
 ---
 ### 🧠 Insights
 
