@@ -14,7 +14,7 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ## 💡 Intuition
 
-- So the problem asks 
+- So the problem asks us to find how much water we can hold between two walls but unlike [[conta]]
 ---
 ### 🧠 Insights
 
