@@ -23,7 +23,7 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - We can take one more example of debt if i take debt then i have to repay it but if i take debt and then try to repay a debt that i haven't taken will that be valid.
 - Well that means we have to keep track of most recent open and when it's close appears we will check for previous open and see if it's close appear next.
 - we also need to consider if a new open appear we need to close that.
-- 
+- Well can simply use [[Stacks]] in the form of a [[Monotonic Stack]] where we will only maintain opens and when a corrosponding
 ---
 ### 🧠 Insights
 
