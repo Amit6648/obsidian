@@ -5,7 +5,7 @@ Difficulty: #Medium
 Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
 Last_attempt: 2026-01-7
 Next_review: 2026-01-7
-Attempts: 1
+Attempts: 2
 link: [Min Stack](https://leetcode.com/problems/min-stack/)
 
 ---
