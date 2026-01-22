@@ -14,7 +14,7 @@ link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-
 
 ## 💡 Intuition
 
-- So problem asks us to create  a calculate
+- So problem asks us to create  a calculator we are given a array or strings and need to do operation in 
 
 
 ---
