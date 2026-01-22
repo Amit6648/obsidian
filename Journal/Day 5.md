@@ -8,4 +8,4 @@ So after break i did two more sessions and then i had my bigger break where i re
 
 after this i completed my last 2 sessions. So i was free was thinking of writing down the topics i been mentioning but i was feeling tired so i watched some youtube and then i thought maybe i should listen to some other novel to sleep i searched it up and found one and after that i told anitgravity agent to create a similar scrapper as reverend insanity but it was not able to find a website to scrap the novel so i ditched the idea. I am thinking of setting a timer while sleep so novel automatically shut off but now i think i might not.
 
-So after wasting time li
+So after wasting time like this i thought on writing those left our thought  of mine in obsidian but then i don't know 
