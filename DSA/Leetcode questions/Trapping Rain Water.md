@@ -26,6 +26,7 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 ### 🧠 Insights
 
 - [[Greater or shorter ignore]]
+- [[Converting the complex problem into easy problem]]
 
 ---
 ## ⏱️ Complexity
