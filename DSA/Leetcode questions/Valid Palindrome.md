@@ -1,6 +1,6 @@
 
 ---
-Status: 🟢 Mastered
+Status: Mastered
 Difficulty: Easy 
 Pattern:  Two_Pointers
 Last_attempt: 2026-01-8

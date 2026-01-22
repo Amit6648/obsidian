@@ -1,6 +1,6 @@
 
 ---
-Status:🟢 Mastered
+Status:Mastered
 Difficulty: medium 
 Pattern: stacks
 Last_attempt: 2026-01-7

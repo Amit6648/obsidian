@@ -1,6 +1,6 @@
 
 ---
-Status: 🟢 Mastered
+Status: Mastered
 Difficulty: medium
 Pattern: 
 Last_attempt: 2026-01-4
