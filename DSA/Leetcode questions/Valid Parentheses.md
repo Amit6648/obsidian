@@ -16,7 +16,8 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 - So the problem is about checking if a string consisting of Parentheses is valid or not. 
 - So we know that  Parentheses  are used to contain something meaning if a Parentheses starts it has to have a end.
-- So we have to basically check if a Parentheses have
+- So we have to basically check if a Parentheses have a valid end and start.
+- We can take Loops as example if a loop starts then it has to have a end but if a loop starts and then before it's end another loop 
 ---
 ### 🧠 Insights
 
