@@ -25,7 +25,7 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - we also need to consider if a new open appear we need to close that.
 - Well can simply use [[Stacks]] in the form of a [[Monotonic Stack]] where we will only maintain opens and when a corresponding open appear we will pop that open.
 - If we are the structure is right we will be left with a empty stack or the structure was wrong.
-- And to keep 
+- And to know open of each close we can use [[Unordered Hash maps]] to use close as a key and open as a value.
 ---
 ### 🧠 Insights
 
