@@ -21,7 +21,7 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - well we can have loop in only two way either a single loops or branches of loops. in both condition a loop will always have a end or in branches the first the inner loops will end and then the outer ones.
 - So now if we return back to Parentheses we need to check if one starts then it has to end and if second one started the second one must end first before first like loops.
 - We can take one more example of debt if i take debt then i have to repay it but if i take debt and then try to repay a debt that i haven't taken will that be valid.
-- 
+- Well that means we have to k
 ---
 ### 🧠 Insights
 
