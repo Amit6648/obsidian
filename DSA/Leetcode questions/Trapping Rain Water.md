@@ -14,7 +14,8 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ## 💡 Intuition
 
-- So the problem asks us to find how much water we can hold between two walls but unlike [[Container With Most Water]] we have to find water between multiples walls like a swimming pool with lot of walls in
+- So the problem asks us to find how much water we can hold between two walls but unlike [[Container With Most Water]] we have to find water between multiples walls like a swimming pool with lot of walls in it.
+- 
 ---
 ### 🧠 Insights
 
