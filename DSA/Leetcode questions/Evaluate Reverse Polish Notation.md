@@ -17,11 +17,12 @@ link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-
 - So problem asks us to create  a calculator we are given a array or strings and need to do operation in which order they are given.
 - We can simply use [[Stacks]] and check if the it is a number or operation and when a operation appears we will just pop two numbers and see and do the operation given on those numbers.
 - we can use [[Unordered Hash maps]] to store operations as key and the operation as value when ever  a operation appeared we can just use hash map.
-- after performing a operation we will push the result back to stack cause we at least need two numbers to do a o
-
+- after performing a operation we will push the result back to stack cause we at least need two numbers to do a operation.
 
 ---
 ### 🧠 Insights And Structures
+
+- [[Unordered Hash maps]]
 
 ---
 ## ⏱️ Complexity
