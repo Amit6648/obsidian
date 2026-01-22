@@ -26,7 +26,7 @@ link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(N)$
 - **Space Complexity:** $O(2N)$
 ---
 ## 💻 Implementation (C++)
