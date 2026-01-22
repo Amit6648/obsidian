@@ -31,3 +31,26 @@ link: [Container With Most Water](https://leetcode.com/problems/container-with-m
 - **Space Complexity:** $O(1)$
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+int maxArea(vector<int>& height) {
+        int maxw = 0;
+
+        int left = 0;
+        int right = height.size()-1;
+
+        while(left<right)
+        {
+            int area = (right - left) * min(height[left], height[right]);
+
+            maxw = max(maxw,area);
+
+            if(height[left]<=height[right]) left++;
+
+            else if(height[left]>height[right]) right--;
+
+        }
+
+        return maxw;
+    }
+```
