@@ -14,7 +14,7 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 
 ## 💡 Intuition
 
-- So the questions asks about creating a stack and also giving a ex
+- So the questions asks about creating a stack and also giving a extra feature to get minimum element in the  stack 
 ---
 ### 🧠 Insights
 
