@@ -14,7 +14,7 @@ link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-
 
 ## 💡 Intuition
 
-- 
+- So problem asks us to create  a calculate
 
 
 ---
