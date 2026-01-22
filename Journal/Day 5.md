@@ -6,3 +6,4 @@ So i did my first two sessions i thought hard on problems i done and tried to wr
 
 So after break i did two more sessions and then i had my bigger break where i rest for 2 hours i listened to reverend insanity and ate some oranges while listening i heard about how they explained [[Love and Haterate]] i would like to write more about it. So then my mother came back from her job and i had lunch but then something came to my mind and i thought about [[Worth]] , this is something i also would like to think and write.
 
+after this i completed my last 2 sessions. So i was free was thinking of writing down the topics i 
