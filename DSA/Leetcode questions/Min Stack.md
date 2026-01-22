@@ -1,6 +1,6 @@
 
 ---
-Status: 🟡 Solved with Help
+Status: Solved with Help,
 Difficulty: medium 
 Pattern: stacks
 Last_attempt: 2026-01-7
