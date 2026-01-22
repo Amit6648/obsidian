@@ -1,8 +1,8 @@
 
 ---
 Status:🟢 Mastered
-Difficulty: #Medium 
-Pattern: #Stacks
+Difficulty: medium 
+Pattern: stacks
 Last_attempt: 2026-01-7
 Next_review: 2026-01-7
 Attempts: 1

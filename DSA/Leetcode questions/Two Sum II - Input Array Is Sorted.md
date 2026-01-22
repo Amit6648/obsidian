@@ -1,7 +1,7 @@
 
 ---
 Status:🟢 Mastered
-Difficulty: #Medium 
+Difficulty: medium 
 Pattern: Two_Pointers
 Last_attempt: 2026-01-9
 Next_review: 2026-01-9
