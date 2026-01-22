@@ -23,14 +23,11 @@ link: [Container With Most Water](https://leetcode.com/problems/container-with-m
 ---
 ### 🧠 Insights
 
+- [[Greater or shorter ignore]]
+
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
----
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-21
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(1)$
 ---
 ## 💻 Implementation (C++)
