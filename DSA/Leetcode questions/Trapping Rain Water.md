@@ -25,6 +25,8 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 ---
 ### 🧠 Insights
 
+- [[Greater or shorter ignore]]
+
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
