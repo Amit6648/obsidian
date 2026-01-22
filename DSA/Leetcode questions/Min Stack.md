@@ -19,6 +19,8 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 - So the main problem for minimum function are storing when a number appeared we need to remember when a number was minimum so when popping we can also know this number was minimum at that time so we can decide whether to remove it or not.
 - We can use one more stack to store minimum element by comparing with the top element in minimum we can update stack with new entry or we can just keep the previous one.
 - So when we pop a element from main stack we will pop top element in minimum stack and we will have duplicate entries of same element if a new minimum doesn't appeared the duplicate will be popped.
+
+- We can also save this space of using a e
 ---
 ### 🧠 Insights
 
