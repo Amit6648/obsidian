@@ -16,7 +16,7 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 
 - So the questions asks about creating a stack and also giving a extra feature to get minimum element in the stack.
 - So we only need to solve for minimum feature rest is just a stack.
-- 
+- So the main problems for minimum function 
 ---
 ### 🧠 Insights
 
