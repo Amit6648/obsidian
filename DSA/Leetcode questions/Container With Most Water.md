@@ -16,7 +16,8 @@ link: [Container With Most Water](https://leetcode.com/problems/container-with-m
 
 - So the Question is asking about Finding maximum water we can hold in between walls 
 - The maximum water capacity can determined by two factor minimum between two walls or elements and the difference between the indices of elements 
-- We can use [[Two pointers]] approach we have one pointer at left and one at right and then calculate the area between th
+- We can use [[Two pointers]] approach we have one pointer at left and one at right and then calculate the area between them.
+- Now to decide which pointer to move well we need maximum that mean in such a way that we can have possibility of having a 
 
 ---
 ### 🧠 Insights
