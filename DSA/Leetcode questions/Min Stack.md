@@ -29,14 +29,10 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(N)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-22
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
+
 ## 💻 Implementation (C++)
 
 ```cpp
