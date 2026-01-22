@@ -23,7 +23,7 @@ link: [Min Stack](https://leetcode.com/problems/min-stack/)
 - We can also save this space of using a extra stack by storing the differences of minimums in original stack.
 - Well the main problem will be to how to know when minimum changed. we know that when a minimum number appeared and we decrease it from our current minimum we will get a negative number that will represent one part of our previous minimum.
 - we can just check if we got a minimum number at top and use that to find what our previous number was.
-- For example 
+- For example we cut a wooden log using shaw
 ---
 ### 🧠 Insights
 
