@@ -19,7 +19,7 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - We can look at it like this if we have two wall we can't tell how much water we can hold by just looking at one wall. So that means we have to look at know walls on both sides.
 - we know that we can find maximum water a container can hold by looking at the smaller wall. so to check for multiple walls we only need to find a smaller wall cause the result only depends on that even if one wall is 100 and other is 2 and we just know that wall A is greater than b that means result depends on wall b.
 - So according to this intuition we don't need to know absolute value of greater wall we just need to know that it exists.
-- We can use the same approach as [[Container With Most Water]] just that we need to remember for each side what our maximum is and then we can compare those maximums and decide which side we should solve for.
+- We can use the same approach as [[Container With Most Water]] just that we need to remember for each side what our maximum is and then we can compare those maximums and decide which side we should solve for using [[Two pointers]].
 - For example if left side have a maximum greater than right side that means we only need to worry about right side and calculate according to that.
 - When we find a greater wall on either side we can just update the maximum and compare that maximum with the maximum of other side to check now which side is worth calculating.
 ---
