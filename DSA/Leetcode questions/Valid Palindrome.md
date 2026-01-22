@@ -2,7 +2,7 @@
 ---
 Status: 🟢 Mastered
 Difficulty: #Easy 
-Pattern:  #Two_Pointers
+Pattern:  Two_Pointers
 Last_attempt: 2026-01-8
 Next_review: 2026-01-8
 Attempts: 1
