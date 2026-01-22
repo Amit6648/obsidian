@@ -19,7 +19,8 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - So we have to basically check if a Parentheses have a valid end and start.
 - We can take Loops as example if a loop starts then it has to have a end but if a loop starts and then rather than it's end we replace it by a start of another loop. Does this statement make sense.
 - well we can have loop in only two way either a single loops or branches of loops. in both condition a loop will always have a end or in branches the first the inner loops will end and then the outer ones.
-- So now if we return back to Parentheses we need to check if one 
+- So now if we return back to Parentheses we need to check if one starts then it has to end and if second one started the second one must end first before first like loops.
+- We can take one more example of debt if i take debt then i 
 ---
 ### 🧠 Insights
 
