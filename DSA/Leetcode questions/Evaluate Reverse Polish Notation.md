@@ -15,7 +15,7 @@ link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-
 ## 💡 Intuition
 
 - So problem asks us to create  a calculator we are given a array or strings and need to do operation in which order they are given.
-- We can simply use [[Stacks]] and check if the number  
+- We can simply use [[Stacks]] and check if the it is a number or operation and when a operation appears we will just pop two number and see if we  
 
 
 ---
