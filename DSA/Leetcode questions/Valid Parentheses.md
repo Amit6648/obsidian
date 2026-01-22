@@ -3,10 +3,10 @@
 Status:🟡 Solved with Help
 Difficulty: #Easy
 Pattern: #Stacks
-Last_attempt: 2026-01-22
-Next_review: 2026-01-22
+Last_attempt: 2026-01-7
+Next_review: 2026-01-7
 Attempts: 1
-link: 
+link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ---
 
