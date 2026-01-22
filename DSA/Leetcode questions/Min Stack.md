@@ -3,8 +3,8 @@
 Status: 🟡 Solved with Help
 Difficulty: #Medium 
 Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
-Last_attempt: 2026-01-22
-Next_review: 2026-01-22
+Last_attempt: 2026-01-7
+Next_review: 2026-01-7
 Attempts: 1
 link: [Min Stack](https://leetcode.com/problems/min-stack/)
 
