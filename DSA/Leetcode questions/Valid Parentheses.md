@@ -14,8 +14,8 @@ link: [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ## 💡 Intuition
 
-- So the problem is about checking if a string consisting of Parentheses is valid or not 
-- 
+- So the problem is about checking if a string consisting of Parentheses is valid or not. 
+- So we know that 
 ---
 ### 🧠 Insights
 
