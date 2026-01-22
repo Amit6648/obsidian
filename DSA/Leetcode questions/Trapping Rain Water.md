@@ -14,7 +14,7 @@ link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ## 💡 Intuition
 
-- 
+- So the problem asks 
 ---
 ### 🧠 Insights
 
