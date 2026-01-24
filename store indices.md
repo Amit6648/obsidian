@@ -1,1 +1,1 @@
-So this insight first i got from [[Daily Temperatures]]. So basically in problems where we have use of both indices and values it's always better to store indices to have acce
+So this insight first i got from [[Daily Temperatures]]. So basically in problems where we have use of both indices and values it's always better to store indices to have access of both. We can achieve much better space complexity this way and also can make code more simpler.
