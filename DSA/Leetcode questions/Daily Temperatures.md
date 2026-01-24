@@ -14,7 +14,7 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 ## 💡 Intuition
 
-- So the problem tells us to find after how many indices can we find larger number than current number but we have to do this for eac.
+- So the problem tells us to find after how many indices can we find larger number than current number but we have to do this for each element.
 - 
 
 ---
