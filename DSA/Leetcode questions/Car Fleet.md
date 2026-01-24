@@ -26,7 +26,9 @@ link:
 ### 🧠 Insights And Structures 
 
 - [[Stacks]]
-- 
+- [[Monotonic Stack]]
+- [[catchup]]
+
 
 ---
 ## ⏱️ Complexity
