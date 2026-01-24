@@ -14,6 +14,8 @@ link:
 
 ## 💡 Intuition
 
+- 
+
 ---
 ### 🧠 Insights And Structures
 
