@@ -19,7 +19,7 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 - We might be tempted to use hashmaps but hashmaps are good for searches but not good for structed or ordered search it can return any greater element in the array rather than next greatest.
 - We can use a [[Monotonic Stack]] here cause we need structure also so we can maintain order.
 - we can keep a element in stack until a element greater than it appears and then pop it when we find a greater.
-- 
+- Also rather than storing elements directly we can store indices to get more 
 
 ---
 ### 🧠 Insights And Structures
