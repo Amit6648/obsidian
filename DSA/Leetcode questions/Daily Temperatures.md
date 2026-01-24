@@ -24,6 +24,9 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 ---
 ### 🧠 Insights And Structures
 
+- [[Monotonic Stack]]
+- [[store indices]]
+
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(N)$
