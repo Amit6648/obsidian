@@ -14,7 +14,7 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 ## 💡 Intuition
 
-- 
+- So the problem tells us to find after how many indices can we find larger number than current number
 
 ---
 ### 🧠 Insights And Structures
