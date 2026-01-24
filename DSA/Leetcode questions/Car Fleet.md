@@ -19,7 +19,8 @@ link:
 - But we also need to short the array of starting distance according to [[catchup]] rule.
 - Then the problem is simply about checking if a certain element satisfies previous element and in a order, for which we can use [[Monotonic Stack]].
 - We can check if current element is less or equal to previous element that means it will catch up with the element and forms a fleet if not we will simple push it in the stack and check for next element.
-- There can also be a question in mind that there can also be other elements that might catch up with 
+- There can also be a question in mind that there can also be other elements that might catch up with first element so why push the next element.
+- The reason is cause if the current element that is behind the previous element can't catchup with 
 
 ---
 ### 🧠 Insights And Structures 
