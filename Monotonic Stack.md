@@ -1,0 +1,1 @@
+A monotonic stack is a stack that has a order of elements in it. we push element
