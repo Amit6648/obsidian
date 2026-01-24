@@ -15,7 +15,7 @@ link:
 ## 💡 Intuition
 
 - So the problem is about if elements catches up or collide before reaching a certain end target.
-- So we can 
+- So rather than calula
 
 ---
 ### 🧠 Insights And Structures
