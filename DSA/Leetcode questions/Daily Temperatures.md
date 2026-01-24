@@ -15,7 +15,8 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 ## 💡 Intuition
 
 - So the problem tells us to find after how many indices can we find larger number than current number but we have to do this for each element.
-- We can use two pointers one at current element and other will find next 
+- We can use two pointers one at current element and other will find next bigger but this will give use complexity of $O(N^2)$.
+- We might be tempted to use hashmaps but hashmaps are good for searches but not good for stry
 
 ---
 ### 🧠 Insights And Structures
