@@ -1,12 +1,12 @@
 
 ---
 Status: 🔴 Not Solved  # Options: 🔴 Not Solved, Solved with Help, Mastered
-Difficulty: mid
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Difficulty: medium
+Pattern: stacks
 Last_attempt: 2026-01-24
 Next_review: 2026-01-24
 Attempts: 1
-link: 
+link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 ---
 
