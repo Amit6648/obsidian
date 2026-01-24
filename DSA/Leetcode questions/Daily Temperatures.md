@@ -29,9 +29,25 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 - **Time Complexity:** $O(N)$
 - **Space Complexity:** $O(N)$
 ---
-## 🛡️ Attempt History
-### Attempt 1: 2026-01-24
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
----
 ## 💻 Implementation (C++)
+
+
+```cpp
+ vector<int> dailyTemperatures(vector<int>& temperatures) {
+        stack<int> wait;
+        vector<int> diff(temperatures.size(), 0);
+
+        for(int i = 0; i<temperatures.size(); i++)
+        {
+           while(!wait.empty() && temperatures[i] > temperatures[wait.top()] )
+           {
+            diff[wait.top()] =  i - wait.top();
+            wait.pop();
+           }
+
+           wait.push(i);
+        }
+
+        return diff;
+    }
+```
