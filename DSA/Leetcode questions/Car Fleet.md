@@ -18,7 +18,8 @@ link:
 - So rather than calculating one by one and checking if they matches at the end we can use Math's of [[catchup]] and find about if a element will catches up with others.
 - But we also need to short the array of starting distance according to [[catchup]] rule.
 - Then the problem is simply about checking if a certain element satisfies previous element and in a order, for which we can use [[Monotonic Stack]].
-- We can check if current element is less or equal to previous element that means it will catch up with the element and forms a fl
+- We can check if current element is less or equal to previous element that means it will catch up with the element and forms a fleet if not we will simple push it in the stack and check for next element.
+- There can also be a question in mind that there can also be other elements that might catch up with 
 
 ---
 ### 🧠 Insights And Structures 
