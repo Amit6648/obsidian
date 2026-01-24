@@ -15,7 +15,8 @@ link:
 ## 💡 Intuition
 
 - So the problem is about if elements catches up or collide before reaching a certain end target.
-- So rather than calculating one by one and checking if they matches at the end we can use Math's of [[catchup]] and find about if a element will catches up with others
+- So rather than calculating one by one and checking if they matches at the end we can use Math's of [[catchup]] and find about if a element will catches up with others.
+- After calculating we can 
 
 ---
 ### 🧠 Insights And Structures
