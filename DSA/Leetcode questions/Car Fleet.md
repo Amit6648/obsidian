@@ -32,7 +32,7 @@ link:
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(N)$
 - **Space Complexity:** $O()$
 ---
 ## 🛡️ Attempt History
