@@ -1,6 +1,6 @@
 
 ---
-Status: 🔴 Not Solved  # Options: 🔴 Not Solved, Solved with Help, Mastered
+Status: Solved with Help
 Difficulty: medium
 Pattern: stacks
 Last_attempt: 2026-01-24
