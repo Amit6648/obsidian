@@ -32,12 +32,10 @@ link:
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O(N)$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(nlogn)$
+- **Space Complexity:** $O(n)$
 ---
 ## 🛡️ Attempt History
-### Attempt 1: 2026-01-24
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+
 ---
 ## 💻 Implementation (C++)
