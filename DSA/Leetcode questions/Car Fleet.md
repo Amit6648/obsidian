@@ -14,7 +14,8 @@ link:
 
 ## 💡 Intuition
 
-- So the problem is abo
+- So the problem is about if elements catches up or collide before reaching a certain end target.
+- So we can use k
 
 ---
 ### 🧠 Insights And Structures
