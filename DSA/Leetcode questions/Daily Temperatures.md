@@ -14,6 +14,8 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 ## 💡 Intuition
 
+- 
+
 ---
 ### 🧠 Insights And Structures
 
