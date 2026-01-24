@@ -1,1 +1,1 @@
-So this insigh
+So this insight first i got from [[Daily Temperatures]]. So basically in problems where we have use of both indices and values it's always better to store indices to have acce
