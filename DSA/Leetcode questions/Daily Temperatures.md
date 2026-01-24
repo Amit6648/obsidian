@@ -16,7 +16,8 @@ link:  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 - So the problem tells us to find after how many indices can we find larger number than current number but we have to do this for each element.
 - We can use two pointers one at current element and other will find next bigger but this will give use complexity of $O(N^2)$.
-- We might be tempted to use hashmaps but hashmaps are good for searches but not good for stry
+- We might be tempted to use hashmaps but hashmaps are good for searches but not good for structed or ordered search it can return any greater element in the array rather than next greatest.
+- 
 
 ---
 ### 🧠 Insights And Structures
