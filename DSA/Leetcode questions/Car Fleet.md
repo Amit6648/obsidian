@@ -39,3 +39,41 @@ link:
 
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+int carFleet(int target, vector<int>& position, vector<int>& speed) {
+        vector<pair<int,int>> cars;
+        stack<float> st;
+
+        for(int i = 0; i<speed.size(); i++)
+        {
+            cars.push_back({position[i], speed[i] });
+        }
+
+        sort(cars.rbegin(), cars.rend());
+
+        for(const auto &car : cars)
+        {
+            if(st.empty())
+            {
+            float curr = (float)(target - car.first)/car.second;
+            st.push(curr);
+            }
+
+            else {
+                float prev =  st.top();
+                float curr = (float)(target - car.first)/car.second;
+                st.push(curr);
+
+                if(curr<=prev)
+                {
+                 st.pop();
+                }
+            }
+
+        }
+
+        return st.size();
+
+    }
+```
