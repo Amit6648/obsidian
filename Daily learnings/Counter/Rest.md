@@ -1,0 +1,1 @@
+So this is counter to [[Avoiding Hard things]]. 
