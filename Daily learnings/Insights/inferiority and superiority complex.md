@@ -1,0 +1,1 @@
+So i competitive i like to compare myself to others but i think i am too deep into it. It is something i think as strength but also a weakness. But nowadays i think i am learning that i am not perfect and this complexity make me realize that i can learn more i can be more capable.
