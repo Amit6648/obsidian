@@ -1,1 +1,1 @@
-So this is one of my weakness that i used to think is my strength. So i do think even now that i am good at planing 
+So this is one of my weakness that i used to think is my strength. So i do think even now that i am good at planning but the problem is that i most of times start to think so i can avoid the task rather than 
