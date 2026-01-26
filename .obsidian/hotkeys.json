@@ -1,18 +1,18 @@
 {
-  "editor:context-menu": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "."
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "T"
+    }
+  ],
+  "editor:context-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
     }
   ]
 }
