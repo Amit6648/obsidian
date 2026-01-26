@@ -1,0 +1,1 @@
+So i competitive i like to compare myself to others but 
