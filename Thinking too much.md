@@ -1,0 +1,1 @@
+So this is one of my weakness that i used to think is my strength. So i do think even now that i am good at planing 
