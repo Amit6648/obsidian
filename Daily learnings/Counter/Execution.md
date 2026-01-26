@@ -1,1 +1,1 @@
-So this is counter to [[Thinking too much]]. My planning is quite good so i think when i make plans i should directly execute them. rather thinking before the task i should 
+So this is counter to [[Thinking too much]]. My planning is quite good so i think when i make plans i should directly execute them. rather thinking before the task i should think about all the tasks and adjustments if need a day 
