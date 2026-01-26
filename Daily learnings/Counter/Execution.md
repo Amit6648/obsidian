@@ -1,1 +1,1 @@
-So this is counter ro
+So this is counter to [[Thinking too much]]. My planning is quite good 
