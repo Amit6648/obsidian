@@ -1,1 +1,1 @@
-So this is counter to [[Avoiding Hard things]]. 
+So this is counter to [[Avoiding Hard things]].  So i think when we feel frustrated over something that is hard we start to feel frustrated 
