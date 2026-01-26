@@ -1,1 +1,1 @@
-So i realized how i have been avoid hard or uncomfortable things. Even though i figured out what i need to do when i feel frustrated but i am still avoid it until it's too late.
+So i realized how i have been avoiding hard or uncomfortable things. Even though i figured out what i need to do when i feel frustrated but i am still avoid it until it's too late.
