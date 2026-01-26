@@ -1,3 +1,3 @@
 So this is counter to [[Avoiding Hard things]].  So i think when we feel frustrated over something that is hard we start to feel frustrated and tries to lean toward stuff that is easy and give use more pleasure like using phone.
 
-So the solution is to analyze the problem and then shut your mind for like 15 mins try to have good rest not watching phone ([[]]). Then came back and try to learn slowly
+So the solution is to analyze the problem and then shut your mind for like 15 mins try to have good rest not watching phone ([[leisure into rest]]). Then came back and try to learn slowly.
