@@ -6,7 +6,7 @@ Pattern: sliding window
 Last_attempt: 2026-01-27
 Next_review: 2026-01-27
 Attempts: 1
-link: 
+link:  [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ---
 
