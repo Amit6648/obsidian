@@ -2,7 +2,7 @@
 ---
 Status: Mastered
 Difficulty: easy
-Pattern: sl
+Pattern: sliding window
 Last_attempt: 2026-01-27
 Next_review: 2026-01-27
 Attempts: 1
