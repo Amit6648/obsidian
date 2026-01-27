@@ -1,6 +1,6 @@
 
 ---
-Status: Mastered
+Status: solved with help
 Difficulty: easy
 Pattern: sliding window
 Last_attempt: 2026-01-27
