@@ -27,12 +27,36 @@ link:  [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-tim
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N)$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
-### Attempt 1: 2026-01-27
-- **Outcome:** (e.g., TLE, Wrong Answer, Solved with Help)
-- **What blocked me:** - **Improvement:** ---
+
 ---
 ## 💻 Implementation (C++)
+
+
+```cpp
+int maxProfit(vector<int>& prices) {
+        
+        int profit =0;
+
+        int buy = 0;
+        int sell = buy+1;
+
+        while(sell<prices.size())
+        {
+            if(prices[sell]<prices[buy])
+            {
+                buy = sell;
+                sell++;
+            }
+            else {
+                profit = max(profit, prices[sell] - prices[buy]);
+                sell++;
+            }
+        }
+
+        return profit;
+    }
+```
