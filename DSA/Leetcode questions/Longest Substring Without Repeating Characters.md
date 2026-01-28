@@ -39,3 +39,34 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+int lengthOfLongestSubstring(string s) {
+        int left = 0;
+
+        int right = 0;
+
+        unordered_map<char,int> win;
+
+        int maxi = 0;
+
+        while(right<s.length())
+        {
+            if(win.count(s[right]) && win[s[right]]>=left)
+            {
+                maxi = max(maxi, right-left);
+                left = win[s[right]] +1;
+            }
+
+               maxi = max(maxi,right-left +1);
+               win[s[right]] = right; 
+
+               right++;
+        }
+
+       
+
+        return maxi;
+    }
+```
+
