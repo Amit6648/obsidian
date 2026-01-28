@@ -14,7 +14,7 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 
 ## 💡 Intuition
 
-- So te
+- So the problem asks to find 
 ---
 ### 🧠 Insights And Structures
 
