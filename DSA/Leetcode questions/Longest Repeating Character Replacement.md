@@ -15,7 +15,8 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 ## 💡 Intuition
 
 -  So the problem asks us to find longest sequence of same character with k other allowed characters.
-- So the problem is similar to previous slid
+- So the problem is similar to previous [[Sliding Window]] problems just that constraints are different.
+- unlike [[Longest Substring Without Repeating Characters]] we have to maintain a max
 ---
 ### 🧠 Insights And Structures
 
