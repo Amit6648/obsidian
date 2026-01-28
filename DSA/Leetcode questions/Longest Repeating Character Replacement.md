@@ -14,7 +14,7 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 
 ## 💡 Intuition
 
--  So the problem asks us to find longe
+-  So the problem asks us to find longest sequ
 ---
 ### 🧠 Insights And Structures
 
