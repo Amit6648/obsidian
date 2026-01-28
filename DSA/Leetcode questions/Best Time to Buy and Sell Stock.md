@@ -14,7 +14,7 @@ link:  [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-tim
 
 ## 💡 Intuition
 
-- 
+- So the problem is asking to find maximum difference between two elements in array. Just that the mini
 
 ---
 ### 🧠 Insights And Structures
