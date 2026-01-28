@@ -34,3 +34,34 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+
+```cpp
+int characterReplacement(string s, int k) {
+
+     vector<int>fre(128,0);
+
+     int maxf = 0;
+     int maxi = 0;
+     int l = 0;
+
+     for(int r = 0; r<s.length(); r++)
+     {
+        fre[s[r]]++;
+
+        maxf= max(maxf, fre[s[r]]);
+
+        if(r - l + 1 - maxf <= k)
+        {
+           maxi =  max(maxi, r-l+1);
+        }
+
+        else {
+            fre[s[l]]--;
+            l++;
+        }
+     }
+
+     return maxi;
+    }
+```
