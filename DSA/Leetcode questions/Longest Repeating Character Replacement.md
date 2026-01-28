@@ -1,6 +1,6 @@
 
 ---
-Status: 🔴 Not Solved  # Options: 🔴 Not Solved, Solved with Help, Mastered
+Status: Mastered
 Difficulty: medium
 Pattern: sliding window
 Last_attempt: 2026-01-28
@@ -14,6 +14,7 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 
 ## 💡 Intuition
 
+-  
 ---
 ### 🧠 Insights And Structures
 
