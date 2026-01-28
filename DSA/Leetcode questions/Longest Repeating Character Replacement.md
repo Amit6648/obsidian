@@ -14,7 +14,8 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 
 ## 💡 Intuition
 
--  So the problem asks us to find longest sequence of same character with 
+-  So the problem asks us to find longest sequence of same character with k other allowed characters.
+- So the problem is similar to previous slid
 ---
 ### 🧠 Insights And Structures
 
