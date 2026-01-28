@@ -18,14 +18,14 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 - So the problem is similar to previous [[Sliding Window]] problems just that constraints are different.
 - unlike [[Longest Substring Without Repeating Characters]] we have to maintain a max frequent element and then use it to check if the window is valid.
 - we can use [[Unordered Hash maps]] to store frequency.
-- When window will be invalid we can simply increase the start and then check again if it
+- When window will be invalid we can simply increase the start and then check again if it is valid.
 ---
 ### 🧠 Insights And Structures
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(n)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-28
