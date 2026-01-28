@@ -21,11 +21,11 @@ link: [Permutation in String](https://leetcode.com/problems/permutation-in-strin
 ---
 ### 🧠 Insights And Structures
 - [[Unordered Hash maps]]
-
+- [[Sliding Window]]
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(n)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-28
