@@ -15,7 +15,9 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 ## 💡 Intuition
 
 - So the problem asks to find a area that has all unique elements and it should be largest in the array.
-- So if we look at the problem it is similar to [[Best Time to Buy and Sell Stock]] cause in that problem the constraint was that previous element must be smaller than next element 
+- So if we look at the problem it is similar to [[Best Time to Buy and Sell Stock]] cause in that problem the constraint was that previous element must be smaller than next element or we will throw that element out of window.
+- Same we have to do here if a element appeared again we will remove it's previous occurrence.
+- Just that the 
 ---
 ### 🧠 Insights And Structures
 
