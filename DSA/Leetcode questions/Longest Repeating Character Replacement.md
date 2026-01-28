@@ -2,11 +2,11 @@
 ---
 Status: 🔴 Not Solved  # Options: 🔴 Not Solved, Solved with Help, Mastered
 Difficulty: medium
-Pattern: slid
+Pattern: sliding window
 Last_attempt: 2026-01-28
 Next_review: 2026-01-28
 Attempts: 1
-link: 
+link: [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 ---
 
