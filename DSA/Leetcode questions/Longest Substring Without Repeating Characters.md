@@ -14,7 +14,7 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 
 ## 💡 Intuition
 
-- So the problem asks to find 
+- So the problem asks to find a area that has all uniqu
 ---
 ### 🧠 Insights And Structures
 
