@@ -14,6 +14,8 @@ link:  [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-tim
 
 ## 💡 Intuition
 
+- 
+
 ---
 ### 🧠 Insights And Structures
 
