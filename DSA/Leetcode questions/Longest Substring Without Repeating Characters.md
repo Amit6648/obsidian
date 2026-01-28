@@ -23,7 +23,10 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 ---
 ### 🧠 Insights And Structures
 
-- 
+- [[Sliding Window]]
+- [[Unordered Hash maps]]
+- [[Converting the complex problem into easy problem]]
+
 
 ---
 ## ⏱️ Complexity
