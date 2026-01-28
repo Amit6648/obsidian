@@ -18,7 +18,8 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 - So if we look at the problem it is similar to [[Best Time to Buy and Sell Stock]] cause in that problem the constraint was that previous element must be smaller than next element or we will throw that element out of window.
 - Same we have to do here if a element appeared again we will remove it's previous occurrence.
 - Just that the difference is that we need to keep track of multiple elements rather than a single element.
-- So when we need to keep track of 
+- So when we need to keep track of multiple elements and need to access them quickly we use [[Unordered Hash maps]].
+- We have to use hash maps cause we also need to track 
 ---
 ### 🧠 Insights And Structures
 
