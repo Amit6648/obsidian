@@ -23,7 +23,6 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 ### 🧠 Insights And Structures
 
 - [[Unordered Hash maps]]
-- [[]]
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(n)$
