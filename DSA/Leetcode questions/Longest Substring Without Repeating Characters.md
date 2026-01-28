@@ -19,7 +19,7 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 - Same we have to do here if a element appeared again we will remove it's previous occurrence.
 - Just that the difference is that we need to keep track of multiple elements rather than a single element.
 - So when we need to keep track of multiple elements and need to access them quickly we use [[Unordered Hash maps]].
-- We have to use hash maps cause we also need to track 
+- We have to use hash maps rather than sets cause we also need to track when a element appeared so we can know when 
 ---
 ### 🧠 Insights And Structures
 
