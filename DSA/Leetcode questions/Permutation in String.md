@@ -14,7 +14,8 @@ link: [Permutation in String](https://leetcode.com/problems/permutation-in-strin
 
 ## 💡 Intuition
 
-- 
+- So the problem asks use to find same number of frequencies of s1 string in larger string s2's certain window.
+- The prob
 
 ---
 ### 🧠 Insights And Structures
