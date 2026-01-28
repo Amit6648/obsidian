@@ -30,8 +30,8 @@ link: [Longest Substring Without Repeating Characters](https://leetcode.com/prob
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(n)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-28
