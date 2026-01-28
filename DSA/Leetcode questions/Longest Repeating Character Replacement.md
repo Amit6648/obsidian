@@ -16,7 +16,8 @@ link: [Longest Repeating Character Replacement](https://leetcode.com/problems/lo
 
 -  So the problem asks us to find longest sequence of same character with k other allowed characters.
 - So the problem is similar to previous [[Sliding Window]] problems just that constraints are different.
-- unlike [[Longest Substring Without Repeating Characters]] we have to maintain a max
+- unlike [[Longest Substring Without Repeating Characters]] we have to maintain a max frequent element and then use it to check if the window is valid.
+- we can use [[Unordered Hash maps]] to store frequency
 ---
 ### 🧠 Insights And Structures
 
