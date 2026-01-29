@@ -33,3 +33,39 @@ link: [Permutation in String](https://leetcode.com/problems/permutation-in-strin
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+
+```cpp
+bool checkInclusion(string s1, string s2) {
+     vector<int> st1(26,0);
+     vector<int> st2(26,0);
+
+     int n1 = s1.length();
+
+     int n2 =  s2.length();
+
+     if(n1>n2) return false;
+
+     for(int i  =0 ; i<n1; i++)
+     {
+        st1[s1[i] - 'a']++;
+        st2[s2[i] - 'a']++;
+     }
+
+     if(st1 == st2) return true;
+
+
+     for(int i = n1; i<n2; i++)
+     {
+        st2[s2[i - n1] - 'a']--;
+
+        st2[s2[i] - 'a']++;
+
+     if(st1 == st2) return true;
+     }
+
+
+return false;
+
+    }
+```
