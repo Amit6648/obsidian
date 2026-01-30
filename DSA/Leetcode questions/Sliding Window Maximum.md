@@ -14,6 +14,8 @@ link: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maxi
 
 ## 💡 Intuition
 
+- So the problem  is about finding a maximum each time in a window of specific size.
+- The main t
 ---
 ### 🧠 Insights And Structures
 
