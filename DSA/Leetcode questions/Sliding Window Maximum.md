@@ -16,7 +16,7 @@ link: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maxi
 
 - So the problem  is about finding a maximum each time in a window of specific size.
 - The main problem here is that we need to find maximum every time in window and store it in a separate array.
-- We we use 
+- We can use loops for each window but that would be slow we need to some 
 ---
 ### 🧠 Insights And Structures
 
