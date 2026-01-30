@@ -20,7 +20,8 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 - Well the main problem is that we can ignore other characters but we can't ignore the character that we need to count.
 - like we know that we need 2 a's and we have 4 a's in our window our window is valid and then we want to shrink the window to check if the window can be made smaller. So we a removed one a from window.
 - Now how are we going to know if this a window is valid we can compare the element in both maps but what about shrinking logic.
-- We have to shrink the window until it is not valid meaning we have to check every time if the window is valid then we shrink but to check manually if all the element in map2 are greater than or equal to map1 then we have to loop on both maps to check if they are  
+- We have to shrink the window until it is not valid meaning we have to check every time if the window is valid then we shrink but to check manually if all the element in map2 are greater than or equal to map1 then we have to loop on both maps to check if they satisfy the condition
+- To optimize this 
 ---
 ### 🧠 Insights And Structures
 
