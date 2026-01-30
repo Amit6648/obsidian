@@ -18,7 +18,7 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 - It doesn't matter if we have lot of unnecessary elements in it.
 - But the condition here is that we have to find a window that have least of these unnecessary elements.
 - Well the main problem is that we can ignore other characters but we can't ignore the character that we need to count.
-- S
+- like we know that we need 2 a's and we have 3 a's in our window our window is valid and then we want to shrink the window 
 ---
 ### 🧠 Insights And Structures
 
