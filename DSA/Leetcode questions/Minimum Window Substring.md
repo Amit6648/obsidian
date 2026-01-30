@@ -34,8 +34,8 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(N + M)$
+- **Space Complexity:** $O(N)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-01-30
