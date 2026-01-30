@@ -23,7 +23,7 @@ link: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maxi
 - if we look at the problem closely if a number that is greater than the elements in the window then the chance of previous numbers becoming greater is zero so will need to get rid of numbers that are smaller than new number.
 - Well now if we look at it it is just a [[Monotonic Stack]] where we are maintaining number from greater to smaller.
 - The only problem is that we have to update the lower numbers also to remove smaller older number.
-- For this we can use a [[dequeue]] 
+- For this we can use a [[dequeue]] which is mix of queue and stack or a stack with two ends. this allows us to 
 ---
 ### 🧠 Insights And Structures
 
