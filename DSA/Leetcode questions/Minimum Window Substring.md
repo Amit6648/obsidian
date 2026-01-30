@@ -27,7 +27,10 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 ---
 ### 🧠 Insights And Structures
 
-- 
+- [[surplus]]
+- [[Unordered Hash maps]]
+- [[Sliding Window]]
+
 
 ---
 ## ⏱️ Complexity
