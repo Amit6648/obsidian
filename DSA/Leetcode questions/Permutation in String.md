@@ -1,7 +1,7 @@
 
 ---
-Status: 🔴 Not Solved  # Options: 🔴 Not Solved, Solved with Help, Mastered
-Difficulty: #Easy     # Options: #Easy, medium, #Hard
+Status: solved with help
+Difficulty: medium
 Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
 Last_attempt: 2026-01-28
 Next_review: 2026-01-28
