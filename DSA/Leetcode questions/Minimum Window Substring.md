@@ -23,7 +23,7 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 - We have to shrink the window until it is not valid meaning we have to check every time if the window is valid then we shrink but to check manually if all the element in map2 are greater than or equal to map1 then we have to loop on both maps to check if they satisfy the condition
 - To optimize this we can just create separate goals or needs if a character satisfy this need we increase the count and when all the needs are satisfied we will start to shrink the window.
 - When we remove a element from window we will check if this character still satisfy that character frequency if not we will just decrease the count  and we will know that the window is invalid.
-- SO basically problem is different from previous problems like [[Permutation in String]] rather than having a fixed target we have a quota that we have to reach 
+- SO basically problem is different from previous problems like [[Permutation in String]] rather than having a fixed target we have a bar that we need to reach we can also surpass this bar 
 ---
 ### 🧠 Insights And Structures
 
