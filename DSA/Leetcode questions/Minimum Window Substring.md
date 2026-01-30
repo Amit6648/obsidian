@@ -16,7 +16,8 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 
 - Well this problem is similar to [[Permutation in String]] just that a window is valid until we have all the characters and their frequencies.
 - It doesn't matter if we have lot of unnecessary elements in it.
-- But the condition here is that we have to find a window that have least 
+- But the condition here is that we have to find a window that have least of these unnecessary elements.
+- 
 ---
 ### 🧠 Insights And Structures
 
