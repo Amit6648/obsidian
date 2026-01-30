@@ -43,3 +43,66 @@ link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-su
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+string minWindow(string s, string t) {
+        unordered_map<char, int> map1;
+        unordered_map<char, int> map2;
+
+        int mini = INT_MAX;
+
+        pair<int, int> se;
+
+        if (s.length() < t.length())
+            return "";
+
+        for (const char& ele : t) {
+            map1[ele]++;
+        }
+
+        int need = map1.size();
+
+        int sat = 0;
+
+        int left = 0;
+        int right = 0;
+
+        while (right < s.length()) {
+            if (map1.count(s[right])) {
+
+                map2[s[right]]++;
+
+                if (map1[s[right]] == map2[s[right]]) {
+                    sat++;
+                }
+            }
+
+            while (need == sat) {
+                if (mini > right - left + 1) {
+                    mini = right - left + 1;
+
+                    se = {left, right};
+                }
+
+                if (map1.count(s[left])) {
+
+                    map2[s[left]]--;
+
+                    if (map1[s[left]] > map2[s[left]]) {
+                        sat--;
+                    }
+                }
+
+                left++;
+            }
+
+            right++;
+        }
+
+        if(mini == INT_MAX) return "";
+
+        else {
+            return s.substr( se.first, se.second - se.first + 1);
+        }
+    }
+```
