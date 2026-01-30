@@ -2,11 +2,11 @@
 ---
 Status:  solved with Help
 Difficulty: hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Pattern: sliding window
 Last_attempt: 2026-01-30
 Next_review: 2026-01-30
 Attempts: 1
-link: 
+link: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 ---
 
@@ -14,6 +14,7 @@ link:
 
 ## 💡 Intuition
 
+- 
 ---
 ### 🧠 Insights And Structures
 

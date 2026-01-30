@@ -2,7 +2,7 @@
 ---
 Status: solved with help
 Difficulty: medium
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Pattern:  sliding window
 Last_attempt: 2026-01-28
 Next_review: 2026-01-28
 Attempts: 1
