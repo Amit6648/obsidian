@@ -21,7 +21,8 @@ link: [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maxi
 - like [[Best Time to Buy and Sell Stock]] we have to find max each time while removing the previous max or keeping it if it is still max.
 - Just that there is another condition that window also moves so we can't have a max that is out of window. this also gives us the problem of remembering numbers that are smaller than max cause if max is out of window that will be next max.
 - if we look at the problem closely if a number that is greater than the elements in the window then the chance of previous numbers becoming greater is zero so will need to get rid of numbers that are smaller than new number.
-- Well it is 
+- Well now if we look at it it is just a [[Monotonic Stack]] where we are maintaining number from greater to smaller.
+- The only problem is that 
 ---
 ### 🧠 Insights And Structures
 
