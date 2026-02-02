@@ -14,7 +14,8 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 
 ## 💡 Intuition
 
-- So
+- So the question is about searching a element in array that is sorted.
+- We can 
 ---
 ### 🧠 Insights And Structures
 
