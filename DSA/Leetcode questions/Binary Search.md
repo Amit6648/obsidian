@@ -24,6 +24,8 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 ---
 ### 🧠 Insights And Structures
 
+- 
+
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
