@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:DSA  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10.5509355509356,
   "linkStrength": 1,
   "linkDistance": 217,
-  "scale": 0.4155868326156987,
-  "close": false
+  "scale": 0.7351977587468056,
+  "close": true
 }
