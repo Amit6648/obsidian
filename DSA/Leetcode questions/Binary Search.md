@@ -15,7 +15,7 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 ## 💡 Intuition
 
 - So the question is about searching a element in array that is sorted.
-- We can 
+- We can can use different data structures like hashmaps or set but still we have to store the elements that will 
 ---
 ### 🧠 Insights And Structures
 
