@@ -1,12 +1,12 @@
 
 ---
-Status: Solved with 
-Difficulty: #Easy     # Options: #Easy, medium, #Hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Status: solved with help
+Difficulty: easy
+Pattern: binary search
 Last_attempt: 2026-02-02
 Next_review: 2026-02-02
 Attempts: 1
-link: 
+link: [Binary Search](https://leetcode.com/problems/binary-search/)
 
 ---
 
@@ -14,6 +14,7 @@ link:
 
 ## 💡 Intuition
 
+- So
 ---
 ### 🧠 Insights And Structures
 
