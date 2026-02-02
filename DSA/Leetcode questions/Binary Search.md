@@ -28,8 +28,8 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(logn)$
+- **Space Complexity:** $O(n)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-02-02
