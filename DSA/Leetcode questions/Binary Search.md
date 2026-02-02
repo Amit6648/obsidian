@@ -16,7 +16,7 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 
 - So the question is about searching a element in array that is sorted.
 - We can can use different data structures like hashmaps or set but still we have to store the elements that will be 0(N).
-- To improve the efficiency there is a technique called divi
+- To improve the efficiency there is a technique called [[divide and  concui]
 ---
 ### 🧠 Insights And Structures
 
