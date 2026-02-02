@@ -18,7 +18,8 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 - We can can use different data structures like hashmaps or set but still we have to store the elements that will be 0(N).
 - To improve the efficiency there is a technique called [[divide and conquer].
 - We can simply divide the space into two part one side representing greater numbers and one side is representing smaller numbers it is similar to [[Two Sum II - Input Array Is Sorted]].
-- In this technique we use a middle pointer that 
+- In this technique we use a middle pointer that represents a the current element and according to what we have to search we have to manipulate the mid.
+- So 
 ---
 ### 🧠 Insights And Structures
 
