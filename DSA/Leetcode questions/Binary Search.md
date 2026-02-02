@@ -20,7 +20,7 @@ link: [Binary Search](https://leetcode.com/problems/binary-search/)
 - We can simply divide the space into two part one side representing greater numbers and one side is representing smaller numbers it is similar to [[Two Sum II - Input Array Is Sorted]].
 - In this technique we use a middle pointer that represents a the current element and according to what we have to search we have to manipulate the mid.
 - So we basically use two more pointers start and end. these to pointers represent ends of the search space and mid find the target element so we can simply divide the search space as many times as want according to the element we want to find.
-- 
+- Well it is like searching a page in book we can 
 ---
 ### 🧠 Insights And Structures
 
