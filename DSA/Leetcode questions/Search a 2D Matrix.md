@@ -34,3 +34,45 @@ link: [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+
+```cpp
+bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        int r = 0;
+        int c = matrix[0].size();
+
+        while (r < matrix.size() && matrix[r][c - 1] < target) {
+            r++;
+        }
+       
+        if(r == matrix.size()) return false;
+
+        if (matrix[r][c - 1] == target) {
+            return true;
+        }
+
+        int s = 0;
+
+        int e = c-1;
+
+        int mid = s + (e - s) / 2;
+
+        while (s <= e) {
+            if (matrix[r][mid] == target) {
+                return true;
+            }
+
+            if (matrix[r][mid] < target) {
+                s = mid + 1;
+            }
+
+            if (matrix[r][mid] > target) {
+                e = mid - 1;
+            }
+
+             mid = s + (e - s) / 2;
+        }
+
+        return false;
+    }
+```
