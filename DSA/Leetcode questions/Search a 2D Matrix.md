@@ -15,7 +15,8 @@ link: [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 ## 💡 Intuition
 
 - So the problem is same [[Binary Search]] just that we have to search a element in a 2d array.
-- well the array is structed in a way that last element of each row is 
+- well the array is structed in a way that last element of each row is greatest element in that row.
+- We can simply use that to our advantage we will use the last element to check if the element 
 
 ---
 ### 🧠 Insights And Structures
