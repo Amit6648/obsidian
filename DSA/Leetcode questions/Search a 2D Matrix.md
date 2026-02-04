@@ -1,8 +1,8 @@
 
 ---
-Status: 
-Difficulty: #Easy     # Options: #Easy, medium, #Hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Status: solved with help
+Difficulty: medium
+Pattern: binary search
 Last_attempt: 2026-02-04
 Next_review: 2026-02-04
 Attempts: 1
