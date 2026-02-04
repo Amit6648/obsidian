@@ -6,13 +6,15 @@ Pattern: binary search
 Last_attempt: 2026-02-04
 Next_review: 2026-02-04
 Attempts: 1
-link: 
+link: [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 ---
 
 # Problem: Search a 2D Matrix
 
 ## 💡 Intuition
+
+- SO the problem is same [[Binary Search]] just that we have to search a element a array
 
 ---
 ### 🧠 Insights And Structures
