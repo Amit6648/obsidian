@@ -15,7 +15,8 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 ## 💡 Intuition
 
 - So the problem is about find the minimum possible time koko will take to eat her bananas.
-- well the problem is just generic [[Binary Search]] 
+- well the problem is just a generic [[Binary Search]] .
+- We 
 
 ---
 ### 🧠 Insights And Structures
