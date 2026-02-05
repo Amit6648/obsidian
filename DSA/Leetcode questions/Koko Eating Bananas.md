@@ -39,3 +39,38 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+
+```cpp
+int minEatingSpeed(vector<int>& piles, int h) {
+        int max = *max_element(piles.begin(), piles.end());
+        int hours = 0;
+
+        int s = 1;
+        int e = max;
+        int mid = s + (e - s) / 2;
+
+        int mini = max;
+        while (s <= e) {
+            long long hours = 0;
+            for (const int p : piles) {
+                hours += ((long long)p + mid - 1) / mid;
+            }
+
+            if (hours <= h) {
+                e = mid - 1;
+
+                mini = min(mid, mini);
+            }
+
+            if (hours > h) {
+                s = mid + 1;
+            }
+
+            mid = s + (e - s) / 2;
+        }
+
+        return mini;
+    }
+```
+
