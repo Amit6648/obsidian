@@ -14,6 +14,8 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
 ## 💡 Intuition
 
+- So the 
+
 ---
 ### 🧠 Insights And Structures
 
