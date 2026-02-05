@@ -20,10 +20,13 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - Well we can simply use the largest element to form a range 0 to largest.
 - Now the only work left is to find the smallest possible element that satisfies that condition.
 - and when we have to find something in sorted array the binary search is best for that we can compare the result if we go more time then we can look at the higher side cause at least there will be the number that can do it in time constraint.
-- If we got the less time then we should look at lower side to check for 
+- If we got the less time then we should look at lower side to check for element that may be able to do it in time.
 
 ---
 ### 🧠 Insights And Structures
+
+- [[creating own data]]
+- [[Binary Search]]
 
 ---
 ## ⏱️ Complexity
