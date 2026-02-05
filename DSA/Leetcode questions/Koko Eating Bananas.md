@@ -16,7 +16,7 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
 - So the problem is about find the minimum possible time koko will take to eat her bananas.
 - well the problem is just a generic [[Binary Search]] .
-- well we know to get least bananas for the given time constraint we need to
+- well we know to get least bananas for the given time constraint. we know at least the largest element 
 
 ---
 ### 🧠 Insights And Structures
