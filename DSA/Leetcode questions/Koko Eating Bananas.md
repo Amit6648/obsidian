@@ -25,7 +25,7 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 ---
 ### 🧠 Insights And Structures
 
-- [[creating own data]]
+- [[own invention]]
 - [[Binary Search]]
 
 ---
