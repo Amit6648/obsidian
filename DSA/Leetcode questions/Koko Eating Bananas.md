@@ -14,7 +14,8 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
 ## 💡 Intuition
 
-- So the problem is about find the minimum possible time koko will take to eat her 
+- So the problem is about find the minimum possible time koko will take to eat her bananas.
+- 
 
 ---
 ### 🧠 Insights And Structures
