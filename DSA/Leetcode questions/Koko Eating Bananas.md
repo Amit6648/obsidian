@@ -30,8 +30,8 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(nlog(max(p)))$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-02-05
