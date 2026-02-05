@@ -7,4 +7,6 @@
 - need a pillow 
 - prepare for presentation
 - learn some of ML
-- Still hesitating but 
+- Still hesitating but atleast doing something but need to improve
+- targets still not completed
+- 
