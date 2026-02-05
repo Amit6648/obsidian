@@ -19,6 +19,7 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - well we know to get least bananas for the given time constraint. we know at least the largest element will be the possible speed.
 - Well we can simply use the largest element to form a range 0 to largest.
 - Now the only work left is to find the smallest possible element that satisfies that condition.
+- and when we have to find something in sorted array the binary search is best for that we can compare the result 
 
 ---
 ### 🧠 Insights And Structures
