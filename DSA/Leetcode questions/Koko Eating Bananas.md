@@ -18,7 +18,7 @@ link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - well the problem is just a generic [[Binary Search]] .
 - well we know to get least bananas for the given time constraint. we know at least the largest element will be the possible speed.
 - Well we can simply use the largest element to form a range 0 to largest.
-- Now the only work left is to 
+- Now the only work left is to find the smallest possible element that satisfies that condition.
 
 ---
 ### 🧠 Insights And Structures
