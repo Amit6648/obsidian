@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: Easy 
 Pattern: 
 Last_attempt: 2026-02-06
-Next_review: 2026-01-4
+Next_review: 2026-02-27
 Attempts: 1
 link: [Two sum](https://leetcode.com/problems/two-sum/description/)     
 
