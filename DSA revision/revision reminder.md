@@ -1,2 +1,3 @@
 TABLE Difficulty , Status
-FROM 
+FROM Leetcode question
+WHERE Difficulty 
