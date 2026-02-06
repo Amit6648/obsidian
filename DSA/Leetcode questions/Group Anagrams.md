@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: medium 
 Pattern: 
 Last_attempt: 2026-01-4
-Next_review: 2026-03-
+Next_review: 2026-03-2
 Attempts: 1
 link: [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 
