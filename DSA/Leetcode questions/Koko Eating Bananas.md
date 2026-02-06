@@ -4,7 +4,7 @@ Status: solved with help
 Difficulty: medium
 Pattern: binary search
 Last_attempt: 2026-02-05
-Next_review: 2026-02-05
+Next_review: 2026-02-18
 Attempts: 1
 link: [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
