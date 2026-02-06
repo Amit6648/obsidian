@@ -4,7 +4,7 @@ Status:Mastered
 Difficulty: medium 
 Pattern: Two_Pointers
 Last_attempt: 2026-02-06
-Next_review: 2026-02-
+Next_review: 2026-02-28
 Attempts: 1
 link: [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 

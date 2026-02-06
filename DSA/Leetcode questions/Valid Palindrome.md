@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: Easy 
 Pattern:  Two_Pointers
 Last_attempt: 2026-01-8
-Next_review: 2026-01-8
+Next_review: 2026-02-28
 Attempts: 1
 link: [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
