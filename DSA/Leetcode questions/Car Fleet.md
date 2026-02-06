@@ -4,7 +4,7 @@ Status: Solved with Help
 Difficulty: medium
 Pattern: stacks
 Last_attempt: 2026-01-24
-Next_review: 2026-01-24
+Next_review: 2026-02-12
 Attempts: 1
 link: 
 

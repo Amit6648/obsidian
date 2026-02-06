@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: medium 
 Pattern: stacks
 Last_attempt: 2026-01-7
-Next_review: 2026-01-7
+Next_review: 2026-03-05
 Attempts: 1
 link: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
