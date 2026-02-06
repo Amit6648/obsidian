@@ -1,6 +1,6 @@
 ```dataview
 TABLE Difficulty , Status
-FROM "Leetcode question"
+FROM "DSA/Leetcode question"
 WHERE contains(Difficulty, "Easy")
 ```
  
