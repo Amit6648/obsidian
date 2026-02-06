@@ -1,1 +1,1 @@
-TABLE difficulty , 
+TABLE Difficulty , 
