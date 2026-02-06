@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: #Hard 
 Pattern: Two_Pointers 
 Last_attempt: 2026-01-9
-Next_review: 2026-01-9
+Next_review: 2026-03-04
 Attempts: 1
 link: [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 

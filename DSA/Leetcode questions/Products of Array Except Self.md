@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: medium     
 Pattern: 
 Last_attempt: 2026-01-4
-Next_review: 2026-01-4
+Next_review: 2026-03-03
 Attempts: 1
 link: [Products of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/)               
 
