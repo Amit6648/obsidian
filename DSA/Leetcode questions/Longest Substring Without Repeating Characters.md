@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: medium
 Pattern: sliding window
 Last_attempt: 2026-01-28
-Next_review: 2026-01-28
+Next_review: 2026-03-05
 Attempts: 1
 link: [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 

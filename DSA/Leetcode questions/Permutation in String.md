@@ -4,7 +4,7 @@ Status: solved with help
 Difficulty: medium
 Pattern:  sliding window
 Last_attempt: 2026-01-28
-Next_review: 2026-01-28
+Next_review: 2026-02-13
 Attempts: 1
 link: [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 
