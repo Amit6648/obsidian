@@ -1,1 +1,2 @@
-TABLE Difficulty , 
+TABLE Difficulty , Status
+FROM 
