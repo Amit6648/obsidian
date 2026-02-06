@@ -4,7 +4,7 @@ Status: Mastered
 Difficulty: Easy
 Pattern:  
 Last_attempt: 2026-01-4
-Next_review: 2026-01-4
+Next_review: 2026-02-30
 Attempts: 1
 link:  [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
