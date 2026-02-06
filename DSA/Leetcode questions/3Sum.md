@@ -1,4 +1,3 @@
-
 ---
 Status: Mastered
 Difficulty: medium 
