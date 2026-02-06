@@ -1,3 +1,3 @@
 TABLE Difficulty , Status
-FROM Leetcode question
+FROM "Leetcode question"
 WHERE Difficulty == "Easy"
