@@ -4,7 +4,7 @@ Status: solved with help
 Difficulty: easy
 Pattern: binary search
 Last_attempt: 2026-02-02
-Next_review: 2026-02-02
+Next_review: 2026-02-16
 Attempts: 1
 link: [Binary Search](https://leetcode.com/problems/binary-search/)
 

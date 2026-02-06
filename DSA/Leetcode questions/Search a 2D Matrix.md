@@ -4,7 +4,7 @@ Status: solved with help
 Difficulty: medium
 Pattern: binary search
 Last_attempt: 2026-02-04
-Next_review: 2026-02-04
+Next_review: 2026-02-17
 Attempts: 1
 link: [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
