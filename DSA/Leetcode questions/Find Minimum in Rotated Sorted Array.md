@@ -1,18 +1,20 @@
 
 ---
-Status: 
-Difficulty: #Easy     # Options: #Easy, medium, #Hard
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Status: solved with help
+Difficulty: medium
+Pattern: binary search
 Last_attempt: 2026-02-07
 Next_review: 2026-02-07
 Attempts: 1
-link: 
+link: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ---
 
 # Problem: Find Minimum in Rotated Sorted Array
 
 ## 💡 Intuition
+
+- So the problem is about finding a 
 
 ---
 ### 🧠 Insights And Structures
