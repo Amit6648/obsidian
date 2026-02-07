@@ -31,8 +31,8 @@ link: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(logn)$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-02-07
@@ -40,3 +40,33 @@ link: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+int findMin(vector<int>& nums) {
+        int l = 0;
+        int r = nums.size() - 1;
+
+      
+
+        while(l<r)
+        {
+            int m =  l + (r - l)/2;
+
+
+            if(nums[r] >= nums[m] )
+            {
+                r = m;
+            }
+
+            if(nums[r] < nums[m])
+            {
+                l = m + 1;
+            }
+
+        }
+
+        return nums[l];
+    }
+```
+
+
