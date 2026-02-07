@@ -14,7 +14,8 @@ link: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-
 
 ## 💡 Intuition
 
-- So the problem is about finding a 
+- So the problem is about finding minimum element in a rotated or non rotated array.
+- Well if we look at the rotation it is right rotation meaning either the 
 
 ---
 ### 🧠 Insights And Structures
