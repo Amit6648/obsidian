@@ -19,7 +19,8 @@ link: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-
 - Well if we look at the question we can divide the array into two sides one which has higher slope and one which has smaller slope.
 - if the array is normal the slope is going to be only one and at the end or right side of array.
 - Now if we look closely what we need to find it is the side with smaller slope cause there will be minimum.
-- so we can use binary search here just that we can only compare our mid with right most or the smaller l
+- so we can use binary search here just that we can only compare our mid with right most or the smaller slope to check if we are on smaller slope side or bigger one.
+- It will work for minimum also cause the normal slope end or smaller slope bi
 
 ---
 ### 🧠 Insights And Structures
