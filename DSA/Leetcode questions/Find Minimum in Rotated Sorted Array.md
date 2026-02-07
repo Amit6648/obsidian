@@ -17,7 +17,8 @@ link: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-
 - So the problem is about finding minimum element in a rotated or non rotated array.
 - Well if we look at the rotation it is right rotation meaning either the minimum element is going to be on right side or it is going to be  a normal array.
 - Well if we look at the question we can divide the array into two sides one which has higher slope and one which has smaller slope.
-- if the array is normal the 
+- if the array is normal the slope is going to be only one and at the end or right side of array.
+- Now if we look closely what we need to find it is 
 
 ---
 ### 🧠 Insights And Structures
