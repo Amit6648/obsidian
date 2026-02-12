@@ -16,7 +16,7 @@ link: [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-r
 
 - So this problem is similar to [[Find Minimum in Rotated Sorted Array]] just that we have to find any number in the array.
 - So here we don't have to find minimum so the ans can be on any side.
-- 
+- So in [[Find Minimum in Rotated Sorted Array]] we can simply eliminate the smaller side 
 ---
 ### 🧠 Insights And Structures
 
