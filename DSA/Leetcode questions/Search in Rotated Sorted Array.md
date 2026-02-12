@@ -14,7 +14,7 @@ link: [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-r
 
 ## 💡 Intuition
 
-- 
+- So this problem is similar to [[Find Minimum in Rotated Sorted Array]] just that we have to find an
 ---
 ### 🧠 Insights And Structures
 
