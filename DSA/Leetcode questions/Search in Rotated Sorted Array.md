@@ -18,7 +18,7 @@ link: [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-r
 - So here we don't have to find minimum so the ans can be on any side.
 - So in [[Find Minimum in Rotated Sorted Array]] we can simply eliminate the smaller side but here we have to eliminate based on if the range contains the number.
 - and before even checking that range we have to confirm if it is sorted by comparing with mid cause atleast one side is going to be sorted.
-- we need a sorted range cause we can check by looking at the sml
+- we need a sorted range cause we can check by looking at the smaller and bigger number of range to check if the number is there.
 ---
 ### 🧠 Insights And Structures
 
