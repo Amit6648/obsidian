@@ -22,7 +22,7 @@ link: [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-r
 ---
 ### 🧠 Insights And Structures
 
-- 
+- [[Binary Search]]
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O()$
