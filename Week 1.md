@@ -7,4 +7,4 @@ Learnings :
 
 Hardest :
 
-So the hardest problem i solved out of these 9 problems was [[Valid Sudoku]]. The main problem was how to find in which 3 X 3 box is a element in.  The things i learned after solving this problem are in the 
+So the hardest problem i solved out of these 9 problems was [[Valid Sudoku]]. The main problem was how to find in which 3 X 3 box is a element in.  The things i learned after solving this problem are in the image of obsidian note with it's local graph  to showcase how it connect with other problems and concepts
