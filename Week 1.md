@@ -1,1 +1,1 @@
-So this week i have solved 9 problems in total 
+So this week i have solved 9 problems in total. The problems about arrays and hashing. The main focus was on how 
