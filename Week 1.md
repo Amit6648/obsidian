@@ -7,4 +7,4 @@ Learnings :
 
 Hardest :
 
-So the hardest problem i solved out of these 9 problems was [[Valid Sudoku]]. Th
+So the hardest problem i solved out of these 9 problems was [[Valid Sudoku]]. The main problem was how to find in which 3 X 3 box is a element 
