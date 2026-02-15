@@ -21,7 +21,7 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 - So when we are asked to find a specific key we can look at the key and find the timestamp that has been asked in that array well the timestamps are going to be in order ( previous< new) so we can use binary search to find that particular data.
 - Now the main problem that is if the timestamp doesn't exist then we have to find closest minimum timestamp data.
 - To this we can either store the elements that has timestamp less or equal to our target timestamp so at the end we can have the minimum closest or the target.
-- But there is a better way to do this if we use [[Binary Search]] collision. In this the right
+- But there is a better way to do this if we use [[Binary Search]] collision. In this the right or end pointer always end up at minimum closest due to nature of binary search until we don't have any element minimum than target there right wil
 
 ---
 ### 🧠 Insights And Structures
