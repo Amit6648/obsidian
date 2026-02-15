@@ -19,7 +19,8 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 - Well for the key search we can use [[Unordered Hash maps]].
 - and for storing the data according to time stamp we can use vectors or arrays to store that in the form of pairs (timestamp, value).
 - So when we are asked to find a specific key we can look at the key and find the timestamp that has been asked in that array well the timestamps are going to be in order ( previous< new) so we can use binary search to find that particular data.
-- Now the main problem that is if the timestamp doesn't exist then we have to find closest minimum timestamp data
+- Now the main problem that is if the timestamp doesn't exist then we have to find closest minimum timestamp data.
+- To this we can either store the elements that has timestamp less or equal to our target timestamp so at the end we can have the mi
 
 ---
 ### 🧠 Insights And Structures
