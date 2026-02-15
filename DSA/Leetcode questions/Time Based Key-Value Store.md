@@ -16,7 +16,9 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 
 - So the problem was about Creating a data structure.
 - we have to search the in key value data in such a way that first is key and then in that key there are different states of data according to timestamps.
-- Well for the key search we can use [[Unordered Hash maps]] 
+- Well for the key search we can use [[Unordered Hash maps]].
+- and for storing the data according to time stamp we can use vectors or arrays to store that in the form of pairs (timestamp, value).
+- So the ma
 
 ---
 ### 🧠 Insights And Structures
