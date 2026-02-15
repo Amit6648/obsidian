@@ -15,7 +15,7 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 ## 💡 Intuition
 
 - So the problem was about Creating a data structure.
-- we have to search the in key v
+- we have to search the in key value data in such a way that first is key and then in that key there are different states of data according to timestan
 
 ---
 ### 🧠 Insights And Structures
