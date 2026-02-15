@@ -32,7 +32,7 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(logn)$
 - **Space Complexity:** $O()$
 ---
 ## 🛡️ Attempt History
@@ -41,3 +41,50 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+unordered_map<string,vector<pair<int, string>> > store;
+    TimeMap() {
+    }
+    
+    void set(string key, string value, int timestamp) {
+        store[key].push_back({timestamp, value});
+    }
+    
+    string get(string key, int timestamp) {
+        
+        if(!store.count(key)) return "";
+
+        const auto &range =  store[key];
+
+        int l = 0;
+
+        int r =  range.size() - 1;
+
+        while(l<=r)
+        {
+            int mid =  l + (r-l)/2;
+
+            if(range[mid].first == timestamp)
+
+            {
+                return range[mid].second;
+            }
+
+            if(range[mid].first < timestamp)
+            {
+                l =  mid + 1;
+            }
+
+            else {
+                r = mid - 1;
+            }
+
+        }
+
+        if(r != -1) return range[r].second;
+
+        else return "";
+
+     }
+```
