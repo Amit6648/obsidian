@@ -14,7 +14,8 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 
 ## 💡 Intuition
 
-- So the problem was about finding 
+- So the problem was about Creating a data structure.
+- we have to search the in key v
 
 ---
 ### 🧠 Insights And Structures
