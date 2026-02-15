@@ -33,7 +33,7 @@ link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-ke
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(logn)$
-- **Space Complexity:** $O()$
+- **Space Complexity:** $O(S)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-02-15
