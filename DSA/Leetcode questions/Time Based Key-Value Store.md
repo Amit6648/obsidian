@@ -6,13 +6,15 @@ Pattern: binary search
 Last_attempt: 2026-02-15
 Next_review: 2026-02-15
 Attempts: 1
-link: 
+link:  [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 
 ---
 
 # Problem: Time Based Key-Value Store
 
 ## 💡 Intuition
+
+- So the problem was about finding 
 
 ---
 ### 🧠 Insights And Structures
