@@ -14,7 +14,8 @@ link: [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ## 💡 Intuition
 
-- 
+- So the problem is about reversing a linked list
+- We need to keep track of prev pointer 
 
 ---
 ### 🧠 Insights And Structures
