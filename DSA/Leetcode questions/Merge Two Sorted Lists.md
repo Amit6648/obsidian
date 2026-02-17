@@ -20,9 +20,11 @@ link: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-li
 ---
 ### 🧠 Insights And Structures
 
+- [[linked list]]
+
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(N + M)$
 - **Space Complexity:** $O()$
 ---
 ## 🛡️ Attempt History
