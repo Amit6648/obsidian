@@ -14,6 +14,9 @@ link: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-li
 
 ## 💡 Intuition
 
+- So the problem was about merging two sorted linked list.
+- 
+
 ---
 ### 🧠 Insights And Structures
 
