@@ -25,7 +25,7 @@ link: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-li
 ---
 ## ⏱️ Complexity
 - **Time Complexity:** $O(N + M)$
-- **Space Complexity:** $O()$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-02-17
