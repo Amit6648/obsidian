@@ -15,7 +15,7 @@ link: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-li
 ## 💡 Intuition
 
 - So the problem was about merging two sorted linked list.
-- 
+- well we can simply compare elements of both linked list and then create a new list according to ascending.
 
 ---
 ### 🧠 Insights And Structures
