@@ -6,13 +6,15 @@ Pattern: linked list
 Last_attempt: 2026-02-17
 Next_review: 2026-02-17
 Attempts: 1
-link: 
+link: [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ---
 
 # Problem: Reverse Linked List
 
 ## 💡 Intuition
+
+- 
 
 ---
 ### 🧠 Insights And Structures
