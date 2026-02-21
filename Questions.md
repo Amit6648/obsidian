@@ -1,1 +1,1 @@
-How are 
+well how to change classes after sem completed
