@@ -1,0 +1,1 @@
+technical knowlege core knoldge soft skill comm
