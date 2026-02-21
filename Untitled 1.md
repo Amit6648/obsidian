@@ -1,5 +1,4 @@
 login
-
 dashboard
 teachers
 
