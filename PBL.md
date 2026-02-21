@@ -1,2 +1,5 @@
 - [ ]  Design database
-- [ ] Create tech stack and future updates and workflow 
+- [ ] Create tech stack
+- [ ] Workflow
+- [ ] Future updates
+- [ ] 
