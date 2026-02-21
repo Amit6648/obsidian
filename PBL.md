@@ -2,4 +2,4 @@
 - [ ] Create tech stack
 - [ ] Workflow
 - [ ] Future updates
-- [ ] 
+- [ ] add videos of working
