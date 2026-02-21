@@ -1,3 +1,3 @@
 login
-
+dashboard
 teachers
