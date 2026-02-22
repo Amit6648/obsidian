@@ -19,6 +19,7 @@ link: [3Sum](https://leetcode.com/problems/3sum/)
 ### 🧠 Insights
 
 - [[Converting the complex problem into easy problem]]
+- [[Two pointers]]
 
 ---
 ## ⏱️ Complexity
