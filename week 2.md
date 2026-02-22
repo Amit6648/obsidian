@@ -5,3 +5,8 @@ Learnings - Well this week i didn't learned much when i was solving problems it 
 
 
 I think it was like this cause basic two pointers on their own are foundation and they expand a lot in other data structures.
+
+
+Hardest problem - 
+
+So this time the hardest problem was [[Trapping Rain Water]]. The main problem was 
