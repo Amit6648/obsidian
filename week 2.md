@@ -9,4 +9,4 @@ I think it was like this cause basic two pointers on their own are foundation an
 
 Hardest problem - 
 
-So this time the hardest problem was [[Trapping Rain Water]]. The main problem that i faced was that we have to find cumulative sum of the space between multiple wall while considering the liquid physics like we need to find result according to smaller walls. So it was similar to [[Container With Most Water]] but the difference was that rather than finding only the 
+So this time the hardest problem was [[Trapping Rain Water]]. The main problem that i faced was that we have to find cumulative sum of the space between multiple wall while considering the liquid physics like we need to find result according to smaller walls. So it was similar to [[Container With Most Water]] but the difference was that rather than finding only the maximum we need to 
