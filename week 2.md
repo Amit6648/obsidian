@@ -9,4 +9,6 @@ I think it was like this cause basic two pointers on their own are foundation an
 
 Hardest problem - 
 
-So this time the hardest problem was [[Trapping Rain Water]]. Below is my Obsidian note of what problem i faced and how i was suppos
+So this time the hardest problem was [[Trapping Rain Water]]. Below is my Obsidian note of what problem i faced and how i was suppose to find the answer.
+
+
