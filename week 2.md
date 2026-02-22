@@ -9,4 +9,4 @@ I think it was like this cause basic two pointers on their own are foundation an
 
 Hardest problem - 
 
-So this time the hardest problem was [[Trapping Rain Water]]. The main problem was 
+So this time the hardest problem was [[Trapping Rain Water]]. The main problem that i faced was that we have to find cumulative 
