@@ -1,2 +1,2 @@
-Frontend - 
-Backend - sockets, database, 
+Frontend - yjs, monoco
+Backend - sockets, database,  hocuspocus
