@@ -1,1 +1,2 @@
 Frontend - 
+Backend - sockets, database, 
