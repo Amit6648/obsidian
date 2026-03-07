@@ -1,1 +1,1 @@
-Delta is used to avoid send larg
+Delta is used to avoid send large amount of data when we need to do a change in the existing data , for example there is some data and it need to have update on par
