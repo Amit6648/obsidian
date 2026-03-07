@@ -1,1 +1,1 @@
-Y doc is  a container or object that hold all data of the users instance like we have [[y.text]] and a [[y.array]]. when ever a user is going to update the data on his side this doc will be sent to other users and will be m
+Y doc is  a container or object that hold all data of the users instance like we have [[y.text]] and a [[y.array]]. when ever a user is going to update the data on his side this doc will be sent to other users and will be merged with that users doc.
