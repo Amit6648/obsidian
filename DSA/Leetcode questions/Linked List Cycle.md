@@ -18,14 +18,16 @@ link: [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - A loop in linked list means when a node points to the node that is previous to it.
 - so when we reach that node we end up and the previous node that we have already have traversed and then the loop continues.
 - So to find out we can use [[Fast Slow pointer]] technique.
-- 
 
 ---
 ### 🧠 Insights And Structures
 
+- [[Fast Slow pointer]]
+- [[Linked List]]
+
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+- **Time Complexity:** $O(n)$
 - **Space Complexity:** $O()$
 ---
 ## 🛡️ Attempt History
