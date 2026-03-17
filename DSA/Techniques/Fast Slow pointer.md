@@ -1,1 +1,1 @@
-In this technique we use two 
+In this technique we use two pointers a FAST pointer and  a SLOW pointer. So the fast pointer runs at the speed of 
