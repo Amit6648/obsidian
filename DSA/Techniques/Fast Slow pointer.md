@@ -1,1 +1,1 @@
-In this technique we use two pointers a FAST pointer and  a SLOW pointer. So the fast pointer runs at the 2x speed of slow pointer. So this helps us 
+In this technique we use two pointers a FAST pointer and  a SLOW pointer. So the fast pointer runs at the 2x speed of slow pointer. So this helps us find a loop in a list. The reason is that when we move the fast pointer it will always reach first
