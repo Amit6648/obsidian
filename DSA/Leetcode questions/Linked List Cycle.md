@@ -14,7 +14,8 @@ link: [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 ## 💡 Intuition
 
-- So the problem is about find a 
+- So the problem is about find a cycle of loop in the linked list.
+- A loop in linked list means when a node points to the node that is previous to it.
 
 ---
 ### 🧠 Insights And Structures
