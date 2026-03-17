@@ -37,4 +37,29 @@ link: [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 ---
 ## 💻 Implementation (C++)
 
+```cpp
+bool hasCycle(ListNode *head) {
+        if(!head) return false;
+        ListNode *slow = head;
+
+        ListNode *fast = head;
+
+        while(fast != nullptr && fast->next != nullptr)
+        {
+
+            fast = fast->next->next;
+            slow = slow->next;
+
+            if(fast == slow)
+            {
+                return true;
+            }
+            
+        }
+
+        return false;
+
+    }
+};
+```
 
