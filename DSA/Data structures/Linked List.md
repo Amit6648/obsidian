@@ -1,0 +1,1 @@
+So linked list are like arrays. A linked list consist of nodes and these nodes 
