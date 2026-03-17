@@ -17,7 +17,7 @@ link: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-li
 - So the problem was about merging two sorted linked list.
 - Well the problem is kind of simple we can just compare first two elements of the both linked lists and then add the smaller element in the new linked list.
 - After adding the node in the new linked list we can just move the pointer to next node where we have found smaller element.
-- We mainly need to remember 
+- when one of the list reaches end or nullptr, we can simply atta
 
 ---
 ### 🧠 Insights And Structures
