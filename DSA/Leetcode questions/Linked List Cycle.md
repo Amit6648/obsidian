@@ -16,7 +16,8 @@ link: [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 - So the problem is about find a cycle of loop in the linked list.
 - A loop in linked list means when a node points to the node that is previous to it.
-- so when we reach that node we end up and the previous node that we have already have traversed and then the loop conti
+- so when we reach that node we end up and the previous node that we have already have traversed and then the loop continues.
+- So to find out 
 
 ---
 ### 🧠 Insights And Structures
