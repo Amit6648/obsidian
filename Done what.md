@@ -7,5 +7,5 @@
 
 **what need to do**
 
-- teacher can select topics and get a quiz 
-- teacher can assign quizzes to students 
+- teacher can select topics and get a quiz (done)
+- teacher can assign quizzes to students  ()
