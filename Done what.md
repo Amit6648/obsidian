@@ -8,4 +8,6 @@
 **what need to do**
 
 - teacher can select topics and get a quiz (done)
-- teacher can assign quizzes to students  ()
+- teacher can assign quizzes to students  (not)
+- teachers can edit the quiz (not)
+- 
