@@ -10,4 +10,5 @@
 - teacher can select topics and get a quiz (done)
 - teacher can assign quizzes to students  (not)
 - teachers can edit the quiz (not)
-- generation customization like difficulty, no of 
+- generation customization like difficulty, no of problems.
+- 
