@@ -1,1 +1,1 @@
-So the teacher and hod need t
+So the teacher -> hod -> principal link
