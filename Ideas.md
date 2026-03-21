@@ -1,1 +1,0 @@
-youtube channel on games specifically old games telling all about them
