@@ -1,2 +1,2 @@
 - a player will select a word and then draw and others will type to guess.
-- 
+- controller player will need to 
