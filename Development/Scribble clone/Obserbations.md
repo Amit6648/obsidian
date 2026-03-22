@@ -1,3 +1,4 @@
 - a player will select a word and then draw and others will type to guess.
 - controller player will need to transmit all the data to other players screens
-- in room when a player will select 
+- in room when a player will type the same text as answer they will get the marks according to their rank 
+- 
