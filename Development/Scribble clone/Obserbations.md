@@ -1,1 +1,2 @@
-a player will select a word and then 
+- a player will select a word and then draw and others will type to guess.
+- 
