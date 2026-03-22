@@ -1,2 +1,3 @@
 - a player will select a word and then draw and others will type to guess.
-- controller player will need to 
+- controller player will need to transmit all the data to other players screens
+- in room when a player will select 
