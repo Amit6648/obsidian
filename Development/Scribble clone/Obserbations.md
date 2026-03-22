@@ -1,0 +1,1 @@
+a player will select a word and then 
