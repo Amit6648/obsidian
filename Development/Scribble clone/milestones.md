@@ -1,1 +1,2 @@
-- build a canvas to dr
+- create a room and make people join it and message in it.
+- 
