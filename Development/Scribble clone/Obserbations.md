@@ -3,4 +3,4 @@
 - in room when a player will type the same text as answer they will get the marks according to their rank 
 - people can vote to kick out a player
 - a chat box
-- private room and 
+- private room and random join
