@@ -1,4 +1,4 @@
 sabir - roadmap
 sumali - 
 ritish - leetcode
-prabhjot - leaderboard, intership oppertuinies , mentorship 
+prabhjot - leaderboard, intership oppertuinies , mentorship , ai mock interview
