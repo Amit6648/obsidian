@@ -1,1 +1,1 @@
-So these are like maps or array of 
+So these are like maps or array of user id. If a userid is in the room then we know that it exists in this room
