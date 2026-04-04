@@ -1,4 +1,4 @@
 sabir 
 sumali
 ritish - leetcode
-prabhjot - leaderboard
+prabhjot - leaderboard, intership oppertuinies , mentorship 
