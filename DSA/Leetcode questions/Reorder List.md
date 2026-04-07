@@ -18,7 +18,8 @@ link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 - We know that in linked list if we traverse to a certain point it is not easier to go back unless we have a doubly linked list.
 - But in this problem we need to connect opposite of each element meaning by thinking of common logic we need to have one pointer at the end and one at start then move the first pointer in increasing order and last in decreasing order.
 - But as we have discussed further it is not easy to move backword in singly linked list.
-- For now if we go by common logic we will move pointers until they reach middle meaning 
+- For now if we go by common logic we will move pointers until they reach middle meaning at same point or cross each other in both cases it is middle.
+- 
 
 ---
 ### 🧠 Insights And Structures
