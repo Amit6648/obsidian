@@ -21,7 +21,7 @@ link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-wi
 - Well we can use [[Unordered Hash maps]] to store each element and their copy so after we have created the copy we can loop through "map" and for each original element we can check it's random in hash map and by doing this we can simply link elements.
 - But we can improve space complexity by removing "hash map".  So by analysing the hash map method we know that we have to some connect original and copy elements so we can use the random of original to find out the copy.
 - Well in hash map approach we linked each element with it's copy then used the random of original to link the copies.
-- So here we can do same we can link each originals next to it's copy and then a
+- So here we can do same we can link each originals next to it's copy and then after that copy will be second element when we need to find random of 
 
 ---
 ### 🧠 Insights And Structures
