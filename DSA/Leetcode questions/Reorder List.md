@@ -14,6 +14,8 @@ link:
 
 ## 💡 Intuition
 
+- So the problem is about reordering list 
+
 ---
 ### 🧠 Insights And Structures
 
