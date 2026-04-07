@@ -20,7 +20,8 @@ link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 - But as we have discussed further it is not easy to move backword in singly linked list.
 - For now if we go by common logic we will move pointers until they reach middle meaning at same point or cross each other in both cases it is middle.
 - If we can somehow change the motion of how the last pointer is moving like from backword to forward we will solve the problem.
-- so if we simple reverse the order of half that needs to be traversed in decreasing order then we will sim
+- so if we simple reverse the order of half that needs to be traversed in decreasing order then we will simple need to link them in increasing order.
+- We can simple use the technique used in 
 
 ---
 ### 🧠 Insights And Structures
