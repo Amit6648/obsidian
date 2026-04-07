@@ -14,6 +14,9 @@ link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-wi
 
 ## 💡 Intuition
 
+- We in this problem we need to create a exact copy of a linked list.
+- As we know that there are 
+
 ---
 ### 🧠 Insights And Structures
 
