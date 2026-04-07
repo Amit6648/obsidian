@@ -17,7 +17,7 @@ link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-wi
 - We in this problem we need to create a exact copy of a linked list.
 - As we know that there are two main attributes of a single linked list  " a value and a data" but in this problem we also have one more attribute "random".
 - Random is a pointer that can point to any element.
-- So now we need to create exact copy but the problem is that lets say we created a new copy element now it's random points t
+- So now we need to create exact copy but the problem is that lets say we created a new copy element now it's random points to some element but in our copied list
 
 ---
 ### 🧠 Insights And Structures
