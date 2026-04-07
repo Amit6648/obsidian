@@ -19,7 +19,7 @@ link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-wi
 - Random is a pointer that can point to any element.
 - So now we need to create exact copy but the problem is that lets say we created a new copy element now it's random points to some element but in our copied list that element still has not been created then how can we even point to it.
 - Well we can use [[Unordered Hash maps]] to store each element and their copy so after we have created the copy we can loop through "map" and for each original element we can check it's random in hash map and by doing this we can simply link elements.
-- But we can optimize it further but the problem here is t
+- But we can optimize it further by removing that 
 
 ---
 ### 🧠 Insights And Structures
