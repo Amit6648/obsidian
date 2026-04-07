@@ -1,0 +1,1 @@
+Well in this technique we find out the end of something by using one pointer as a blindman and other pointer as a stick if 
