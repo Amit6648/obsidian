@@ -16,7 +16,8 @@ link: [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nt
 
 - So the problem is about removing a nth element from the end of the list meaning rather removing 2 element two from a list of 10 element we will remove 8th element.
 - Well as we know the problem in linked list that it is hard to go back unless we use doubly linked list.
-- But we can use a technique call
+- But we can use a technique called [[Blindman]].
+- We just need t
 
 ---
 ### 🧠 Insights And Structures
