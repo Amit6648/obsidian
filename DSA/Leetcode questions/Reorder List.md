@@ -29,12 +29,12 @@ link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 - [[Linked List]]
 - [[Fast Slow pointer]]
-- 
+- [[Blindman]]
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-04-07
@@ -42,3 +42,63 @@ link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+void reorderList(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast =  head;
+
+        //find the mid
+
+        while(fast != nullptr && fast->next != nullptr)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        // reverse one half
+
+        ListNode* mid = slow->next;
+
+        slow->next = nullptr;
+
+        ListNode* prev = nullptr;
+
+        ListNode* next;
+
+        while(mid != nullptr)
+        {
+           next = mid->next;
+
+           mid->next = prev;
+
+           prev = mid;
+
+           mid = next;
+        }
+
+        ListNode * left = head;
+
+        ListNode * right = prev;
+
+
+
+        while(right!=nullptr)
+        {
+            ListNode* temp1 = left->next;
+
+            ListNode* temp2 = right->next;
+
+            left->next = right;
+
+            right->next = temp1;
+
+            left  = temp1;
+
+            right = temp2;
+            
+        }
+
+
+    }
+```
