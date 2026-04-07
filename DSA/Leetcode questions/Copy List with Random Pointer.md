@@ -15,7 +15,7 @@ link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-wi
 ## 💡 Intuition
 
 - We in this problem we need to create a exact copy of a linked list.
-- As we know that there are two main attributes of a single linked list  " a value and a data"
+- As we know that there are two main attributes of a single linked list  " a value and a data" but in this problem we also have one more attribute ""
 
 ---
 ### 🧠 Insights And Structures
