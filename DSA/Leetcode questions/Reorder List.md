@@ -19,6 +19,7 @@ link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 - But in this problem we need to connect opposite of each element meaning by thinking of common logic we need to have one pointer at the end and one at start then move the first pointer in increasing order and last in decreasing order.
 - But as we have discussed further it is not easy to move backword in singly linked list.
 - For now if we go by common logic we will move pointers until they reach middle meaning at same point or cross each other in both cases it is middle.
+- If we can somehow change the motion of how the last pointer is moving like from backword to forward we will solve the problem.
 - 
 
 ---
