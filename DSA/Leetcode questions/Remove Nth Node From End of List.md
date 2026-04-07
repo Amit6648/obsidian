@@ -14,7 +14,8 @@ link: [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nt
 
 ## 💡 Intuition
 
-- So the problem is about removing a nth element from the end of the list meaning rather removing 2 element two from of .
+- So the problem is about removing a nth element from the end of the list meaning rather removing 2 element two from a list of 10 element we will remove 8th element.
+- Well as we know the problem o
 
 ---
 ### 🧠 Insights And Structures
