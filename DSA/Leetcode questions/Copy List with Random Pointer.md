@@ -23,7 +23,7 @@ link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-wi
 - Well in hash map approach we linked each element with it's copy then used the random of original to link the copies.
 - So here we can do same we can link each originals next to it's copy and then after that copy will be second element.
 - So by doing this we when we need to link randoms of copy we will just check the random of original and then next to it will be copy.
-- Only drawback of this is that we will need a thir
+- Only drawback of this is that we will need a third loop to unlink 
 
 ---
 ### 🧠 Insights And Structures
