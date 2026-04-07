@@ -6,7 +6,7 @@ Pattern: Linked list
 Last_attempt: 2026-04-07
 Next_review: 2026-04-07
 Attempts: 1
-link: 
+link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 ---
 
@@ -14,7 +14,7 @@ link:
 
 ## 💡 Intuition
 
-- So the problem is about reordering list 
+- So the problem is about reordering the list so that we can link 0 to n-1
 
 ---
 ### 🧠 Insights And Structures
