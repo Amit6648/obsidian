@@ -14,7 +14,7 @@ link: [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nt
 
 ## 💡 Intuition
 
-- So the problem is about removing a n element from the end of the 
+- So the problem is about removing a nth element from the end of the list  
 
 ---
 ### 🧠 Insights And Structures
