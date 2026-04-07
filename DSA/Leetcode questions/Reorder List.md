@@ -15,7 +15,8 @@ link: [Reorder List](https://leetcode.com/problems/reorder-list/)
 ## 💡 Intuition
 
 - So the problem is about reordering the list so that we can link 0 to 5(if 5 is last number) 2 to 4, 3 will be at the end cause it doesn't have any to link.
-- We know that in linked list if we traverse to a certain point it is not easier to go back unl
+- We know that in linked list if we traverse to a certain point it is not easier to go back unless we have a doubly linked list.
+- But in this problem we need to connect opposite of each element meaning by thinking of common logic we need to have one pointer at the end and one at start then move the first pointer in increa
 
 ---
 ### 🧠 Insights And Structures
