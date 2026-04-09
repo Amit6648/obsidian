@@ -14,7 +14,7 @@ link: [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 ## 💡 Intuition
 
- - So the problem is about 
+ - So the problem is about creating a data structure that is resembles "Least recently used" 
 
 ---
 ### 🧠 Insights And Structures
