@@ -17,7 +17,8 @@ link: [LRU Cache](https://leetcode.com/problems/lru-cache/)
  - So the problem is about creating a data structure that is resembles "Least recently used".
  - So we have to create this using linked lists, so the rules are we have to create two functions one that will add metadata that will have "value and key". When we add this metadata it should be at top when we add the next one that will be at the top.
  - Now the get function that will be used to visit a element's value by using it's key and when a element is visited it will come at the top position meaning now it is the least recently used element.
- - So we can use a double linked list here to link and remove elements cause whenever we need to remove a element from middle when it is used and add it to end we need to link the elements around 
+ - So we can use a double linked list here to link and remove elements cause whenever we need to remove a element from middle when it is used and add it to end we need to link the elements around but in a single linked list we can access next element but not the previous and it will be stuck at pointing to the element we want to remove.
+ - 
 
 ---
 ### 🧠 Insights And Structures
