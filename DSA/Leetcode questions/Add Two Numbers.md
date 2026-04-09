@@ -35,3 +35,64 @@ link: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        ListNode dummy(0);
+
+        ListNode * curr = &dummy;
+
+        int carry = 0;
+
+        while(l1 && l2)
+        {
+            int total = l1->val + l2->val + carry;
+            ListNode * newnode = new ListNode(0);
+            curr->next = newnode;
+            newnode->val = total%10;
+
+            carry = total/10;
+            curr = curr->next;
+
+            l1 = l1->next;
+
+            l2 = l2->next;
+        }
+        
+            while(l1)
+            {
+            int total = l1->val + carry;
+            ListNode * newnode = new ListNode(0);
+            curr->next = newnode;
+            newnode->val = total%10;
+
+            carry = total/10;
+            curr = curr->next;
+            l1 = l1->next;
+            }
+
+
+              while(l2)
+            {
+            int total = l2->val + carry;
+            ListNode * newnode = new ListNode(0);
+            curr->next = newnode;
+            newnode->val = total%10;
+
+            carry = total/10;
+            curr = curr->next;
+            l2 = l2->next;
+            }
+
+            if(carry>0)
+            {
+                ListNode * newnode = new ListNode(carry);
+
+                curr->next = newnode;
+            }
+
+
+          return dummy.next;
+
+    }
+```
