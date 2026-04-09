@@ -2,17 +2,19 @@
 ---
 Status: solved with help
 Difficulty: medium
-Pattern: # e.g., Sliding Window, Two Pointers, Monotonic Stack
+Pattern: linked list
 Last_attempt: 2026-04-09
 Next_review: 2026-04-09
 Attempts: 1
-link: 
+link: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 ---
 
 # Problem: Add Two Numbers
 
 ## 💡 Intuition
+
+- So the problem is about doing addition , simple addition but there is a catch we are given t
 
 ---
 ### 🧠 Insights And Structures
