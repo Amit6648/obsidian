@@ -15,7 +15,7 @@ link: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 ## 💡 Intuition
 
 - So the problem is about doing addition , simple addition but there is a catch we are given two linked list and we have to perform addition on them seems simple.
-- Here are the problems lets say linked lists have values like 308 and 309 
+- Here are the problems lets say linked lists have values like 900 and 200 first  
 
 ---
 ### 🧠 Insights And Structures
