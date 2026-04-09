@@ -17,15 +17,17 @@ link: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - So the problem is about doing addition , simple addition but there is a catch we are given two linked list and we have to perform addition on them seems simple.
 - Here are the problems lets say linked lists have values like 900 and 200 the given linked lists will have 3 nodes but the result will have 4 nodes but there can be results where the result will have same nodes as the given.
 - To solve this problem we need to take care of "carry" the rest will be just normal addition logic that we need to code.
-- so when ever we are left with a carry we will create a new node and then attach it to 
+- so when ever we are left with a carry we will create a new node and then attach it to result linked list.
 
 ---
 ### 🧠 Insights And Structures
 
+- [[Linked List]]
+
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(1)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-04-09
