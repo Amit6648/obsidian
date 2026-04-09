@@ -14,7 +14,8 @@ link: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 ## 💡 Intuition
 
-- So the problem is about doing addition , simple addition but there is a catch we are given two linked list and we have to perform addition on them seem simple 
+- So the problem is about doing addition , simple addition but there is a catch we are given two linked list and we have to perform addition on them seems simple.
+- Here are the problems 
 
 ---
 ### 🧠 Insights And Structures
