@@ -35,3 +35,99 @@ link: [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+class LRUCache {
+    private : 
+
+    class Node {
+        public :
+        int key,val;
+
+        Node *prev, *next;
+        Node(int key,int val) 
+        {
+            this->key = key;
+            this->val = val;
+
+            prev = nullptr;
+            next = nullptr;
+        }
+    };
+    
+    int cap;
+
+    unordered_map<int, Node*> map;
+
+    Node * head;
+    Node * tail;
+
+    void add (Node * newnode )
+    {
+        Node * temp = head->next;
+        head->next = newnode;
+        newnode->prev = head;
+        newnode->next = temp;
+        temp->prev = newnode;
+    }
+
+    void remove(Node * rneed)
+    {
+        Node * prev = rneed->prev;
+        Node * next =  rneed->next;
+        prev->next = next;
+        next->prev = prev;
+    }
+
+
+public:
+    LRUCache(int capacity) {
+          cap = capacity;
+          head = new Node(-1,-1);
+          tail = new Node(-1,-1);
+          head->next = tail;
+          tail->prev =  head;
+    }
+    
+    int get(int key) {
+        if(map.count(key))
+        {
+            Node * temp = map[key];
+            remove(temp);
+            add(temp);
+
+            return temp->val;
+        }
+
+        else {
+            return -1;
+        }
+
+        
+    }
+    
+    void put(int key, int value) {
+        if(map.count(key))
+        {
+            Node * temp = map[key];
+            remove(temp);
+            add(temp);
+
+            temp->val = value;
+        }
+
+      else {
+         Node * newnode = new Node(key,value);
+        map[key] = newnode;
+
+        add(newnode);
+      }
+
+        if(map.size()>cap)
+        {
+            map.erase(tail->prev->key);
+            remove(tail->prev);
+        }
+    }
+};
+```
