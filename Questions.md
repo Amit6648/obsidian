@@ -1,1 +1,0 @@
-well how to change classes after sem completed

@@ -1,1 +1,0 @@
-When in a meeting if someone says my name i will get notified and ai will tell me what i need to do 
