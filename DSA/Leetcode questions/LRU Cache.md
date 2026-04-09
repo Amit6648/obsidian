@@ -15,7 +15,7 @@ link: [LRU Cache](https://leetcode.com/problems/lru-cache/)
 ## 💡 Intuition
 
  - So the problem is about creating a data structure that is resembles "Least recently used".
- - So we have to create this using linked lists
+ - So we have to create this using linked lists, so the rules are we have to create two functions one that will add metadata that will have 
 
 ---
 ### 🧠 Insights And Structures
