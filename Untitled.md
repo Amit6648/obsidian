@@ -1,6 +1,6 @@
 sabir - roadmap
 sumali - project sharing platform
-ritish - coding competition
-prabhjot - leaderboard, intership oppertuinies , mentorship , ai mock interview
-lovish - suggest according to persons skills
+ritish - coding competitions 
+prabhjot - leaderboard, internship opportunities , mentorship , ai mock interview
+lovish - roadmap suggestion according to persons skills
 ayush - placement oppertunities
