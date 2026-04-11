@@ -5,3 +5,4 @@ prabhjot - leader board , internship opportunities , mentorship , ai mock interv
 lovish - roadmap suggestion according to persons skills
 ayush - placement opportunities
 akhsra , lovish - every club info like events 
+
