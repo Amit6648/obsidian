@@ -16,7 +16,7 @@ link: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-
 
 - So the problem asks us to find median of a sorted array but rather than one array we have to find it according to two arrays and both are sorted.
 - both arrays have unique values meaning other will not have the same elements as the other one.
-- Well we are not allowed to m
+- Well we are not allowed to merge the both arrays cause that will increase the time complexity.
 
 ---
 ### 🧠 Insights And Structures
