@@ -22,7 +22,7 @@ link: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-
 - So same here we will use binary search on smaller array and divide it and then according the elements we have on our left side we will decide how many to take from the left side of the larger array.
 - Now we have divided both arrays equally so to see if the partition that we have created is right we will compare them in cross meaning small left  with large right  and large left with smaller right.
 - but why do we only compare these , well cause the arrays are sorted if we divide the larger array then the left side will always have small elements than right.
-- When the condition is matched we will 
+- When the condition is matched we will jus
 
 ---
 ### 🧠 Insights And Structures
