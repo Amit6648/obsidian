@@ -14,7 +14,7 @@ link: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-
 
 ## 💡 Intuition
 
-- So the problem asks us to find med
+- So the problem asks us to find median of a sorted array but rather than one array we have to find it according to two arrays and both are sorted.
 
 ---
 ### 🧠 Insights And Structures
