@@ -9,7 +9,8 @@ when ever someone joins a room it will be created
 Well the rounds will have two kind of data one is "game session scope" and other is "round scope" meaning a data will change after like a round and one will stay persistent for the span of game . now i am thinking actually three kind of data one is "game span " second is "round space" and the last is "room span". well the room span data is like "chat", "users in room".
 
 for people in room
-- socket io does keep t
+- socket io does keep track of who is in the room
+- so we can know who joined who left.
 
 for rounds
 - So we can use a timeout for each round where
