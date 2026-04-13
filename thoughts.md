@@ -13,7 +13,8 @@ for people in room
 - so we can know who joined who left.
 
 for game 
-- so a game will run infinitely until only one player is left in the room
+- so a game will run infinitely until only one player is left in the room.
+- So we can create condition that will check if there are atleast two players in the room or else disconnect everyone in the room.
 
 for rounds
 - So we can use a timeout for each round where
