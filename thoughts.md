@@ -15,6 +15,7 @@ for people in room
 for game 
 - so a game will run infinitely until only one player is left in the room.
 - So we can create condition that will check if there are atleast two players in the room or else disconnect everyone in the room.
+- this condition will only run when a game is created not when players are just at the inviting phase or creating phase.
 
 for rounds
 - So we can use a timeout for each round where
