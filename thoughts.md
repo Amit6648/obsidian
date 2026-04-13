@@ -6,7 +6,10 @@ when ever someone joins a room it will be created
 - a person who will draw 
 - a state of a person when they will guess the word
 
-for ro
+Well the rounds 
+
+for rounds
+- So we can use a timeout for each round where
 
 for chat
 - divide people in two pools one is where not guess are and other where guessed are.
