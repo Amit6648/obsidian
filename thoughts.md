@@ -6,7 +6,7 @@ when ever someone joins a room it will be created
 - a person who will draw 
 - a state of a person when they will guess the word
 
-Well the rounds will have two kind of data one is "game session scope" and other is "round scope" meaning a 
+Well the rounds will have two kind of data one is "game session scope" and other is "round scope" meaning a data will change after like a round and one will stay persistent for while
 
 for rounds
 - So we can use a timeout for each round where
