@@ -12,6 +12,9 @@ for people in room
 - socket io does keep track of who is in the room
 - so we can know who joined who left.
 
+for game 
+- so a game will run infinitely until only one player is left in the room
+
 for rounds
 - So we can use a timeout for each round where
 
