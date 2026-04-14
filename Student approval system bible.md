@@ -20,4 +20,4 @@ parents inface -
 
 security guard
 
-- they will see all the requests of college and will be able to checkout student when the student will share their approval id and they will enter that in system 
+- they will see all the requests of college and will be able to checkout student when the student will share their approval id and they will enter that in system will be able to checkout the student.
