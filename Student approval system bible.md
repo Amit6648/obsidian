@@ -6,4 +6,4 @@ Student interface -
 
 - Student can create a request where they will select a teacher according to this "schools(school of engineering) -> branch(B.tech cse) -> teacher ". then they will create a request with a reason and then submit it.
 - In the requests page they can see all their request and status of those requests like approved rejected or pending and by clicking on the list they can view it in the list.
-- So when a student will 
+- So when a student will check a request in full detail they will be able to 
