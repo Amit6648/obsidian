@@ -4,4 +4,4 @@ Student will send the request to teacher -> then teacher will approve or reject 
 
 Student interface -
 
-- Student can create a request where they will select a teacher according to this "schools(school of engineering) -> branch(B.tech cse) -> teacher " 
+- Student can create a request where they will select a teacher according to this "schools(school of engineering) -> branch(B.tech cse) -> teacher ". then they will create a request with a reason and then submit it 
