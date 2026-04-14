@@ -13,3 +13,11 @@ Student interface -
 Teachers interface -
 
 - teacher will be able to reject or approve requests in their requests panel.
+
+parents inface -
+
+- it will be same as teachers interface.
+
+security guard
+
+- they will see all the requests of college and will be able to 
