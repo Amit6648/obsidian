@@ -8,4 +8,4 @@ Student interface -
 - In the requests page they can see all their request and status of those requests like approved rejected or pending and by clicking on the list they can view it in the list.
 - In the request page student can also cancel a request.
 - All requests will expire after 4 pm.
-- When  a student will try to check full detail of the request they made they will be able to see a
+- When  a student will try to check full detail of the request they made they will be able to see if the approval has been already used.
