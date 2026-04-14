@@ -9,3 +9,7 @@ Student interface -
 - In the request page student can also cancel a request.
 - All requests will expire after 4 pm.
 - When  a student will try to check full detail of the request they made they will be able to see if the approval has been already used.
+
+Teachers interface -
+
+- teacher will be able to reject or approve requests in their requests panel.
