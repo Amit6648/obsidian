@@ -24,4 +24,6 @@ for rounds
 for chat
 - visible to all
   - user_id
+  - user_name
+  - messege
   - 
