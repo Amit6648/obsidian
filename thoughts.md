@@ -22,4 +22,4 @@ for rounds
 - So we can use a timeout for each round where
 
 for chat
-- 
+- visible to all
