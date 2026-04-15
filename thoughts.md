@@ -24,4 +24,4 @@ for rounds
 for chat
 - divide people in two pools one is where not guess are and other where guessed are.
 - we can just simply send a object where guessed value is true or false cause the one who hasn't guessed will still get the data even though they can't see it.
-- So we should create a different end point for the different pools
+- So
