@@ -4,4 +4,6 @@ states of message - guess, normal, system
 - name 
 - uid
 - message
-- 
+- type
+- time
+
