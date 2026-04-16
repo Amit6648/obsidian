@@ -1,1 +1,1 @@
-states of message - 
+states of message - guess, normal
