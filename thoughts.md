@@ -26,4 +26,5 @@ for chat
   - user_id
   - user_name
   - messege
-  - 
+  - guessed
+  
