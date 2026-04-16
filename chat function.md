@@ -8,3 +8,4 @@ states of message - guess, normal, system
 - type
 - time
 
+-  So first the user will send the message that will contain their name, message, 
