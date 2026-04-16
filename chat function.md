@@ -1,3 +1,7 @@
 states of message - guess, normal, system
 
-stu
+**structure of message**
+- name 
+- uid
+- message
+- 
