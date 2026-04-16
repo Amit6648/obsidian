@@ -11,6 +11,10 @@ states of message - guess, normal, system
 - Name
 - uid
 - isguessed
+- isdraw
+**Structure of scores**
+- uid 
+- scores
 
 -  So first the user will send the message that will contain their name, message.
 - now when we will recieve the message at the backend we will construct a full block of message according the structure given above.
