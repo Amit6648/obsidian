@@ -10,4 +10,4 @@ states of message - guess, normal, system
 
 -  So first the user will send the message that will contain their name, message.
 - now when we will recieve the message at the backend we will construct a full block of message according the structure given above.
-- well the main thing to discuss is "type" so we are going to set this type before storing the message in store. well if the me
+- well the main thing to discuss is "type" so we are going to set this type before storing the message in store. well if the message is equal to word then we will change t
