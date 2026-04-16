@@ -8,4 +8,5 @@ states of message - guess, normal, system
 - type
 - time
 
--  So first the user will send the message that will contain their name, message, 
+-  So first the user will send the message that will contain their name, message.
+- now when we will recieve the e
