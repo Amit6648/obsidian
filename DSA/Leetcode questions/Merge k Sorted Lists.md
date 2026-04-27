@@ -14,6 +14,9 @@ link: [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/
 
 ## 💡 Intuition
 
+-  So the problem is about merging k number of sorted linked lists and the output should also be sorted.
+- So thi
+
 ---
 ### 🧠 Insights And Structures
 
