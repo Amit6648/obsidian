@@ -29,7 +29,9 @@ link: [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/
 
 ---
 ## ⏱️ Complexity
-- **Time Complexity:** $O()$
+$$
+- **Time Complexity:** $O(n ** k)$
+$$
 - **Space Complexity:** $O()$
 ---
 ## 🛡️ Attempt History
@@ -38,4 +40,49 @@ link: [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/
 - **What blocked me:** - **Improvement:** ---
 ---
 ## 💻 Implementation (C++)
+
+```cpp
+class Solution {
+    struct compareNode {
+        bool operator()(ListNode* const& p1, ListNode* const& p2) {
+            return p1->val > p2->val;
+        }
+    };
+
+public:
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        priority_queue<ListNode*, vector<ListNode*>, compareNode> maxlink;
+
+        for (ListNode* node : lists) {
+            if (node)
+                maxlink.push(node);
+        }
+
+        if (maxlink.empty())
+            return nullptr;
+
+        ListNode* head = new ListNode(0);
+
+        ListNode* curr = head;
+
+        while (maxlink.size() > 1) {
+            ListNode* top = maxlink.top();
+
+            maxlink.pop();
+
+            curr->next = top;
+
+            curr = curr->next;
+
+            if (top->next) {
+                maxlink.push(top->next);
+            }
+        }
+
+        curr->next = maxlink.top();
+
+        return head->next;
+    }
+};
+```
 
