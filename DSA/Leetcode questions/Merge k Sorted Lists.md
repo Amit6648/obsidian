@@ -24,7 +24,8 @@ link: [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/
 ---
 ### 🧠 Insights And Structures
 
-- [[loin]]
+- [[Linked List]]
+- [[priority queue]]
 
 ---
 ## ⏱️ Complexity
