@@ -29,10 +29,8 @@ link: [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/
 
 ---
 ## ⏱️ Complexity
-$$
-- **Time Complexity:** $O(n ** k)$
-$$
-- **Space Complexity:** $O()$
+- **Time Complexity:** $O(n * k)$
+- **Space Complexity:** $O(k)$
 ---
 ## 🛡️ Attempt History
 ### Attempt 1: 2026-04-27
