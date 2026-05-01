@@ -21,3 +21,5 @@ if all players guessed then next minigame
 }
 ```
 
+create the chatlogic
+try to create minigame logic by setting a 
