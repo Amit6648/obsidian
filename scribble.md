@@ -5,6 +5,8 @@ if(currentround>rounds){
 nextround();
 }
 
+drawer();
 
+chatlogi
 }
 ```
