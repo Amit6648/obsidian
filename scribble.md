@@ -31,3 +31,4 @@ word is not equal to the guess
 
 word is close
 
+alread
