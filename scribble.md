@@ -7,7 +7,7 @@ nextround();
 
 startminigame()
 {
-will
+*will start a timeout that will close the game after 60 sec*
 drawer();
 
 chatlogic() {
