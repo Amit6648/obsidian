@@ -1,7 +1,7 @@
 ```javascript
 
 startgame(){
-if(currentround>rounds){
+if(currentTurns >= playerqu){
 nextround();
 }
 
