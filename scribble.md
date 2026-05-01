@@ -11,7 +11,7 @@ startminigame()
 drawer();
 
 chatlogic() {
-if all players guessed then 
+if all players guessed then next minigame
 }
 }
 
