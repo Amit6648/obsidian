@@ -5,8 +5,14 @@ if(currentround>rounds){
 nextround();
 }
 
+startminigame()
+{
 drawer();
 
-chatlogi
+chatlogic() {
+
+}
+}
+
 }
 ```
