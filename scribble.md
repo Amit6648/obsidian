@@ -7,6 +7,7 @@ nextround();
 
 startminigame()
 {
+will
 drawer();
 
 chatlogic() {
