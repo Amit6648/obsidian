@@ -25,3 +25,7 @@ create the chatlogic
 try to create minigame logic by setting a temp word 
 
 
+word is equal to the guess
+
+word is not equal to the guess
+
