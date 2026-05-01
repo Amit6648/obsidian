@@ -18,5 +18,3 @@ if all players guessed then next minigame
 }
 ```
 
-
-if player messeged in  the chat how we know that this is the room that the player has messeaged are we going to im
