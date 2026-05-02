@@ -35,4 +35,4 @@ already guessed
 
 
 
-how is frontend going to know when someone guessed the word like 
+how is frontend going to know when someone guessed the word 
