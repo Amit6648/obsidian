@@ -32,3 +32,7 @@ word is not equal to the guess
 word is close
 
 already guessed 
+
+
+
+how is frontend going to know when someone guessed the word like 
