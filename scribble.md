@@ -36,4 +36,5 @@ playerqueue, drawer, word set, guess logic
 need  : drawer, word set, 
 
 
-for now just start a time out and then a 10 secs gap to 
+for now just start a time out and then a 10 secs gap to where the chatlogic will not work.
+
