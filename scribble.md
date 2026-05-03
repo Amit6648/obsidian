@@ -31,3 +31,9 @@ use a start game function where we can will start the time out and then use that
 turnStart : game phase set it to turn and then 
 
 playerqueue, drawer, word set, guess logic
+
+
+need  : drawer, word set, 
+
+
+for now just start a time out and then a 10 secs gap to 
