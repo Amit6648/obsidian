@@ -28,4 +28,4 @@ use a start game function where we can will start the time out and then use that
 
 
 
-turnStart : 
+turnStart : game phase set it to turn
