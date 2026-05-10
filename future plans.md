@@ -1,2 +1,3 @@
 - build mixture of obsidian and notebook lm and intergrate it in form app
-- 
+- learn basics in deep and also build a portfolio
+- then 
