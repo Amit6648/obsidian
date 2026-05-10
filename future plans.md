@@ -1,0 +1,2 @@
+- build mixture of obsidian and notebook lm and intergrate it in form app
+- 
