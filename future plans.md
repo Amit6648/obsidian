@@ -1,3 +1,4 @@
 - build mixture of obsidian and notebook lm and intergrate it in form app
 - learn basics in deep and also build a portfolio
-- then 
+- fix the projects you build like hosting and fixing other faults
+- apply for internship
