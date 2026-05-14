@@ -14,4 +14,4 @@
 - how are answers stored
 
 
-students will receive a 
+students will receive a link or can search the class. we can create a array in class table and a array in student table
