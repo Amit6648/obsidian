@@ -12,4 +12,6 @@
 - teachers can edit the quiz (not)
 - generation customization like difficulty, no of problems.
 - how are answers stored
-- 
+
+
+students will receive a 
