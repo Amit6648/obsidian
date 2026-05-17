@@ -1,1 +1,3 @@
-- HTML - well i know basic tags like divs, paragraphs, audio and video ( have forget  lot about them). 
+- HTML - well i know basic tags like divs, paragraphs, audio and video ( have forget  lot about them).
+- CSS - colors , borders, sizes, 
+- Js - async await, 
