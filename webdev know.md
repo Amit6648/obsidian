@@ -1,1 +1,1 @@
-- HTML - well i know basic tags like divs, paragraphs, 
+- HTML - well i know basic tags like divs, paragraphs, audio and video ( have forget  lot about them). 
