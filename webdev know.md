@@ -1,6 +1,5 @@
-- HTML - well i know basic tags like divs, paragraphs, audio and video ( have forget  lot about them).
-- CSS - colors , borders, sizes, 
-- Js - async await, how to make functions , some standered functions , timeout and time interval.
-
+prisma how works
+typescript
+zustand
 
 
