@@ -4,6 +4,4 @@ zustand
 
 
 
-so i have to modify gemini sdk 
-
 
