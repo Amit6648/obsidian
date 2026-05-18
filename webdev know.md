@@ -4,6 +4,6 @@ zustand
 
 
 
-so i have to modify gemini 
+so i have to modify gemini sdk 
 
 
