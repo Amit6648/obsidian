@@ -4,6 +4,6 @@ zustand
 
 
 
-so i have to
+so i have to modify gemini 
 
 
