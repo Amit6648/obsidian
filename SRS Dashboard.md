@@ -1,6 +1,25 @@
 ```dataviewjs
 const today = window.moment().startOf('day');
 
+// --- DEBUG INFO BLOCK ---
+dv.header(4, "🔍 Debug Info");
+const allV = dv.pages();
+dv.paragraph(`Total pages indexed by Dataview: **${allV.length}**`);
+
+const target = allV.where(p => p.file.name === "example");
+if (target.length > 0) {
+    const ex = target[0];
+    dv.paragraph(`✅ **example.md found!**`);
+    dv.paragraph(`- **File Path**: \`${ex.file.path}\``);
+    dv.paragraph(`- **Tags**: \`${JSON.stringify(ex.file.tags || [])}\``);
+    dv.paragraph(`- **sr_next**: \`${ex.sr_next}\``);
+    dv.paragraph(`- **sr_interval**: \`${ex.sr_interval}\``);
+    dv.paragraph(`- **sr_ease**: \`${ex.sr_ease}\``);
+} else {
+    dv.paragraph("❌ **example.md not found in Dataview's index.**");
+}
+dv.paragraph("---");
+
 // Fetch all pages tagged with #review
 const allPages = dv.pages('#review');
 
