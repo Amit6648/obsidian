@@ -4,7 +4,7 @@ tags:
 type: practical
 sr_interval: 1
 sr_ease: 2.5
-sr_next: 2026-05-21
+sr_next: 2026-05-20
 ---
 # Example Topic
 
