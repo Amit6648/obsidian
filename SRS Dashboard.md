@@ -1,6 +1,25 @@
 ```dataviewjs
 const today = window.moment().startOf('day');
 
+// Helper function to robustly parse Dataview/Luxon dates into moment.js objects
+function parseToMoment(dateVal) {
+    if (!dateVal) return null;
+    // If it's a Luxon DateTime (has a toJSDate method)
+    if (dateVal.toJSDate && typeof dateVal.toJSDate === 'function') {
+        return window.moment(dateVal.toJSDate()).startOf('day');
+    }
+    // If it's a Luxon object with a .ts (timestamp) property
+    if (dateVal.ts) {
+        return window.moment(dateVal.ts).startOf('day');
+    }
+    // If it's already a moment object
+    if (window.moment.isMoment(dateVal)) {
+        return dateVal.startOf('day');
+    }
+    // Otherwise, parse as a string or standard JS Date
+    return window.moment(dateVal, 'YYYY-MM-DD').startOf('day');
+}
+
 // --- DEBUG INFO BLOCK ---
 dv.header(4, "🔍 Debug Info");
 const allV = dv.pages();
@@ -9,12 +28,12 @@ dv.paragraph(`Total pages indexed by Dataview: **${allV.length}**`);
 const target = allV.where(p => p.file.name === "example");
 if (target.length > 0) {
     const ex = target[0];
+    const mDate = parseToMoment(ex.sr_next);
     dv.paragraph(`✅ **example.md found!**`);
     dv.paragraph(`- **File Path**: \`${ex.file.path}\``);
     dv.paragraph(`- **Tags**: \`${JSON.stringify(ex.file.tags || [])}\``);
-    dv.paragraph(`- **sr_next**: \`${ex.sr_next}\``);
-    dv.paragraph(`- **sr_interval**: \`${ex.sr_interval}\``);
-    dv.paragraph(`- **sr_ease**: \`${ex.sr_ease}\``);
+    dv.paragraph(`- **sr_next Raw**: \`${ex.sr_next}\` (Type: \`${typeof ex.sr_next}\`)`);
+    dv.paragraph(`- **Parsed Moment Date**: \`${mDate ? mDate.format('YYYY-MM-DD') : 'Invalid'}\` (Is Due Today/Overdue? \`${mDate ? mDate.isSameOrBefore(today) : 'N/A'}\`)`);
 } else {
     dv.paragraph("❌ **example.md not found in Dataview's index.**");
 }
@@ -26,21 +45,24 @@ const allPages = dv.pages('#review');
 // 1. Filter and sort pages that are due today or overdue (or are completely new)
 const duePages = allPages.where(p => {
     if (!p.sr_next) return true;
-    const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+    const nextDate = parseToMoment(p.sr_next);
+    if (!nextDate || !nextDate.isValid()) return true; // Show on due list if date is malformed
     return nextDate.isSameOrBefore(today);
 }).sort(p => {
     if (!p.sr_next) return 999; 
-    const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+    const nextDate = parseToMoment(p.sr_next);
+    if (!nextDate || !nextDate.isValid()) return 998;
     return today.diff(nextDate, 'days');
 }, 'desc');
 
 // 2. Filter and sort pages scheduled for future dates
 const upcomingPages = allPages.where(p => {
     if (!p.sr_next) return false;
-    const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+    const nextDate = parseToMoment(p.sr_next);
+    if (!nextDate || !nextDate.isValid()) return false;
     return nextDate.isAfter(today);
 }).sort(p => {
-    const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+    const nextDate = parseToMoment(p.sr_next);
     return nextDate.diff(today, 'days');
 }, 'asc');
 
@@ -61,9 +83,11 @@ if (duePages.length === 0) {
         // Calculate Overdue Status
         let overdueText = "✨ New";
         if (p.sr_next) {
-            const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
-            const diff = today.diff(nextDate, 'days');
-            overdueText = diff === 0 ? "📅 Due Today" : `⚠️ ${diff}d Overdue`;
+            const nextDate = parseToMoment(p.sr_next);
+            if (nextDate && nextDate.isValid()) {
+                const diff = today.diff(nextDate, 'days');
+                overdueText = diff === 0 ? "📅 Due Today" : `⚠️ ${diff}d Overdue`;
+            }
         }
 
         // Generate Action Buttons Row
@@ -151,14 +175,15 @@ if (upcomingPages.length === 0) {
         const currentInterval = p.sr_interval || 1;
         const typeIcon = p.type === 'practical' ? "💻 Practical" : "🧠 Theory";
         
-        const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+        const nextDate = parseToMoment(p.sr_next);
         const diff = nextDate.diff(today, 'days');
         const timelineText = diff === 1 ? "📅 Tomorrow" : `⏳ In ${diff} days`;
+        const formattedNextDate = nextDate.format('YYYY-MM-DD');
 
         upcomingRows.push([
             p.file.link,
             typeIcon,
-            p.sr_next,
+            formattedNextDate,
             timelineText,
             currentInterval + "d"
         ]);
