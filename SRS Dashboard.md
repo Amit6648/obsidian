@@ -17,12 +17,13 @@
                 gap: 16px;
             }
             .srs-header-card {
-                background: linear-gradient(135deg, var(--interactive-accent) 0%, var(--interactive-accent-hover, var(--interactive-accent)) 100%);
-                border-radius: 12px;
-                padding: 24px;
-                color: white;
+                background: var(--background-secondary);
+                border: 1px solid var(--background-modifier-border);
+                border-radius: 8px;
+                padding: 20px;
+                color: var(--text-normal);
                 margin-bottom: 12px;
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -31,10 +32,9 @@
             }
             .srs-header-title {
                 margin: 0;
-                font-size: 1.7em;
+                font-size: 1.5em;
                 font-weight: 700;
-                color: #ffffff !important;
-                text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+                color: var(--text-normal) !important;
             }
             .srs-stats {
                 display: flex;
@@ -42,51 +42,44 @@
                 flex-wrap: wrap;
             }
             .srs-stat-box {
-                background: rgba(255, 255, 255, 0.12);
-                backdrop-filter: blur(10px);
-                border: 1px solid rgba(255, 255, 255, 0.15);
-                padding: 10px 14px;
-                border-radius: 8px;
+                background: var(--background-primary);
+                border: 1px solid var(--background-modifier-border);
+                padding: 8px 12px;
+                border-radius: 6px;
                 text-align: center;
-                min-width: 90px;
-                box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
-                transition: transform 0.2s, background 0.2s;
-            }
-            .srs-stat-box:hover {
-                transform: translateY(-2px);
-                background: rgba(255, 255, 255, 0.18);
+                min-width: 80px;
             }
             .srs-stat-val {
-                font-size: 1.5em;
-                font-weight: 800;
+                font-size: 1.4em;
+                font-weight: 700;
                 display: block;
                 line-height: 1.2;
-                color: #ffffff;
+                color: var(--interactive-accent);
             }
             .srs-stat-lbl {
-                font-size: 0.72em;
-                font-weight: 700;
-                opacity: 0.95;
+                font-size: 0.7em;
+                font-weight: 600;
                 text-transform: uppercase;
                 letter-spacing: 0.5px;
-                color: #ffffff;
+                color: var(--text-muted);
             }
             .srs-section-title {
-                font-size: 1.3em;
-                font-weight: 700;
-                margin-top: 24px;
-                margin-bottom: 12px;
-                border-bottom: 2px solid var(--background-modifier-border);
+                font-size: 1.2em;
+                font-weight: 600;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid var(--background-modifier-border);
                 padding-bottom: 6px;
                 display: flex;
                 align-items: center;
                 gap: 8px;
+                color: var(--text-normal);
             }
             .srs-card-grid {
                 display: grid;
                 grid-template-columns: 1fr;
-                gap: 14px;
-                margin-bottom: 20px;
+                gap: 12px;
+                margin-bottom: 16px;
             }
             @media (min-width: 600px) {
                 .srs-card-grid {
@@ -94,40 +87,21 @@
                 }
             }
             .srs-card {
-                background: var(--background-primary);
+                background: var(--background-secondary);
                 border: 1px solid var(--background-modifier-border);
-                border-radius: 12px;
-                padding: 16px;
-                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.02);
-                transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+                border-radius: 8px;
+                padding: 14px;
+                transition: all 0.2s ease;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                position: relative;
-                overflow: hidden;
-            }
-            .srs-card::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 4px;
-                height: 100%;
-                background: var(--interactive-accent);
-                opacity: 0;
-                transition: opacity 0.25s;
             }
             .srs-card:hover {
-                transform: translateY(-3px);
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
                 border-color: var(--interactive-accent);
             }
-            .srs-card:hover::before {
-                opacity: 1;
-            }
             .srs-card-title {
-                font-size: 1.15em;
-                font-weight: 700;
+                font-size: 1.1em;
+                font-weight: 600;
                 margin-bottom: 8px;
                 line-height: 1.3;
             }
@@ -146,42 +120,38 @@
                 margin-bottom: 12px;
             }
             .srs-badge {
-                font-size: 0.68em;
-                padding: 3px 8px;
-                border-radius: 20px;
-                font-weight: 700;
+                font-size: 0.65em;
+                padding: 2px 8px;
+                border-radius: 4px;
+                font-weight: 600;
                 text-transform: uppercase;
                 letter-spacing: 0.3px;
             }
             .srs-badge-theory {
-                background-color: rgba(155, 89, 182, 0.1);
-                color: #9b59b6;
-                border: 1px solid rgba(155, 89, 182, 0.15);
+                background-color: var(--background-secondary-alt);
+                color: var(--text-muted);
+                border: 1px solid var(--background-modifier-border);
             }
             .srs-badge-practical {
                 background-color: rgba(52, 152, 219, 0.1);
-                color: #3498db;
-                border: 1px solid rgba(52, 152, 219, 0.15);
+                color: #54a0ff;
             }
             .srs-badge-new {
                 background: rgba(26, 188, 156, 0.1);
-                color: #1abc9c;
-                border: 1px solid rgba(26, 188, 156, 0.15);
+                color: #1dd1a1;
             }
             .srs-badge-due {
                 background: rgba(230, 126, 34, 0.1);
-                color: #e67e22;
-                border: 1px solid rgba(230, 126, 34, 0.15);
+                color: #f5cd79;
             }
             .srs-badge-overdue {
                 background: rgba(231, 76, 60, 0.1);
-                color: #e74c3c;
-                border: 1px solid rgba(231, 76, 60, 0.15);
+                color: #ff6b6b;
             }
             .srs-card-info {
                 font-size: 0.8em;
                 color: var(--text-muted);
-                margin-bottom: 14px;
+                margin-bottom: 12px;
                 padding-top: 6px;
                 border-top: 1px dashed var(--background-modifier-border);
             }
@@ -192,75 +162,65 @@
             .srs-btn {
                 flex: 1;
                 padding: 6px 8px;
-                border: none;
-                border-radius: 6px;
-                font-weight: 700;
+                border: 1px solid var(--background-modifier-border);
+                background: var(--background-primary);
+                color: var(--text-normal);
+                border-radius: 4px;
+                font-weight: 600;
                 cursor: pointer;
                 font-size: 0.8em;
-                transition: all 0.2s;
+                transition: all 0.2s ease;
                 text-align: center;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            }
-            .srs-btn-forgot {
-                background: linear-gradient(135deg, #ff5e57 0%, #ff3b30 100%);
-                color: white;
             }
             .srs-btn-forgot:hover:not(:disabled) {
-                box-shadow: 0 3px 8px rgba(255, 94, 87, 0.3);
-                transform: translateY(-1px);
-            }
-            .srs-btn-hard {
-                background: linear-gradient(135deg, #ffd32a 0%, #ffc048 100%);
-                color: #1e272e;
+                background: rgba(231, 76, 60, 0.1);
+                color: #ff6b6b;
+                border-color: rgba(231, 76, 60, 0.3);
             }
             .srs-btn-hard:hover:not(:disabled) {
-                box-shadow: 0 3px 8px rgba(255, 211, 42, 0.3);
-                transform: translateY(-1px);
-            }
-            .srs-btn-good {
-                background: linear-gradient(135deg, #0be881 0%, #05c46b 100%);
-                color: white;
+                background: rgba(241, 196, 15, 0.1);
+                color: #f5cd79;
+                border-color: rgba(241, 196, 15, 0.3);
             }
             .srs-btn-good:hover:not(:disabled) {
-                box-shadow: 0 3px 8px rgba(11, 232, 129, 0.3);
-                transform: translateY(-1px);
+                background: rgba(46, 204, 113, 0.1);
+                color: #1dd1a1;
+                border-color: rgba(46, 204, 113, 0.3);
             }
             .srs-btn:active:not(:disabled) {
-                transform: translateY(1px);
-                box-shadow: none;
+                transform: scale(0.98);
             }
             .srs-btn:disabled {
                 background: var(--background-modifier-border) !important;
                 color: var(--text-muted) !important;
                 cursor: not-allowed;
-                transform: none !important;
-                box-shadow: none !important;
-                opacity: 0.4;
+                border-color: var(--background-modifier-border) !important;
+                opacity: 0.3;
             }
             .srs-table-container {
                 overflow-x: auto;
-                border-radius: 8px;
+                border-radius: 6px;
                 border: 1px solid var(--background-modifier-border);
-                margin-top: 10px;
+                margin-top: 8px;
             }
             .srs-table {
                 width: 100%;
                 border-collapse: collapse;
-                font-size: 0.9em;
+                font-size: 0.88em;
             }
             .srs-table th {
                 background-color: var(--background-secondary-alt);
                 color: var(--text-muted);
-                font-weight: 700;
+                font-weight: 600;
                 text-transform: uppercase;
                 font-size: 0.75em;
                 letter-spacing: 0.5px;
                 text-align: left;
-                padding: 10px 14px;
-                border-bottom: 2px solid var(--background-modifier-border);
+                padding: 8px 12px;
+                border-bottom: 1px solid var(--background-modifier-border);
             }
             .srs-table td {
-                padding: 12px 14px;
+                padding: 10px 12px;
                 border-bottom: 1px solid var(--background-modifier-border);
                 vertical-align: middle;
             }
@@ -336,7 +296,7 @@
         headerCard.innerHTML = `
             <div>
                 <h2 class="srs-header-title">🧠 Spaced Repetition</h2>
-                <div style="font-size: 0.85em; opacity: 0.9; margin-top: 4px; font-weight: 500;">Optimize your retention and master concepts</div>
+                <div style="font-size: 0.85em; opacity: 0.8; margin-top: 4px; font-weight: 500;">Optimize your retention and master concepts</div>
             </div>
             <div class="srs-stats">
                 <div class="srs-stat-box">
@@ -363,7 +323,7 @@
 
         if (duePages.length === 0) {
             const emptyState = document.createElement('div');
-            emptyState.style.cssText = "padding: 30px; text-align: center; border-radius: 12px; border: 2px dashed var(--background-modifier-border); color: var(--text-muted); font-weight: 600;";
+            emptyState.style.cssText = "padding: 30px; text-align: center; border-radius: 8px; border: 1px dashed var(--background-modifier-border); color: var(--text-muted); font-weight: 600;";
             emptyState.innerHTML = "🎉 All caught up! No reviews due today.";
             dashboardDiv.appendChild(emptyState);
         } else {
@@ -443,7 +403,7 @@
                     // 🔴 Forgot Button
                     const btnForgot = document.createElement('button');
                     btnForgot.className = 'srs-btn srs-btn-forgot';
-                    btnForgot.innerText = "🔴 Forgot";
+                    btnForgot.innerText = "Forgot";
                     btnForgot.addEventListener('click', async (e) => {
                         e.preventDefault();
                         new Notice(`Updating: ${p.file.name} (Forgot)`);
@@ -459,7 +419,7 @@
                     // 🟡 Hard Button
                     const btnHard = document.createElement('button');
                     btnHard.className = 'srs-btn srs-btn-hard';
-                    btnHard.innerText = "🟡 Hard";
+                    btnHard.innerText = "Hard";
                     btnHard.addEventListener('click', async (e) => {
                         e.preventDefault();
                         const nextInterval = Math.max(1, Math.round(currentInterval * 1.2));
@@ -476,7 +436,7 @@
                     // 🟢 Good Button
                     const btnGood = document.createElement('button');
                     btnGood.className = 'srs-btn srs-btn-good';
-                    btnGood.innerText = "🟢 Good";
+                    btnGood.innerText = "Good";
                     btnGood.addEventListener('click', async (e) => {
                         e.preventDefault();
                         const nextInterval = Math.round(currentInterval * currentEase);
