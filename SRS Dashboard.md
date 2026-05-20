@@ -134,6 +134,8 @@
                 font-weight: 600;
                 text-transform: uppercase;
                 letter-spacing: 0.3px;
+                display: inline-flex;
+                align-items: center;
             }
             .srs-badge-theory {
                 background-color: var(--background-secondary-alt);
@@ -199,38 +201,55 @@
                 border-color: var(--background-modifier-border) !important;
                 opacity: 0.3;
             }
+            
+            /* Upcoming Table Styles */
             .srs-table-container {
                 overflow-x: auto;
                 border-radius: 6px;
                 border: 1px solid var(--background-modifier-border);
+                background: var(--background-secondary);
                 margin-top: 8px;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
             }
             .srs-table {
                 width: 100%;
                 border-collapse: collapse;
                 font-size: 0.88em;
+                text-align: left;
+            }
+            .srs-table th, .srs-table td {
+                border: none !important;
             }
             .srs-table th {
-                background-color: var(--background-secondary-alt);
+                background-color: var(--background-secondary);
                 color: var(--text-muted);
                 font-weight: 600;
                 text-transform: uppercase;
-                font-size: 0.75em;
+                font-size: 0.72em;
                 letter-spacing: 0.5px;
-                text-align: left;
-                padding: 8px 12px;
-                border-bottom: 1px solid var(--background-modifier-border);
+                padding: 12px 16px;
+                border-bottom: 1px solid var(--background-modifier-border) !important;
             }
             .srs-table td {
-                padding: 10px 12px;
-                border-bottom: 1px solid var(--background-modifier-border);
+                padding: 12px 16px;
+                border-bottom: 1px solid var(--background-modifier-border) !important;
                 vertical-align: middle;
+                color: var(--text-normal);
             }
             .srs-table tr:last-child td {
-                border-bottom: none;
+                border-bottom: none !important;
             }
             .srs-table tr:hover {
-                background-color: var(--background-secondary);
+                background-color: var(--background-primary);
+            }
+            .srs-table td a.internal-link {
+                color: var(--text-normal) !important;
+                font-weight: 600;
+                text-decoration: none !important;
+                border-bottom: none !important;
+            }
+            .srs-table td a.internal-link:hover {
+                color: var(--interactive-accent) !important;
             }
             .srs-error-box {
                 background: rgba(231, 76, 60, 0.1);
@@ -522,18 +541,20 @@
                     tdNote.appendChild(linkAnchor);
                     
                     const isPractical = p.type === 'practical';
+                    const typeClass = isPractical ? 'srs-badge-practical' : 'srs-badge-theory';
                     const typeLabel = isPractical ? '💻 Practical' : '🧠 Theory';
                     const tdType = document.createElement('td');
-                    tdType.innerText = typeLabel;
+                    tdType.innerHTML = `<span class="srs-badge ${typeClass}">${typeLabel}</span>`;
                     
                     const nextDate = parseToMoment(p.sr_next);
                     const tdDate = document.createElement('td');
                     tdDate.innerText = nextDate.format('YYYY-MM-DD');
                     
                     const diff = nextDate.diff(today, 'days');
-                    const timelineText = diff === 1 ? "📅 Tomorrow" : `⏳ In ${diff} days`;
+                    const timelineText = diff === 1 ? "Tomorrow" : `In ${diff} days`;
+                    const timelineClass = diff === 1 ? 'srs-badge-due' : 'srs-badge-theory';
                     const tdTimeline = document.createElement('td');
-                    tdTimeline.innerText = timelineText;
+                    tdTimeline.innerHTML = `<span class="srs-badge ${timelineClass}">${diff === 1 ? '📅 ' : '⏳ '}${timelineText}</span>`;
                     
                     const currentInterval = p.sr_interval || 1;
                     const tdInterval = document.createElement('td');
