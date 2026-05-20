@@ -2,7 +2,6 @@
 (async () => {
     try {
         const today = window.moment().startOf('day');
-        const currentFilePath = dv.current()?.file?.path || "";
 
         // Inject Premium CSS styles dynamically
         const existingStyle = document.getElementById('srs-dashboard-styles');
@@ -127,16 +126,17 @@
                 opacity: 1;
             }
             .srs-card-title {
-                font-size: 1.1em;
+                font-size: 1.15em;
                 font-weight: 700;
                 margin-bottom: 8px;
                 line-height: 1.3;
             }
-            .srs-card-title a {
+            .srs-card-title a.internal-link {
                 color: var(--text-normal) !important;
                 text-decoration: none !important;
+                border-bottom: none !important;
             }
-            .srs-card-title a:hover {
+            .srs-card-title a.internal-link:hover {
                 color: var(--interactive-accent) !important;
             }
             .srs-card-meta {
@@ -371,7 +371,6 @@
             grid.className = 'srs-card-grid';
             dashboardDiv.appendChild(grid);
             
-            // Use for...of loop to correctly await link rendering
             for (const p of duePages) {
                 try {
                     const card = document.createElement('div');
@@ -402,10 +401,16 @@
                         }
                     }
                     
-                    // Title Links (Async rendering)
+                    // Title Links (Synchronous native wiki-link)
                     const titleContainer = document.createElement('div');
                     titleContainer.className = 'srs-card-title';
-                    await dv.renderValue(p.file.link, titleContainer, this, currentFilePath, false);
+                    
+                    const linkAnchor = document.createElement('a');
+                    linkAnchor.className = 'internal-link';
+                    linkAnchor.href = p.file.path;
+                    linkAnchor.setAttribute('data-href', p.file.path);
+                    linkAnchor.innerText = p.file.name;
+                    titleContainer.appendChild(linkAnchor);
                     card.appendChild(titleContainer);
                     
                     // Badges metadata container
@@ -534,14 +539,19 @@
             
             const tbody = table.querySelector('tbody');
             
-            // Use for...of to correctly await links
             for (const p of upcomingPages) {
                 try {
                     const tr = document.createElement('tr');
                     
                     const tdNote = document.createElement('td');
                     tdNote.style.fontWeight = "600";
-                    await dv.renderValue(p.file.link, tdNote, this, currentFilePath, false);
+                    
+                    const linkAnchor = document.createElement('a');
+                    linkAnchor.className = 'internal-link';
+                    linkAnchor.href = p.file.path;
+                    linkAnchor.setAttribute('data-href', p.file.path);
+                    linkAnchor.innerText = p.file.name;
+                    tdNote.appendChild(linkAnchor);
                     
                     const isPractical = p.type === 'practical';
                     const typeLabel = isPractical ? '💻 Practical' : '🧠 Theory';
