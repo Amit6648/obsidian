@@ -2,9 +2,9 @@
 tags:
   - review
 type: practical
-sr_interval: 1
+sr_interval: 3
 sr_ease: 2.5
-sr_next: 2026-05-20
+sr_next: 2026-05-23
 ---
 # Example Topic
 

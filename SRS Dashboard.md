@@ -216,10 +216,21 @@
                 border-collapse: collapse;
                 font-size: 0.88em;
                 text-align: left;
+                table-layout: fixed; /* Forces browser to respect column widths */
             }
             .srs-table th, .srs-table td {
                 border: none !important;
+                padding: 12px 14px !important;
             }
+            
+            /* Clean padding on table edges */
+            .srs-table th:first-child, .srs-table td:first-child {
+                padding-left: 20px !important;
+            }
+            .srs-table th:last-child, .srs-table td:last-child {
+                padding-right: 20px !important;
+            }
+            
             .srs-table th {
                 background-color: var(--background-secondary);
                 color: var(--text-muted);
@@ -227,14 +238,15 @@
                 text-transform: uppercase;
                 font-size: 0.72em;
                 letter-spacing: 0.5px;
-                padding: 12px 16px;
                 border-bottom: 1px solid var(--background-modifier-border) !important;
             }
             .srs-table td {
-                padding: 12px 16px;
                 border-bottom: 1px solid var(--background-modifier-border) !important;
                 vertical-align: middle;
                 color: var(--text-normal);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; /* Gracefully clip text if column is too narrow */
             }
             .srs-table tr:last-child td {
                 border-bottom: none !important;
@@ -513,11 +525,11 @@
             table.innerHTML = `
                 <thead>
                     <tr>
-                        <th>Topic Note</th>
-                        <th>Type</th>
-                        <th>Next Review</th>
-                        <th>Timeline</th>
-                        <th>Interval</th>
+                        <th style="width: 40%;">Topic Note</th>
+                        <th style="width: 15%;">Type</th>
+                        <th style="width: 15%;">Next Review</th>
+                        <th style="width: 18%;">Timeline</th>
+                        <th style="width: 12%;">Interval</th>
                     </tr>
                 </thead>
                 <tbody></tbody>
