@@ -1,6 +1,7 @@
 ---
-tags: [review]
-type: theory # Options: theory, practical
+tags:
+  - review
+type: theory
 sr_interval: 1
 sr_ease: 2.5
 sr_next: 2026-05-20
