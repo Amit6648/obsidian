@@ -361,124 +361,128 @@
         
         // Use for...of loop to correctly await link rendering
         for (const p of duePages) {
-            const card = document.createElement('div');
-            card.className = 'srs-card';
-            
-            const currentInterval = p.sr_interval || 1;
-            const currentEase = p.sr_ease || 2.5;
-            
-            // Tags/Badge for Type
-            const isPractical = p.type === 'practical';
-            const typeClass = isPractical ? 'srs-badge-practical' : 'srs-badge-theory';
-            const typeLabel = isPractical ? '💻 Practical' : '🧠 Theory';
-            
-            // Badge for Urgency
-            let urgencyClass = 'srs-badge-new';
-            let urgencyText = '✨ New';
-            if (p.sr_next) {
-                const nextDate = parseToMoment(p.sr_next);
-                if (nextDate && nextDate.isValid()) {
-                    const diff = today.diff(nextDate, 'days');
-                    if (diff === 0) {
-                        urgencyClass = 'srs-badge-due';
-                        urgencyText = '📅 Due Today';
-                    } else if (diff > 0) {
-                        urgencyClass = 'srs-badge-overdue';
-                        urgencyText = `⚠️ ${diff}d Overdue`;
+            try {
+                const card = document.createElement('div');
+                card.className = 'srs-card';
+                
+                const currentInterval = p.sr_interval || 1;
+                const currentEase = p.sr_ease || 2.5;
+                
+                // Tags/Badge for Type
+                const isPractical = p.type === 'practical';
+                const typeClass = isPractical ? 'srs-badge-practical' : 'srs-badge-theory';
+                const typeLabel = isPractical ? '💻 Practical' : '🧠 Theory';
+                
+                // Badge for Urgency
+                let urgencyClass = 'srs-badge-new';
+                let urgencyText = '✨ New';
+                if (p.sr_next) {
+                    const nextDate = parseToMoment(p.sr_next);
+                    if (nextDate && nextDate.isValid()) {
+                        const diff = today.diff(nextDate, 'days');
+                        if (diff === 0) {
+                            urgencyClass = 'srs-badge-due';
+                            urgencyText = '📅 Due Today';
+                        } else if (diff > 0) {
+                            urgencyClass = 'srs-badge-overdue';
+                            urgencyText = `⚠️ ${diff}d Overdue`;
+                        }
                     }
                 }
+                
+                // Title Links (Async rendering)
+                const titleContainer = document.createElement('div');
+                titleContainer.className = 'srs-card-title';
+                // Await rendering Dataview file link natively. Note: passed 'this' instead of 'this.component'
+                await dv.renderValue(p.file.link, titleContainer, this, currentFilePath, false);
+                card.appendChild(titleContainer);
+                
+                // Badges metadata container
+                const badgesContainer = document.createElement('div');
+                badgesContainer.className = 'srs-card-meta';
+                badgesContainer.innerHTML = `
+                    <span class="srs-badge ${typeClass}">${typeLabel}</span>
+                    <span class="srs-badge ${urgencyClass}">${urgencyText}</span>
+                `;
+                card.appendChild(badgesContainer);
+                
+                // Parameters stats info
+                const info = document.createElement('div');
+                info.className = 'srs-card-info';
+                info.innerHTML = `
+                    <div>Interval: <b>${currentInterval}d</b> &nbsp;&bull;&nbsp; Ease: <b>${currentEase}x</b></div>
+                `;
+                card.appendChild(info);
+                
+                // Buttons block
+                const btnGroup = document.createElement('div');
+                btnGroup.className = 'srs-btn-group';
+                
+                const disableAll = () => {
+                    btnForgot.disabled = true;
+                    btnHard.disabled = true;
+                    btnGood.disabled = true;
+                };
+                
+                // 🔴 Forgot Button
+                const btnForgot = document.createElement('button');
+                btnForgot.className = 'srs-btn srs-btn-forgot';
+                btnForgot.innerText = "🔴 Forgot";
+                btnForgot.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    new Notice(`Updating: ${p.file.name} (Forgot)`);
+                    try {
+                        await updateSRData(p.file.path, 1, currentEase);
+                        btnForgot.innerText = "Reset 🔄";
+                        disableAll();
+                    } catch (err) {
+                        new Notice(`Error: ${err.message}`);
+                    }
+                });
+                
+                // 🟡 Hard Button
+                const btnHard = document.createElement('button');
+                btnHard.className = 'srs-btn srs-btn-hard';
+                btnHard.innerText = "🟡 Hard";
+                btnHard.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    const nextInterval = Math.max(1, Math.round(currentInterval * 1.2));
+                    new Notice(`Updating: ${p.file.name} (Hard: ${nextInterval}d)`);
+                    try {
+                        await updateSRData(p.file.path, nextInterval, currentEase);
+                        btnHard.innerText = "Saved 🩹";
+                        disableAll();
+                    } catch (err) {
+                        new Notice(`Error: ${err.message}`);
+                    }
+                });
+                
+                // 🟢 Good Button
+                const btnGood = document.createElement('button');
+                btnGood.className = 'srs-btn srs-btn-good';
+                btnGood.innerText = "🟢 Good";
+                btnGood.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    const nextInterval = Math.round(currentInterval * currentEase);
+                    new Notice(`Updating: ${p.file.name} (Good: ${nextInterval}d)`);
+                    try {
+                        await updateSRData(p.file.path, nextInterval, currentEase);
+                        btnGood.innerText = "Passed! 🚀";
+                        disableAll();
+                    } catch (err) {
+                        new Notice(`Error: ${err.message}`);
+                    }
+                });
+                
+                btnGroup.appendChild(btnForgot);
+                btnGroup.appendChild(btnHard);
+                btnGroup.appendChild(btnGood);
+                card.appendChild(btnGroup);
+                
+                grid.appendChild(card);
+            } catch (err) {
+                console.error(`Error rendering card for ${p.file.path}:`, err);
             }
-            
-            // Title Links (Async rendering)
-            const titleContainer = document.createElement('div');
-            titleContainer.className = 'srs-card-title';
-            // Await rendering Dataview file link natively
-            await dv.renderValue(p.file.link, titleContainer, this.component, currentFilePath, false);
-            card.appendChild(titleContainer);
-            
-            // Badges metadata container
-            const badgesContainer = document.createElement('div');
-            badgesContainer.className = 'srs-card-meta';
-            badgesContainer.innerHTML = `
-                <span class="srs-badge ${typeClass}">${typeLabel}</span>
-                <span class="srs-badge ${urgencyClass}">${urgencyText}</span>
-            `;
-            card.appendChild(badgesContainer);
-            
-            // Parameters stats info
-            const info = document.createElement('div');
-            info.className = 'srs-card-info';
-            info.innerHTML = `
-                <div>Interval: <b>${currentInterval}d</b> &nbsp;&bull;&nbsp; Ease: <b>${currentEase}x</b></div>
-            `;
-            card.appendChild(info);
-            
-            // Buttons block
-            const btnGroup = document.createElement('div');
-            btnGroup.className = 'srs-btn-group';
-            
-            const disableAll = () => {
-                btnForgot.disabled = true;
-                btnHard.disabled = true;
-                btnGood.disabled = true;
-            };
-            
-            // 🔴 Forgot Button
-            const btnForgot = document.createElement('button');
-            btnForgot.className = 'srs-btn srs-btn-forgot';
-            btnForgot.innerText = "🔴 Forgot";
-            btnForgot.addEventListener('click', async (e) => {
-                e.preventDefault();
-                new Notice(`Updating: ${p.file.name} (Forgot)`);
-                try {
-                    await updateSRData(p.file.path, 1, currentEase);
-                    btnForgot.innerText = "Reset 🔄";
-                    disableAll();
-                } catch (err) {
-                    new Notice(`Error: ${err.message}`);
-                }
-            });
-            
-            // 🟡 Hard Button
-            const btnHard = document.createElement('button');
-            btnHard.className = 'srs-btn srs-btn-hard';
-            btnHard.innerText = "🟡 Hard";
-            btnHard.addEventListener('click', async (e) => {
-                e.preventDefault();
-                const nextInterval = Math.max(1, Math.round(currentInterval * 1.2));
-                new Notice(`Updating: ${p.file.name} (Hard: ${nextInterval}d)`);
-                try {
-                    await updateSRData(p.file.path, nextInterval, currentEase);
-                    btnHard.innerText = "Saved 🩹";
-                    disableAll();
-                } catch (err) {
-                    new Notice(`Error: ${err.message}`);
-                }
-            });
-            
-            // 🟢 Good Button
-            const btnGood = document.createElement('button');
-            btnGood.className = 'srs-btn srs-btn-good';
-            btnGood.innerText = "🟢 Good";
-            btnGood.addEventListener('click', async (e) => {
-                e.preventDefault();
-                const nextInterval = Math.round(currentInterval * currentEase);
-                new Notice(`Updating: ${p.file.name} (Good: ${nextInterval}d)`);
-                try {
-                    await updateSRData(p.file.path, nextInterval, currentEase);
-                    btnGood.innerText = "Passed! 🚀";
-                    disableAll();
-                } catch (err) {
-                    new Notice(`Error: ${err.message}`);
-                }
-            });
-            
-            btnGroup.appendChild(btnForgot);
-            btnGroup.appendChild(btnHard);
-            btnGroup.appendChild(btnGood);
-            card.appendChild(btnGroup);
-            
-            grid.appendChild(card);
         }
     }
 
@@ -518,37 +522,41 @@
         
         // Use for...of to correctly await links
         for (const p of upcomingPages) {
-            const tr = document.createElement('tr');
-            
-            const tdNote = document.createElement('td');
-            tdNote.style.fontWeight = "600";
-            await dv.renderValue(p.file.link, tdNote, this.component, currentFilePath, false);
-            
-            const isPractical = p.type === 'practical';
-            const typeLabel = isPractical ? '💻 Practical' : '🧠 Theory';
-            const tdType = document.createElement('td');
-            tdType.innerText = typeLabel;
-            
-            const nextDate = parseToMoment(p.sr_next);
-            const tdDate = document.createElement('td');
-            tdDate.innerText = nextDate.format('YYYY-MM-DD');
-            
-            const diff = nextDate.diff(today, 'days');
-            const timelineText = diff === 1 ? "📅 Tomorrow" : `⏳ In ${diff} days`;
-            const tdTimeline = document.createElement('td');
-            tdTimeline.innerText = timelineText;
-            
-            const currentInterval = p.sr_interval || 1;
-            const tdInterval = document.createElement('td');
-            tdInterval.innerText = currentInterval + "d";
-            
-            tr.appendChild(tdNote);
-            tr.appendChild(tdType);
-            tr.appendChild(tdDate);
-            tr.appendChild(tdTimeline);
-            tr.appendChild(tdInterval);
-            
-            tbody.appendChild(tr);
+            try {
+                const tr = document.createElement('tr');
+                
+                const tdNote = document.createElement('td');
+                tdNote.style.fontWeight = "600";
+                await dv.renderValue(p.file.link, tdNote, this, currentFilePath, false);
+                
+                const isPractical = p.type === 'practical';
+                const typeLabel = isPractical ? '💻 Practical' : '🧠 Theory';
+                const tdType = document.createElement('td');
+                tdType.innerText = typeLabel;
+                
+                const nextDate = parseToMoment(p.sr_next);
+                const tdDate = document.createElement('td');
+                tdDate.innerText = nextDate.format('YYYY-MM-DD');
+                
+                const diff = nextDate.diff(today, 'days');
+                const timelineText = diff === 1 ? "📅 Tomorrow" : `⏳ In ${diff} days`;
+                const tdTimeline = document.createElement('td');
+                tdTimeline.innerText = timelineText;
+                
+                const currentInterval = p.sr_interval || 1;
+                const tdInterval = document.createElement('td');
+                tdInterval.innerText = currentInterval + "d";
+                
+                tr.appendChild(tdNote);
+                tr.appendChild(tdType);
+                tr.appendChild(tdDate);
+                tr.appendChild(tdTimeline);
+                tr.appendChild(tdInterval);
+                
+                tbody.appendChild(tr);
+            } catch (err) {
+                console.error(`Error rendering upcoming table row for ${p.file.path}:`, err);
+            }
         }
     }
 
