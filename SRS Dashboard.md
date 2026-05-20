@@ -20,24 +20,6 @@ function parseToMoment(dateVal) {
     return window.moment(dateVal, 'YYYY-MM-DD').startOf('day');
 }
 
-// --- DEBUG INFO BLOCK ---
-dv.header(4, "🔍 Debug Info");
-const allV = dv.pages();
-dv.paragraph(`Total pages indexed by Dataview: **${allV.length}**`);
-
-const target = allV.where(p => p.file.name === "example");
-if (target.length > 0) {
-    const ex = target[0];
-    const mDate = parseToMoment(ex.sr_next);
-    dv.paragraph(`✅ **example.md found!**`);
-    dv.paragraph(`- **File Path**: \`${ex.file.path}\``);
-    dv.paragraph(`- **Tags**: \`${JSON.stringify(ex.file.tags || [])}\``);
-    dv.paragraph(`- **sr_next Raw**: \`${ex.sr_next}\` (Type: \`${typeof ex.sr_next}\`)`);
-    dv.paragraph(`- **Parsed Moment Date**: \`${mDate ? mDate.format('YYYY-MM-DD') : 'Invalid'}\` (Is Due Today/Overdue? \`${mDate ? mDate.isSameOrBefore(today) : 'N/A'}\`)`);
-} else {
-    dv.paragraph("❌ **example.md not found in Dataview's index.**");
-}
-dv.paragraph("---");
 
 // Fetch all pages tagged with #review
 const allPages = dv.pages('#review');
