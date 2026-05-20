@@ -1,8 +1,11 @@
 ```dataviewjs
 const today = window.moment().startOf('day');
 
-// Fetch notes, assigning high priority to completely new, unreviewed notes
-const pages = dv.pages('#review').where(p => {
+// Fetch all pages tagged with #review
+const allPages = dv.pages('#review');
+
+// 1. Filter and sort pages that are due today or overdue (or are completely new)
+const duePages = allPages.where(p => {
     if (!p.sr_next) return true;
     const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
     return nextDate.isSameOrBefore(today);
@@ -12,19 +15,31 @@ const pages = dv.pages('#review').where(p => {
     return today.diff(nextDate, 'days');
 }, 'desc');
 
-if (pages.length === 0) {
+// 2. Filter and sort pages scheduled for future dates
+const upcomingPages = allPages.where(p => {
+    if (!p.sr_next) return false;
+    const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+    return nextDate.isAfter(today);
+}).sort(p => {
+    const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+    return nextDate.diff(today, 'days');
+}, 'asc');
+
+// --- RENDER DUE SECTION ---
+dv.header(3, "📅 Due & Overdue Reviews");
+if (duePages.length === 0) {
     dv.paragraph("🎉 **All caught up! No custom reviews due today.**");
 } else {
     const rows = [];
     
-    pages.forEach(p => {
+    duePages.forEach(p => {
         const currentInterval = p.sr_interval || 1;
         const currentEase = p.sr_ease || 2.5;
         
-        // 1. Determine Type Icon
+        // Determine Type Icon
         const typeIcon = p.type === 'practical' ? "💻 Practical" : "🧠 Theory";
         
-        // 2. Calculate Overdue Status
+        // Calculate Overdue Status
         let overdueText = "✨ New";
         if (p.sr_next) {
             const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
@@ -32,7 +47,7 @@ if (pages.length === 0) {
             overdueText = diff === 0 ? "📅 Due Today" : `⚠️ ${diff}d Overdue`;
         }
 
-        // 3. Generate Action Buttons Row
+        // Generate Action Buttons Row
         const actionContainer = document.createElement('div');
         actionContainer.style.display = "flex";
         actionContainer.style.gap = "6px";
@@ -86,6 +101,33 @@ if (pages.length === 0) {
     });
 
     dv.table(["Topic Note", "Type", "Urgency", "Interval", "Log Result"], rows);
+}
+
+// --- RENDER UPCOMING SECTION ---
+dv.header(3, "🔮 Upcoming Reviews");
+if (upcomingPages.length === 0) {
+    dv.paragraph("No future reviews scheduled.");
+} else {
+    const upcomingRows = [];
+    
+    upcomingPages.forEach(p => {
+        const currentInterval = p.sr_interval || 1;
+        const typeIcon = p.type === 'practical' ? "💻 Practical" : "🧠 Theory";
+        
+        const nextDate = window.moment(p.sr_next, 'YYYY-MM-DD').startOf('day');
+        const diff = nextDate.diff(today, 'days');
+        const timelineText = diff === 1 ? "📅 Tomorrow" : `⏳ In ${diff} days`;
+
+        upcomingRows.push([
+            p.file.link,
+            typeIcon,
+            p.sr_next,
+            timelineText,
+            currentInterval + "d"
+        ]);
+    });
+
+    dv.table(["Topic Note", "Type", "Next Review Date", "Timeline", "Current Interval"], upcomingRows);
 }
 
 async function updateSRData(filePath, newInterval, ease) {
