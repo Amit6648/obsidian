@@ -75,35 +75,49 @@
                 gap: 8px;
                 color: var(--text-normal);
             }
-            .srs-card-grid {
-                display: grid;
-                grid-template-columns: 1fr;
-                gap: 12px;
-                margin-bottom: 16px;
-            }
-            @media (min-width: 600px) {
-                .srs-card-grid {
-                    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-                }
-            }
-            .srs-card {
-                background: var(--background-secondary);
-                border: 1px solid var(--background-modifier-border);
-                border-radius: 8px;
-                padding: 14px;
-                transition: all 0.2s ease;
+            .srs-card-list {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                gap: 10px;
+                margin-bottom: 16px;
             }
-            .srs-card:hover {
+            .srs-list-item {
+                background: var(--background-secondary);
+                border: 1px solid var(--background-modifier-border);
+                border-radius: 6px;
+                padding: 12px 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 16px;
+                transition: all 0.2s ease;
+                flex-wrap: wrap;
+            }
+            .srs-list-item:hover {
                 border-color: var(--interactive-accent);
             }
+            .srs-item-left {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                flex: 1;
+                min-width: 250px;
+            }
+            .srs-item-row1 {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                flex-wrap: wrap;
+            }
+            .srs-item-row2 {
+                font-size: 0.78em;
+                color: var(--text-muted);
+            }
             .srs-card-title {
-                font-size: 1.1em;
+                font-size: 1.05em;
                 font-weight: 600;
-                margin-bottom: 8px;
-                line-height: 1.3;
+                margin: 0;
+                line-height: 1.2;
             }
             .srs-card-title a.internal-link {
                 color: var(--text-normal) !important;
@@ -113,15 +127,9 @@
             .srs-card-title a.internal-link:hover {
                 color: var(--interactive-accent) !important;
             }
-            .srs-card-meta {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 6px;
-                margin-bottom: 12px;
-            }
             .srs-badge {
                 font-size: 0.65em;
-                padding: 2px 8px;
+                padding: 2px 6px;
                 border-radius: 4px;
                 font-weight: 600;
                 text-transform: uppercase;
@@ -148,16 +156,10 @@
                 background: rgba(231, 76, 60, 0.1);
                 color: #ff6b6b;
             }
-            .srs-card-info {
-                font-size: 0.8em;
-                color: var(--text-muted);
-                margin-bottom: 12px;
-                padding-top: 6px;
-                border-top: 1px dashed var(--background-modifier-border);
-            }
             .srs-btn-group {
                 display: flex;
                 gap: 6px;
+                min-width: 220px;
             }
             .srs-btn {
                 flex: 1;
@@ -168,7 +170,7 @@
                 border-radius: 4px;
                 font-weight: 600;
                 cursor: pointer;
-                font-size: 0.8em;
+                font-size: 0.78em;
                 transition: all 0.2s ease;
                 text-align: center;
             }
@@ -327,14 +329,14 @@
             emptyState.innerHTML = "🎉 All caught up! No reviews due today.";
             dashboardDiv.appendChild(emptyState);
         } else {
-            const grid = document.createElement('div');
-            grid.className = 'srs-card-grid';
-            dashboardDiv.appendChild(grid);
+            const listContainer = document.createElement('div');
+            listContainer.className = 'srs-card-list';
+            dashboardDiv.appendChild(listContainer);
             
             for (const p of duePages) {
                 try {
-                    const card = document.createElement('div');
-                    card.className = 'srs-card';
+                    const listItem = document.createElement('div');
+                    listItem.className = 'srs-list-item';
                     
                     const currentInterval = p.sr_interval || 1;
                     const currentEase = p.sr_ease || 2.5;
@@ -361,7 +363,13 @@
                         }
                     }
                     
-                    // Title Links (Synchronous native wiki-link)
+                    // Left Column (Details)
+                    const itemLeft = document.createElement('div');
+                    itemLeft.className = 'srs-item-left';
+                    
+                    const row1 = document.createElement('div');
+                    row1.className = 'srs-item-row1';
+                    
                     const titleContainer = document.createElement('div');
                     titleContainer.className = 'srs-card-title';
                     
@@ -371,26 +379,25 @@
                     linkAnchor.setAttribute('data-href', p.file.path);
                     linkAnchor.innerText = p.file.name;
                     titleContainer.appendChild(linkAnchor);
-                    card.appendChild(titleContainer);
                     
-                    // Badges metadata container
-                    const badgesContainer = document.createElement('div');
-                    badgesContainer.className = 'srs-card-meta';
-                    badgesContainer.innerHTML = `
+                    row1.appendChild(titleContainer);
+                    row1.insertAdjacentHTML('beforeend', `
                         <span class="srs-badge ${typeClass}">${typeLabel}</span>
                         <span class="srs-badge ${urgencyClass}">${urgencyText}</span>
-                    `;
-                    card.appendChild(badgesContainer);
+                    `);
                     
-                    // Parameters stats info
-                    const info = document.createElement('div');
-                    info.className = 'srs-card-info';
-                    info.innerHTML = `
-                        <div>Interval: <b>${currentInterval}d</b> &nbsp;&bull;&nbsp; Ease: <b>${currentEase}x</b></div>
-                    `;
-                    card.appendChild(info);
+                    const row2 = document.createElement('div');
+                    row2.className = 'srs-item-row2';
+                    row2.innerHTML = `Interval: <b>${currentInterval}d</b> &nbsp;&bull;&nbsp; Ease: <b>${currentEase}x</b>`;
                     
-                    // Buttons block
+                    itemLeft.appendChild(row1);
+                    itemLeft.appendChild(row2);
+                    listItem.appendChild(itemLeft);
+                    
+                    // Right Column (Buttons)
+                    const itemRight = document.createElement('div');
+                    itemRight.className = 'srs-item-right';
+                    
                     const btnGroup = document.createElement('div');
                     btnGroup.className = 'srs-btn-group';
                     
@@ -453,9 +460,10 @@
                     btnGroup.appendChild(btnForgot);
                     btnGroup.appendChild(btnHard);
                     btnGroup.appendChild(btnGood);
-                    card.appendChild(btnGroup);
+                    itemRight.appendChild(btnGroup);
+                    listItem.appendChild(itemRight);
                     
-                    grid.appendChild(card);
+                    listContainer.appendChild(listItem);
                 } catch (cardErr) {
                     const errBox = document.createElement('div');
                     errBox.className = 'srs-error-box';
