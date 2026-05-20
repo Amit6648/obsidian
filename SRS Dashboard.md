@@ -61,31 +61,49 @@ if (duePages.length === 0) {
         // 🔴 FORGOT
         const btnForgot = document.createElement('button');
         btnForgot.innerText = "🔴 Forgot";
-        btnForgot.onclick = async () => {
-            await updateSRData(p.file.path, 1, currentEase);
-            btnForgot.innerText = "Reset 🔄";
-            disableAll();
-        };
+        btnForgot.addEventListener('click', async (e) => {
+            e.preventDefault();
+            new Notice(`Updating: ${p.file.name} (Forgot)`);
+            try {
+                await updateSRData(p.file.path, 1, currentEase);
+                btnForgot.innerText = "Reset 🔄";
+                disableAll();
+            } catch (err) {
+                new Notice(`Error: ${err.message}`);
+            }
+        });
 
         // 🟡 HARD (1.2x modifier)
         const btnHard = document.createElement('button');
         btnHard.innerText = "🟡 Hard";
-        btnHard.onclick = async () => {
+        btnHard.addEventListener('click', async (e) => {
+            e.preventDefault();
             const nextInterval = Math.max(1, Math.round(currentInterval * 1.2));
-            await updateSRData(p.file.path, nextInterval, currentEase);
-            btnHard.innerText = "Saved 🩹";
-            disableAll();
-        };
+            new Notice(`Updating: ${p.file.name} (Hard to ${nextInterval}d)`);
+            try {
+                await updateSRData(p.file.path, nextInterval, currentEase);
+                btnHard.innerText = "Saved 🩹";
+                disableAll();
+            } catch (err) {
+                new Notice(`Error: ${err.message}`);
+            }
+        });
 
         // 🟢 GOOD (Standard Ease modifier)
         const btnGood = document.createElement('button');
         btnGood.innerText = "🟢 Good";
-        btnGood.onclick = async () => {
+        btnGood.addEventListener('click', async (e) => {
+            e.preventDefault();
             const nextInterval = Math.round(currentInterval * currentEase);
-            await updateSRData(p.file.path, nextInterval, currentEase);
-            btnGood.innerText = "Passed! 🚀";
-            disableAll();
-        };
+            new Notice(`Updating: ${p.file.name} (Good to ${nextInterval}d)`);
+            try {
+                await updateSRData(p.file.path, nextInterval, currentEase);
+                btnGood.innerText = "Passed! 🚀";
+                disableAll();
+            } catch (err) {
+                new Notice(`Error: ${err.message}`);
+            }
+        });
 
         actionContainer.appendChild(btnForgot);
         actionContainer.appendChild(btnHard);
@@ -132,12 +150,14 @@ if (upcomingPages.length === 0) {
 
 async function updateSRData(filePath, newInterval, ease) {
     const file = app.vault.getAbstractFileByPath(filePath);
-    if (file) {
-        await app.fileManager.processFrontMatter(file, (fm) => {
-            fm['sr_interval'] = newInterval;
-            fm['sr_ease'] = ease;
-            fm['sr_next'] = window.moment().add(newInterval, 'days').format('YYYY-MM-DD');
-        });
+    if (!file) {
+        throw new Error(`File not found at path: ${filePath}`);
     }
+    await app.fileManager.processFrontMatter(file, (fm) => {
+        fm['sr_interval'] = newInterval;
+        fm['sr_ease'] = ease;
+        fm['sr_next'] = window.moment().add(newInterval, 'days').format('YYYY-MM-DD');
+    });
+    new Notice(`Successfully updated ${file.name}!`);
 }
 ```
