@@ -1,0 +1,1 @@
+- all the external things go into link tag 
