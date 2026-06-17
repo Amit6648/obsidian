@@ -1,2 +1,2 @@
 - all the external things go into link tag
-- rel means relation and preconnect means performence so we can load the stuff that n
+- rel means relation and preconnect means performence so we can load the stuff that need to be loaded from different source can be loaded in advance
