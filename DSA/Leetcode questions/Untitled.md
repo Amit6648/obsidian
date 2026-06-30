@@ -14,7 +14,7 @@ sr_next: 2026-06-30
 
 ## 💡 Intuition
 
-- So basically you may think why not just 
+- So basically you may think why not just use a hashmap and store each number 
 ---
 ### 🧠 Insights And Structures
 
