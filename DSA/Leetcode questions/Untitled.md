@@ -15,7 +15,8 @@ sr_next: 2026-06-30
 ## 💡 Intuition
 
 - So basically you may think why not just use a hashmap and store each number and set it's value false when ever we see it's partner and that is a correct solution.
-- But we can actually use a better and fast method which is XOR.  So in xor when two same numbers appear it's cancel's them out at binary level or more specifically it flips the exact position of the bit 
+- But we can actually use a better and fast method which is XOR.  So in xor when two same numbers appear it's cancel's them out at binary level or more specifically it flips the exact position of the bit where it is true for either side according to the second number.  
+- For example  
 ---
 ### 🧠 Insights And Structures
 
