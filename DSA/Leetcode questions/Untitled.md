@@ -14,7 +14,7 @@ sr_next: 2026-06-30
 
 ## 💡 Intuition
 
-- So basically you may think why not just use a hashmap and store each number 
+- So basically you may think why not just use a hashmap and store each number and set it's value false when ever we see it's partner and that is 
 ---
 ### 🧠 Insights And Structures
 
