@@ -10,10 +10,11 @@ sr_next: 2026-06-30
 
 ---
 
-# Problem: Untitled
+# Problem: So in this problem we have to find a single number in the group of or array of couples.
 
 ## 💡 Intuition
 
+- So basically you may think why not just 
 ---
 ### 🧠 Insights And Structures
 
