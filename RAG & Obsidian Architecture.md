@@ -1,4 +1,4 @@
-  - [ ] so for now i think the main challenges are [[block documents]] and [[Whole graphs]]
+- so for now i think the main challenges are [[block documents]] and [[Whole graphs]]
 i should give like a day to each
 
 ---
@@ -16,3 +16,7 @@ i should give like a day to each
 
 ---
 [[Excalidraw/Drawing 2026-07-08 11.52.10.excalidraw|View Planning Diagram]]
+
+# Each day planning
+
+- [ ] 
