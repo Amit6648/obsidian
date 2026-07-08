@@ -19,4 +19,5 @@ i should give like a day to each
 
 # Each day planning
 
-- [ ] So for [[day one nno]] we are going for block documents.
+- [ ] So for [[day one nno]] we are going for block documents and how they should interact with [[Rag]].
+- [ ] [[day 2 nno  ]]
