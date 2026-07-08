@@ -1,4 +1,4 @@
-so for now i 
+so for now i think the main challenges are [[block documents]] and [[Whole graphs]]
 
 ---
 
