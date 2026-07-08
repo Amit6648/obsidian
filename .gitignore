@@ -6,3 +6,6 @@
 # Ignore OS-specific junk
 .DS_Store
 Thumbs.db
+
+# Ignore plugin configurations (prevents API key leaks)
+.obsidian/plugins/**/*.json
