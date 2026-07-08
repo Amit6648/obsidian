@@ -11,7 +11,7 @@
 -  **[[RAG Planning/chat bot|chat bot]]**: Chat UI, system prompts, agent personas, and conversational history.
 -  **[[RAG Planning/Whole graphs|Whole graphs]]**: Utilizing semantic graphs and connections (Graph RAG).
 -  **[[RAG Planning/second brain graphs|second brain graphs]]**: Integrating with Obsidian's native link graph and vault relationships.
--  **[[RAG Planning/Editability|Editability]]**: how should the edit works what to edit and what not and
+-  **[[RAG Planning/Editability|Editability]]**: how should the edit works what to edit and what not and how to edit
 
 ---
 [[Excalidraw/Drawing 2026-07-08 11.52.10.excalidraw|View Planning Diagram]]
