@@ -21,4 +21,4 @@ i should give like a day to each
 
 - [ ] So for [[day one nno]] we are going for block documents and how they should interact with [[Rag]].
 - [ ] [[day 2 nno]] is going to be all about graphs and their algo's
-- [ ] [[day 3 nno]] will be all about planning database
+- [ ] [[day 3 nno]] will be all about planning database and finding about all the entities and how they will interact.
