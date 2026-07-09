@@ -25,14 +25,14 @@ To optimize performance and memory usage during mutations, document engines use 
 
 ```mermaid
 graph TD
-    subgraph Old Tree [Old Tree State]
+    subgraph old_tree ["Old Tree State"]
         R1["[Old Root]"] --> U1["[Unchanged]"]
         R1 --> P1["[Parent]"]
         P1 --> T1["[Target]"]
         P1 --> S1["[Sibling]"]
     end
 
-    subgraph New Tree [New Tree State (Shared Nodes)]
+    subgraph new_tree ["New Tree State (Shared Nodes)"]
         R2["[New Root]"] --> U1
         R2 --> P2["[Parent']"]
         P2 --> T2["[Target']"]
@@ -519,14 +519,14 @@ Production-grade systems, such as Jira's LexoRank engine, partition sequence key
 
 ```mermaid
 graph TD
-    subgraph Active State [Active State (Elongated Keys)]
+    subgraph active_state ["Active State (Elongated Keys)"]
         A["Bucket 0: 0|a001"] --> B["Bucket 0: 0|a001GNNN (Elongated)"]
         B --> C["Bucket 0: 0|a002"]
     end
 
     B -.->|Background Re-balancing| Y
 
-    subgraph Balanced State [Balanced State (Clean Re-spaced Keys)]
+    subgraph balanced_state ["Balanced State (Clean Re-spaced Keys)"]
         X["Bucket 1: 1|a100"] --> Y["Bucket 1: 1|a200 (Cleaned)"]
         Y --> Z["Bucket 1: 1|a300"]
     end
