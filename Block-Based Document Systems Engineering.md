@@ -26,25 +26,25 @@ To optimize performance and memory usage during mutations, document engines use 
 ```mermaid
 graph TD
     subgraph old_tree ["Old Tree State"]
-        R1["[Old Root]"] --> U1["[Unchanged]"]
-        R1 --> P1["[Parent]"]
-        P1 --> T1["[Target]"]
-        P1 --> S1["[Sibling]"]
+        R1["Old Root"] --> U1["Unchanged"]
+        R1 --> P1["Parent"]
+        P1 --> T1["Target"]
+        P1 --> S1["Sibling"]
     end
 
     subgraph new_tree ["New Tree State (Shared Nodes)"]
-        R2["[New Root]"] --> U1
-        R2 --> P2["[Parent']"]
-        P2 --> T2["[Target']"]
+        R2["New Root"] --> U1
+        R2 --> P2["Parent Prime"]
+        P2 --> T2["Target Prime"]
         P2 --> S1
     end
 
-    style U1 fill:#85c1e9,stroke:#333,stroke-width:1px
-    style S1 fill:#85c1e9,stroke:#333,stroke-width:1px
-    style P1 fill:#f5b041,stroke:#333,stroke-width:1px
-    style P2 fill:#f5b041,stroke:#333,stroke-width:1px
-    style T1 fill:#f1948a,stroke:#333,stroke-width:1px
-    style T2 fill:#f2d7d5,stroke:#333,stroke-width:1px
+    style U1 fill:#1f618d,stroke:#fff,stroke-width:1px
+    style S1 fill:#1f618d,stroke:#fff,stroke-width:1px
+    style P1 fill:#a04000,stroke:#fff,stroke-width:1px
+    style P2 fill:#a04000,stroke:#fff,stroke-width:1px
+    style T1 fill:#922b21,stroke:#fff,stroke-width:1px
+    style T2 fill:#196f3d,stroke:#fff,stroke-width:1px
 ```
 
 This structural sharing yields an $O(\log N)$ time complexity for updates, where $N$ is the number of nodes in the document. It also provides immediate, zero-cost snapshotting[^3]. Because snapshots are immutable pointer references to historic root nodes, features like multi-level undo-redo systems, version tracking, and asynchronous collaborative reconciliation are highly efficient, requiring no deep copies of the document state[^3].
@@ -524,15 +524,15 @@ graph TD
         B --> C["Bucket 0: 0|a002"]
     end
 
-    B -.->|Background Re-balancing| Y
+    B -->|Background Re-balancing| Y
 
     subgraph balanced_state ["Balanced State (Clean Re-spaced Keys)"]
         X["Bucket 1: 1|a100"] --> Y["Bucket 1: 1|a200 (Cleaned)"]
         Y --> Z["Bucket 1: 1|a300"]
     end
 
-    style B fill:#f1948a,stroke:#333,stroke-width:1px
-    style Y fill:#2ecc71,stroke:#333,stroke-width:2px
+    style B fill:#922b21,stroke:#fff,stroke-width:1px
+    style Y fill:#196f3d,stroke:#fff,stroke-width:2px
 ```
 
 1. **Length Evaluation:** An asynchronous database monitor tracks index key lengths[^32]. When a block's index length crosses a set threshold (e.g., 100 characters), a re-balancing sweep is scheduled[^32].
