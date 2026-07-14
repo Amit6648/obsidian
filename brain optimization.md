@@ -1,0 +1,1 @@
+learn things that make is 20% but gives you 80% of the resu
