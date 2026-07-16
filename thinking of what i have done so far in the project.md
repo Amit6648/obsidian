@@ -1,0 +1,1 @@
+So far i have mapped out the whole system knowing what to use and what to not 
