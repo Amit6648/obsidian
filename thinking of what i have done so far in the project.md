@@ -1,1 +1,1 @@
-So far i have mapped out the whole system knowing what to use and what to not 
+So far i have mapped out the whole system knowing what to use and what to not i get to know a lot of architectural methods and techniques. here are some 
