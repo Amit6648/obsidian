@@ -1,4 +1,4 @@
 So far i have mapped out the whole system knowing what to use and what to not i get to know a lot of architectural methods and techniques. here are some of them
 
 - first i get to know about how actually rag works from higher level, there was  a lot to learn and observe i get to know about routers like how we use ai to direct ai to do the ai stuff. there were also different algos and ways we use to store data for rag so our model can retrieve data quicky.
-- then i jumped to core of the application which is notetaking so before i used to think that it was just dump the text in database but then i get to know about how intricate the how system is like how we use abstract syntax tree and use non mutable policy 
+- then i jumped to core of the application which is notetaking so before i used to think that it was just dump the text in database but then i get to know about how intricate the how system is like how we use abstract syntax tree and use non mutable policy, different ways to store data to achieve that level of functina
