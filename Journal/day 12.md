@@ -1,1 +1,1 @@
-So it is day 12 not con
+So it is day 12 not continuous well that i already explain. Now well previous months have been a down hill, i have not 
