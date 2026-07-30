@@ -1,3 +1,5 @@
 So when we use internet and we want to send or receive a request from someone everytime we need to know the address of the place that we are trying to get the data from. So when we talk about web applications like using a website, when we try to open a website our browser takes the domain name of the website like google.com and then this domain name is sent to DNS which converts this DN to a ip address which is then used to locate exactly where the data is stored or servers, then the servers sends or updates the requested data. Lets say we wanted to visit a website so the server would be have returned a html file.
 
 refer - [[SystemDesignInterview_Dark.pdf#page=6&selection=0,0,0,19|SystemDesignInterview_Dark, page 6]] 
+
+Now on servers 
