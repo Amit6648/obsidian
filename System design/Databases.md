@@ -1,1 +1,1 @@
-So there are lot of database options we have like mysql, postgress, mongodb. But we can divide them into main two categories, SQL and NOSQL.  Well it depends what requirements we have to choose what 
+So there are lot of database options we have like mysql, postgress, mongodb. But we can divide them into main two categories, SQL and NOSQL.  Well it depends what requirements we have to choose what type of database we want  
