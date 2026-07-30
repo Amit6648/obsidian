@@ -1,1 +1,1 @@
-So 
+So when we use internet and we want to send or receive a request from someone everytime we need to a
