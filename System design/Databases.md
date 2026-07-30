@@ -1,1 +1,1 @@
-So there are lot of database options we have like mysql, postgress, mongodb. But we can divide them into main two categories 
+So there are lot of database options we have like mysql, postgress, mongodb. But we can divide them into main two categories, SQL and NOSQl 
