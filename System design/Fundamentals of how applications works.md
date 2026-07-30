@@ -1,1 +1,1 @@
-So when we use internet and we want to send or receive a request from someone everytime we need to a
+So when we use internet and we want to send or receive a request from someone everytime we need to know the address of the place that we are trying to get the data from. So when we talk about web applications like using a website, when we try to open a 
