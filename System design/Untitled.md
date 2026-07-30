@@ -1,0 +1,1 @@
+table of all the things i have studied 
