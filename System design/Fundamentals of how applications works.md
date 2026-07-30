@@ -2,4 +2,4 @@ So when we use internet and we want to send or receive a request from someone ev
 
 refer - [[SystemDesignInterview_Dark.pdf#page=6&selection=0,0,0,19|SystemDesignInterview_Dark, page 6]] 
 
-Now on servers 
+Now on servers the data is stored on disks but to structure data in a certain way and to make it predictable we use [[Databases]]
