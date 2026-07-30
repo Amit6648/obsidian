@@ -1,1 +1,1 @@
-So the flow of how when a user tries to perform a action in a application and 
+Well have you ever thought what happens when yo
