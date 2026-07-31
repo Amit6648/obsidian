@@ -1,1 +1,5 @@
 So basically when our requirements increase like more users on our platform then we need to increase our resources like processing power and storage. So according to our need we can choice either Horizontal scaling or Vertical scaling.  vertical is simple we basically just upgrade our existing servers power like replacing a weaker gpu with a stronger one but while it's simple it also introduces some problems like expensiveness cause we are just upgrading one single unit which we can't just upgrade infinitely and also there is also old resources that are wasted now.  So to fix this problem we use horizontal scaling in which we simply rather than replacing resources we just add more units of them, for example we need more storage just add a new storage unit to the existing pool same can be done to any of the resources we have. Well it also introduces complexity problems like we need to now sync all these decoupled resources together.
+
+refer - [[SystemDesignInterview_Dark.pdf#page=9&selection=2,0,2,47|SystemDesignInterview_Dark, page 9]]
+
+Now as i told we need to sync or manage these reso
