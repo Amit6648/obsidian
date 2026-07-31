@@ -2,4 +2,4 @@ So basically when our requirements increase like more users on our platform then
 
 refer - [[SystemDesignInterview_Dark.pdf#page=9&selection=2,0,2,47|SystemDesignInterview_Dark, page 9]]
 
-Now as i told we need to sync or manage these reso
+Now as i told we need to sync or manage these resources like if server one is facing more load then we want the traffic to divert to server two so to achieve this we use 
