@@ -2,4 +2,4 @@ So there are lot of database options we have like mysql, postgress, mongodb. But
 
 refer - [[SystemDesignInterview_Dark.pdf#page=8&selection=2,0,2,25|SystemDesignInterview_Dark, page 8]]
 
-Now while databases gives structure to our data we also need to store and process the data for which we require 
+Now while databases gives structure to our data we also need to store and process the data for which we require processing and storing resources and there is also a fundamental concept of how do we scale our resources accor
