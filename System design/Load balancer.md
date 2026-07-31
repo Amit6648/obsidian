@@ -1,1 +1,1 @@
-So when we add multiple servers we need to direct the traffic between multiple servers. For this we use a load balancer,  so like before explained in the [[Fundamentals of how applications works]] we now that how a user sends a request directly to a 
+So when we add multiple servers we need to direct the traffic between multiple servers. For this we use a load balancer,  so like before explained in the [[Fundamentals of how applications works]] we now that how a user sends a request directly to a server's IP but when we add a load balancer we tend t
