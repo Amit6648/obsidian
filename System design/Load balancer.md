@@ -1,1 +1,1 @@
-So when we add multiple servers we need to direct the traffic between 
+So when we add multiple servers we need to direct the traffic between multiple servers. For 
