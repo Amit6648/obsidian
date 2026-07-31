@@ -1,1 +1,1 @@
-So basically when our requirements increase like more users on our platform then we need to increase our resources like processing power and storage.  But 
+So basically when our requirements increase like more users on our platform then we need to increase our resources like processing power and storage. So according to our need we can choice either Horizont
