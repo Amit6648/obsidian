@@ -2,4 +2,4 @@ So when we add multiple servers we need to direct the traffic between multiple s
 
 refer - [[SystemDesignInterview_Dark.pdf#page=10&selection=2,0,2,27|SystemDesignInterview_Dark, page 10]]
 
-Now we have multiple servers and we can also manage the traffic.  Now we need to talk about how to protect user data so during failovers user can still have access to their data like if a whole server burns down. So to solve this we do [[data rel]]
+Now we have multiple servers and we can also manage the traffic.  Now we need to talk about how to protect user data so during failovers user can still have access to their data like if a whole server burns down. So to solve this we do [[data replication]].
