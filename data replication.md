@@ -1,1 +1,1 @@
-TO avoid data loss we add 
+TO avoid data loss we replicate our data across many drives or storage devices. We mainly we master slave archietecture
