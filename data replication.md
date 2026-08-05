@@ -1,1 +1,1 @@
-TO avoid data loss we replicate our data across many drives or storage devices. We mainly we master slave archietecture
+TO avoid data loss we replicate our data across many drives or storage devices. We mainly we master slave architecture where one master drive will be responsible for write operations like someone creates a new account or updates it and  as
